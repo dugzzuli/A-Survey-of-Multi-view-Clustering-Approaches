@@ -2,9 +2,13 @@
 This reporsity is a collection of state-of-the-art (SOTA), novel incomplete and complete multi-view clustering (papers, codes and datasets). Any other interesting papers and codes are welcome. Any problems, please contact dugking@mail.ynu.edu.cn. If you find this repository useful to your research or work, it is really appreciated to star this repository. :heart:
 
 ## What's Multi-view clsutering?
-Multi-view clustering (MVC) aims to group samples (objects/instances/points) with similar structures or patterns into the same group (cluster) and samples with dissimilar ones into different groups by combining the available feature information of different views and searching for consistent clusters across different views.
-(最好有图片呈现
+Multi-view clustering (MVC) aims to group samples (objects/instances/points) with similar structures or patterns into the same group (cluster) and samples with dissimilar ones into different groups by combining the available feature information of different views and searching for consistent clusters across different views.(最好有图片呈现
 )
+
+## What's incomplete Multi-view clsutering?
+Multi-view clustering (MVC) aims to group samples (objects/instances/points) with similar structures or patterns into the same group (cluster) and samples with dissimilar ones into different groups by combining the available feature information of different views and searching for consistent clusters across different views.(最好有图片呈现
+)
+
 ## 
 ## Papers
 
@@ -12,27 +16,18 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 ## early-fusion：
 1. Partition level multiview subspace clustering \[[paper](https://doi.org/10.1016/j.neunet.2019.10.010)|[code](https://github.com/sckangz/PMSC)]
-```
-Partition level multiview subspace clustering
-```
 
-```
-论文：https://reader.elsevier.com/reader/sd/pii/S0893608019303326?token=208F638B38BB3DE653E55DCB8E4E24AB3425C4CB97E545284B754CC14A6BF8DF58E39436CD841C311FC7CE94A82975E4&originRegion=us-east-1&originCreation=20220509140629
-```
+
+<!-- 1. A co-training approach for multi-view spectral clustering \[[paper]()|[code]()] -->
 
 ### Late fusion：
+1. A co-training approach for multi-view spectral clustering \[[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.221.6302&rep=rep1&type=pdf)|[code]()]
 
-```
-A co-training approach for multi-view spectral clustering
-```
 
-```
-论文：http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.221.6302&rep=rep1&type=pdf
-```
 
 # The clustering routine
 
-### one-step routine
+# one-step routine
 
 ```
 Partition level multiview subspace clustering
