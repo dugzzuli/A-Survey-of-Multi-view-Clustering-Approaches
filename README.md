@@ -21,7 +21,7 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 <!-- 1. A co-training approach for multi-view spectral clustering \[[paper]()|[code]()] -->
 
 ### Late fusion：
-1. A co-training approach for multi-view spectral clustering \[[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.221.6302&rep=rep1&type=pdf)|[code]()]
+1. A co-training approach for multi-view spectral clustering \[[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.221.6302&rep=rep1&type=pdf)|[code](#)]
 
 
 
