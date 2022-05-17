@@ -51,8 +51,9 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 8. Two-level weighted collaborative k-means for multi-view clustering \[[paper](https://doi.org/10.1016/j.knosys.2018.03.009)|[code]()]
 
-9. weighted multi-view co-clustering (WMVCC) for sparse data \[[paper](https://doi.org/10.1007/s10489-021-02405-3)|[code]()]
+9. weighted multi-view co-clustering (WMVCC) for sparse data \[[paper](https://doi.org/10.1007/s10489-021-02405-3)|[code]]
 
+10. weighted multi-view co-clustering (WMVCC) for sparse data\[[paper](https://doi.org/10.1007/s10489-021-02405-3)|[code]] 
 ```
 weighted multi-view co-clustering (WMVCC) for sparse data
 ```
