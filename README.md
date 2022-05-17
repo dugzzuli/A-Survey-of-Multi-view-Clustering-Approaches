@@ -54,6 +54,48 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 10. A cluster-weighted kernel K-means method for multi-view clustering\[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/5922)|[code]] 
 
+11. Multi-graph fusion for multi-view spectral clustering. Knowledge-Based Systems\[[paper](https://doi.org/10.1016/j.knosys.2019.105102)|[code]]
+
+12. 一种双重加权的多视角聚类方法\[[paper](https://cjc.ict.ac.cn/online/onlinepaper/08177-胡世哲-202094103146.pdf)|[code]]
+
+13. View-Wise Versus Cluster-Wise Weight: Which Is Better for Multi-View Clustering?\[[paper]|[code]]
+
+<!-- 1.  \[[paper]()|[code]()] -->
+# Spectral clustering-based approaches
+
+1. Multi-view clustering via canonical correlation analysis\[[paper](https://doi.org/10.1145/1553374.1553391)|[code]]
+
+2. Multi-view kernel spectral clustering\[[paper](https://doi.org/10.1016/j.inffus.2017.12.002)|[code]]
+
+3. Correlational spectral clustering\[[paper](https://doi.org/10.1109/CVPR.2008.4587353)|[code]]
+
+## Co-regularization and co-training spectral clustering
+
+1. Co-regularized multi-view spectral clustering\[[paper](https://proceedings.neurips.cc/paper/2011/hash/31839b036f63806cba3f47b93af8ccb5-Abstract.html)|[code]]
+
+2. A co-training approach for multi-view spectral clustering\[[paper]((http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.221.6302&rep=rep1&type=pdf)|[code]]
+
+3. Combining labeled and unlabeled data with co-training\[[paper](https://doi.org/10.1145/279943.279962)|[code]] 
+
+## Constrained spectral clustering
+
+1. Heterogeneous image feature integration via multi-modal spectral clustering\[[paper](https://doi.org/10.1109/CVPR.2011.5995740)|[code]]
+
+2. Robust multi-view spectral clustering via low-rank and sparse decomposition \[[paper](http://www.aaai.org/ocs/index.php/AAAI/AAAI14/paper/view/8135)|[code]]
+
+3. Multiview clustering via adaptively weighted procrustes\[[paper](https://doi.org/10.1145/3219819.3220049)|[code]()]
+
+4. One-step multi-view spectral clustering\[[paper](https://doi.org/10.1109/TKDE.2018.2873378)|[code]()]
+
+5. Multi-graph fusion for multi-view spectral clustering\[[paper](https://doi.org/10.1016/j.knosys.2019.105102)|[code]]
+
+6. multi-view spectral clustering with adaptive graph learning and tensor  schatten p-norm\[[paper](https://doi.org/10.1016/j.neucom.2021.09.052)|[code]]
+
+7. nonnegative embedding and spectral embedding (NESE) \[[paper]|[code]]
+
+8. Constrained nonnegative embedding and spectral embedding (CNESE)\[[paper]|[code]]
+
+9. Low-rank tensor constrained co-regularized multi-view spectral clustering\[[paper](https://doi.org/10.1016/j.neunet.2020.08.019)|[code]]
 
 # Code
 
