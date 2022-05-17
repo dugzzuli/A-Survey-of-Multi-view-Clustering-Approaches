@@ -71,7 +71,7 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 ## Co-regularization and co-training spectral clustering
 
-1. Co-regularized multi-view spectral clustering\[[paper](https://proceedings.neurips.cc/paper/2011/hash/31839b036f63806cba3f47b93af8ccb5-Abstract.html)|[code]]
+1. Co-regularized multi-view spectral clustering \[[paper](https://proceedings.neurips.cc/paper/2011/hash/31839b036f63806cba3f47b93af8ccb5-Abstract.html)|[code]()]
 
 2. A co-training approach for multi-view spectral clustering\[[paper]((http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.221.6302&rep=rep1&type=pdf)|[code]]
 
