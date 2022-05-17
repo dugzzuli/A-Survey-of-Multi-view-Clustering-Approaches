@@ -54,6 +54,45 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 10. A cluster-weighted kernel K-means method for multi-view clustering\[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/5922)|[code]] 
 
+
+# Code
+
+- ## utils.py
+
+  1. ### **load_graph_data**: load graph datasets
+
+  2. ### **load_data**: load non-graph datasets
+
+  3. ### **normalize_adj**: normalize the adjacency matrix
+
+  4. ### **diffusion_adj**: calculate the graph diffusion
+
+  5. ### **construct_graph**: construct the knn graph for non-graph datasets
+
+  6. ### **numpy_to_torch**: convert numpy to torch
+
+  7. ### **torch_to_numpy**: convert torch to numpy
+
+- ## clustering.py
+
+  1. ### **setup_seed**: fix the random seed
+
+  2. ### **evaluation**: evaluate the performance of clustering
+
+  3. ### **k_means**: K-means algorithm
+
+- ## visualization.py
+
+  1. ### **t_sne**: t-SNE algorithm
+
+  2. ### **similarity_plot**: visualize cosine similarity matrix of the embedding or feature
+
+
+
+
+
+
+
 # Datasets Details
 
 ## 	1.Text Datasets
