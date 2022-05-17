@@ -1,5 +1,5 @@
 # A Survey and an Empirical Evaluation of Multi-view Clustering Approaches
-This reporsity is a collection of state-of-the-art (SOTA), novel incomplete and complete multi-view clustering (papers, codes and datasets). Any other interesting papers and codes are welcome. Any problems, please contact dugking@mail.ynu.edu.cn. If you find this repository useful to your research or work, it is really appreciated to star this repository. :heart:
+This reporsity is a collection of state-of-the-art (SOTA), novel incomplete and complete multi-view clustering (papers, codes and datasets). Any other interesting papers and codes are welcome. Any problems, please contact dugking@mail.ynu.edu.cn and lu983760699@gmail.com. If you find this repository useful to your research or work, it is really appreciated to star this repository. :heart:
 
 ## What's Multi-view clsutering?
 Multi-view clustering (MVC) aims to group samples (objects/instances/points) with similar structures or patterns into the same group (cluster) and samples with dissimilar ones into different groups by combining the available feature information of different views and searching for consistent clusters across different views.(最好有图片呈现
