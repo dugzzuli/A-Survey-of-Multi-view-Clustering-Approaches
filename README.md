@@ -60,7 +60,7 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 13. View-Wise Versus Cluster-Wise Weight: Which Is Better for Multi-View Clustering?\[[paper]|[code]]
 
-<!-- 1.  \[[paper]()|[code]()] -->
+<!-- 1.  \[[paper]()|[code]] -->
 # Spectral clustering-based approaches
 
 1. Multi-view clustering via canonical correlation analysis\[[paper](https://doi.org/10.1145/1553374.1553391)|[code]]
@@ -71,9 +71,9 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 ## Co-regularization and co-training spectral clustering
 
-1. Co-regularized multi-view spectral clustering \[[paper](https://proceedings.neurips.cc/paper/2011/hash/31839b036f63806cba3f47b93af8ccb5-Abstract.html)|[code]()]
+1. Co-regularized multi-view spectral clustering\[[paper](https://proceedings.neurips.cc/paper/2011/hash/31839b036f63806cba3f47b93af8ccb5-Abstract.html)|[code]]
 
-2. A co-training approach for multi-view spectral clustering\[[paper]((http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.221.6302&rep=rep1&type=pdf)|[code]]
+2. A co-training approach for multi-view spectral clustering\[[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.221.6302&rep=rep1&type=pdf)|[code]]
 
 3. Combining labeled and unlabeled data with co-training\[[paper](https://doi.org/10.1145/279943.279962)|[code]] 
 
@@ -83,9 +83,9 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 2. Robust multi-view spectral clustering via low-rank and sparse decomposition \[[paper](http://www.aaai.org/ocs/index.php/AAAI/AAAI14/paper/view/8135)|[code]]
 
-3. Multiview clustering via adaptively weighted procrustes\[[paper](https://doi.org/10.1145/3219819.3220049)|[code]()]
+3. Multiview clustering via adaptively weighted procrustes\[[paper](https://doi.org/10.1145/3219819.3220049)|[code]]
 
-4. One-step multi-view spectral clustering\[[paper](https://doi.org/10.1109/TKDE.2018.2873378)|[code]()]
+4. One-step multi-view spectral clustering\[[paper](https://doi.org/10.1109/TKDE.2018.2873378)|[code]]
 
 5. Multi-graph fusion for multi-view spectral clustering\[[paper](https://doi.org/10.1016/j.knosys.2019.105102)|[code]]
 
@@ -96,6 +96,39 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 8. Constrained nonnegative embedding and spectral embedding (CNESE)\[[paper]|[code]]
 
 9. Low-rank tensor constrained co-regularized multi-view spectral clustering\[[paper](https://doi.org/10.1016/j.neunet.2020.08.019)|[code]]
+
+## Fast spectral clustering 
+
+1. Large-scale multi-view spectral clustering via bipartite graph\[[paper](http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9641)|[code]()]
+
+2. Refining a k-nearest neighbor graph for a computationally efficient spectral  clustering\[[paper](https://doi.org/10.1016/j.patcog.2021.107869)|[code]]
+
+3. Multi-view clustering based on generalized low rank approximation \[[paper](https://doi.org/10.1016/j.neucom.2020.08.049)|[code]]
+
+4. Multi-view spectral clustering by simultaneous consensus graph learning and discretization\[[paper](https://doi.org/10.1016/j.knosys.2021.107632)|[code]]
+<!-- 1.  \[[paper]()|[code]] -->
+
+# NMF-based approaches 
+
+1. Multi-view clustering via joint nonnegative matrix factorization\[[paper](https://doi.org/10.1137/1.9781611972832.28)|[code]]
+
+2. Multi-view clustering via concept factorization with local manifold regularization\[[paper](https://doi.org/10.1109/ICDM.2016.0167)|[code]]
+
+3. Multi-view clustering via multi-manifold regularized non-negative matrix factorization\[[paper](https://doi.org/10.1016/j.neunet.2017.02.003)|[code]]
+
+4. Semi-supervised multi-view clustering with graph-regularized partially shared non-negative matrix  factorization\[[paper](https://doi.org/10.1016/j.knosys.2019.105185)|[code]] 
+
+5. Semi-supervised multi-view clustering based on constrained nonnegative matrix factorization\[[paper](https://doi.org/10.1016/j.knosys.2019.06.006)|[code]]
+
+6. Semi-supervised multi-view clustering based on orthonormality-constrained nonnegative matrix factorization\[[paper](https://doi.org/10.1016/j.ins.2020.05.073)|[code]]
+
+7. Multi-view clustering by non-negative matrix factorization with co-orthogonal constraints\[[paper](https://doi.org/10.1016/j.knosys.2020.105582)|[code]] 
+
+8. Dual regularized multi-view non-negative matrix factorization for clustering\[[paper](https://doi.org/10.1016/j.neucom.2017.10.023)|[code]]
+
+9. A network-based sparse and multi-manifold regularized multiple non-negative matrix factorization for multi-view clustering\[[paper](https://doi.org/10.1016/j.eswa.2021.114783)|[code]]
+
+10. Multi-view clustering with the cooperation of visible and hidden views\[[paper](https://doi.org/10.1109/TKDE.2020.2983366)|[code]]
 
 # Code
 
