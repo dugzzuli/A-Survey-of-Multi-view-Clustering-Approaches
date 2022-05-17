@@ -43,40 +43,13 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 4. Parameter-free auto-weighted multiple graph learning: a framework for multiview clustering and  semi-supervised classification \[[paper](https://www.ijcai.org/Proceedings/16/Papers/269.pdf)|[code]]
 
+5. 基于两级权重的多视角聚类 \[[paper](http://qikan.cqvip.com/Qikan/Article/ReadIndex?id=7106866589&info=XP1LB9m8HlJHlvrlgLmLWaqtt3uIZQDhpLMW8JGCuj9lpe6ARTZy9Q%3d%3d)|[code]]
 
-```
-基于两级权重的多视角聚类
-```
+6. Confidence level auto-weighting robust multi-view subspace clustering \[[paper](https://doi.org/10.1016/j.neucom.2021.12.029)|[code]]
 
-```
-论文：http://qikan.cqvip.com/Qikan/Article/ReadIndex?id=7106866589&info=XP1LB9m8HlJHlvrlgLmLWaqtt3uIZQDhpLMW8JGCuj9lpe6ARTZy9Q%3d%3d
-```
+7. Weighted multi-view clustering with feature selection  \[[paper](https://doi.org/10.1016/j.patcog.2015.12.007)|[code]]
 
-```
-Confidence level auto-weighting robust multi-view subspace clustering
-```
-
-```
-论文：https://reader.elsevier.com/reader/sd/pii/S0925231221018671?token=11A4B7DE50205ABB06DCE996B89B78692463385C4761567B3E3611C5D4C8577B7B895D1DBFC9857BEF355A46102AE633&originRegion=us-east-1&originCreation=20220509135616
-```
-
-```
-Weighted multi-view clustering with feature selection
-```
-
-```
-论文：https://reader.elsevier.com/reader/sd/pii/S0031320315004665?token=46EF4691AC000B8A14CA403A685AE02C241E832FF7124F538083CDACFD22D15D720ADC313D79B1046701A58EC72D0829&originRegion=us-east-1&originCreation=20220509140450
-```
-
-```
-Two-level weighted collaborative k-means for multi-view clustering
-```
-
-```
-论文：
-```
-
-[TW-Co-k-means: Two-level weighted collaborative k-means for multi-view clustering | Elsevier Enhanced Reader](https://reader.elsevier.com/reader/sd/pii/S0950705118301278?token=6365FC4E46B185788898A59F150D545971435483FCE7199185B8D4481698AB6B978198C782561BE309E3446FDB8D3E17&originRegion=us-east-1&originCreation=20220509141031)
+8. Two-level weighted collaborative k-means for multi-view clustering \[[paper](https://doi.org/10.1016/j.knosys.2018.03.009)|[code]()]
 
 
 ```
