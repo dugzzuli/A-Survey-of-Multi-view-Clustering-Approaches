@@ -15,71 +15,34 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 # The information fusion strategy
 
 ## early-fusion：
-1. Partition level multiview subspace clustering \[[paper](https://doi.org/10.1016/j.neunet.2019.10.010)|[code](https://github.com/sckangz/PMSC)]
+1. Partition level multiview subspace clustering \[[paper](https://doi.org/10.1016/j.neunet.2019.10.010)|[code](https://github.com/sckangz/PMSC)] 这个不是早融合
 
 
-<!-- 1. A co-training approach for multi-view spectral clustering \[[paper]()|[code]()] -->
+<!-- 1.  \[[paper]()|[code]()] -->
 
 ### Late fusion：
-1. A co-training approach for multi-view spectral clustering \[[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.221.6302&rep=rep1&type=pdf)|[code](#)]
+1. A co-training approach for multi-view spectral clustering \[[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.221.6302&rep=rep1&type=pdf)|[code]] 这个不是晚融合？
 
 
 
 # The clustering routine
 
 # one-step routine
-
-```
-Partition level multiview subspace clustering
-```
-
-```
-论文：https://pdf.sciencedirectassets.com/271125/1-s2.0-S0893608019X00118/1-s2.0-S0893608019303326/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECUaCXVzLWVhc3QtMSJIMEYCIQCnY9QdneZfnyVqBPQbXXMzNs61qL5RA97Jv7980hcbFgIhAISY3gDhQrbnCccKCXykejW9I3u%2F7jyq%2BZuyJZJaJQBEKtsECO7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBBoMMDU5MDAzNTQ2ODY1Igx5aP4hmXPc6tcy6%2BkqrwTQIoWI45mYYcN5KlVJTA5%2Ft4mcSRUsKmxEiGQZfMIRY5MlQmDbkecZG2ScSfLGiCgPmSKnCBHSH6FU1brOWvfVZc8I6pcJ5PGAWa%2FF9If0aTbfNLXVqUW2GmoFD2NW6WaAGFpQN%2BIcjbY7zke7tfnam53LsQU8%2B7R4svTMqrgBCqYudZiyuOJpe0wAXTCVHio4P4k7SzGKd6e8Kk37YE3fnByKvU63twUtPdDpmQcV%2FhIuu1mRwuMkzF%2BR7SZrevvlfrOVSgWjjfVcjhmc3tpLsvw07BE8Raqiz0Uw1NGKDQxknfruBlqBBqmlCGhwKVAdCgsT21u1msivj0gyJgHKzFZ6mIgj%2BgEsVtUfHU%2BoJauqgJBghLVzaNWG3i4II18jrT7Ke7h7u%2F5GYTw%2B%2FRonvinLwGEgUnpeCIon7QXyrABEjIbyacCM8cEFGNF8%2BSfuVEN41UiGL8yjB8z7osneyQ%2BTnmppi%2FTCHsP07DhCsu%2FdUQhjBjXQAT3hXOpU0PJWiS922qb20nqsLB0PDMEzXavR8dFh2VIBTpLT9eSEA5V5T%2F7A2P8JgP%2BH4TRUjhMDbmfWiQ%2B5xQ%2BZtT7yjL9kXNfT0oylFxn69uL4%2F0YFNoYxhF8m%2BGLxL7UQP3%2B9VvrqoyoaL4aIWxSWfHVIikQz6mo38gNmNXec8A%2FUnSi8lnsU%2FJUS7ayZnuMhDnI5lcgDOtO2I4vjhc8b7HCjQjtxYvDCTN21MT0WVY%2BsObDMMMOW5JMGOqgB7fvmSxHM%2FyKcILqfFdYBd5NVxiPR1Tu6ae7NDAOqBRjB%2Br8%2BPDh%2BWOWcXJis39fuS5t92ELE1sGakTqyqaUHcUqMjAmP5dwFzz5fDp5VzKi%2BmvMOeLYJsxoGipllXFNe%2F6ihNUzMdMHeJY1UbiGJyztpIFjdOTBwZIWBRGIOZoSFRzxjqQmA5dzoBlnARIMAUBM86CxxFDORUhhEk%2BZE%2BIVNZjDbYMZW&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220509T133331Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY2NWZI6E4%2F20220509%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5486fd04474a45bd9daeb39f2ec3e3115edd4be032e417c356516a215837df3d&hash=b1ff58f684f97043382d5ceeb0101f9e0b98a7ac87bd8e1e3bbf7cf7e3172653&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0893608019303326&tid=spdf-487b4645-203d-44d4-8c44-06b21b380b82&sid=f82f52635e983247828876721b59d840342agxrqa&type=client&ua=4d52580f0601065e0604&rr=708aceb0acba6e55
-```
+1. Partition level multiview subspace clustering \[[paper](https://doi.org/10.1016/j.neunet.2019.10.010)|[code](https://github.com/sckangz/PMSC)]
 
 ### two-step routine
 
 # The weighting strategy
 
-```
-Self-weighted Multiview Clustering with Multiple Graphs
-```
+1. Self-weighted Multiview Clustering with Multiple Graphs \[[paper](https://www.ijcai.org/proceedings/2017/0357.pdf)|[code](https://github.com/kylejingli/SwMC-IJCAI17)]
 
-```
-论文：https://www.ijcai.org/proceedings/2017/0357.pdf
-```
+2. Multiview spectral embedding \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5415552)|[code](https://github.com/rciszek/mse)] 
 
-```
-代码：https://github.com/kylejingli/SwMC-IJCAI17
-```
 
-```
-Multiview spectral embedding
-```
+3. Multi-view content-context information bottleneck for image clustering \[[paper](https://doi.org/10.1016/j.eswa.2021.115374)|[code]] 
 
-```
-论文：https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5415552
-```
+4. Parameter-free auto-weighted multiple graph learning: a framework for multiview clustering and  semi-supervised classification \[[paper](https://www.ijcai.org/Proceedings/16/Papers/269.pdf)|[code]]
 
-```
-代码:   https://github.com/rciszek/mse
-```
-
-```
-Multi-view content-context information bottleneck for image clustering
-```
-
-```
-论文：https://reader.elsevier.com/reader/sd/pii/S0957417421008009?token=16905108E46D208E1C8AB7474465FBF6327A76C3CF33A65F569DDD64B9CCFCC412C44B6310D0B3837D2A51C0836EB7EF&originRegion=us-east-1&originCreation=20220509135044
-```
-
-```
-Parameter-free auto-weighted multiple graph learning: a framework for multiview clustering and  semi-supervised classification
-```
-
-```
-论文：https://www.ijcai.org/Proceedings/16/Papers/269.pdf
-```
 
 ```
 基于两级权重的多视角聚类
@@ -114,6 +77,7 @@ Two-level weighted collaborative k-means for multi-view clustering
 ```
 
 [TW-Co-k-means: Two-level weighted collaborative k-means for multi-view clustering | Elsevier Enhanced Reader](https://reader.elsevier.com/reader/sd/pii/S0950705118301278?token=6365FC4E46B185788898A59F150D545971435483FCE7199185B8D4481698AB6B978198C782561BE309E3446FDB8D3E17&originRegion=us-east-1&originCreation=20220509141031)
+
 
 ```
 weighted multi-view co-clustering (WMVCC) for sparse data
