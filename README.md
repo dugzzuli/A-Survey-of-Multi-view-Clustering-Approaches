@@ -38,7 +38,6 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 2. Multiview spectral embedding \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5415552)|[code](https://github.com/rciszek/mse)] 
 
-
 3. Multi-view content-context information bottleneck for image clustering \[[paper](https://doi.org/10.1016/j.eswa.2021.115374)|[code]] 
 
 4. Parameter-free auto-weighted multiple graph learning: a framework for multiview clustering and  semi-supervised classification \[[paper](https://www.ijcai.org/Proceedings/16/Papers/269.pdf)|[code]]
@@ -53,24 +52,11 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 9. weighted multi-view co-clustering (WMVCC) for sparse data \[[paper](https://doi.org/10.1007/s10489-021-02405-3)|[code]]
 
-10. weighted multi-view co-clustering (WMVCC) for sparse data\[[paper](https://doi.org/10.1007/s10489-021-02405-3)|[code]] 
-```
-weighted multi-view co-clustering (WMVCC) for sparse data
-```
+10. A cluster-weighted kernel K-means method for multi-view clustering\[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/5922)|[code]] 
 
-```
-论文：https://doi.org/10.1007/s10489-021-02405-3
-```
 
-```
-A cluster-weighted kernel K-means method for multi-view clustering
-```
 
-```
-论文：
-```
 
-[A Cluster-Weighted Kernel K-Means Method for Multi-View Clustering | Proceedings of the AAAI Conference on Artificial Intelligence](https://ojs.aaai.org/index.php/AAAI/article/view/5922)
 
 ```
 Multi-graph fusion for multi-view spectral clustering. Knowledge-Based Systems
