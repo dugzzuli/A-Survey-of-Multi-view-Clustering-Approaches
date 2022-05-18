@@ -130,8 +130,287 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 10. Multi-view clustering with the cooperation of visible and hidden views\[[paper](https://doi.org/10.1109/TKDE.2020.2983366)|[code]]
 
-# Code
+## Fast NMF 
 
+1. Binary Multi-View Clustering\[[paper](https://doi.org/10.1109/TPAMI.2018.2847335)|[code]]
+
+2. Fast Multi-View Clustering via Nonnegative and Orthogonal Factorization\[[paper](https://doi.org/10.1109/TIP.2020.3045631)|[code]] 
+
+## Deep NMF  
+
+1. Multi-View Clustering via Deep Matrix Factorization\[[paper](http://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14647)|[code]]
+
+2. Multi-view clustering via deep concept factorization\[[paper](https://doi.org/10.1016/j.knosys.2021.106807)|[code]]
+
+3. Deep Multi-View Concept Learning\[[paper](https://doi.org/10.24963/ijcai.2018/402)|[code]] 
+
+4. Deep graph regularized non-negative matrix factorization for multi-view clustering\[[paper](https://doi.org/10.1016/j.neucom.2019.12.054)|[code]]
+
+5. Multi-view clustering via deep matrix factorization and partition alignment\[[paper](https://doi.org/10.1145/3474085.3475548)|[code]]
+
+6. Deep multiple non-negative matrix factorization for multi-view clustering\[[paper](https://doi.org/10.3233/IDA-195075)|[code]]
+
+# Multiple kernel learning
+
+1. Learning non-linear combinations of kernels\[[paper](https://proceedings.neurips.cc/paper/2009/hash/e7f8a7fb0b77bcb3b283af5be021448f-Abstract.html)|[code]]
+
+2. Multi-View Clustering with Multiple Kernels\[[paper]|[code]]
+
+3. (Ren & Li et al. 2020 LLMKL) (Ren & Lei et al. 2021 SLMKC)\[[paper]|[code]]
+
+4. (Huang & Kang & Tsang 2019 MVCMK)\[[paper]|[code]] 
+
+5. (Chen&Xiao et al. 2020 JLMVC)\[[paper]|[code]]
+
+6. Kernelized Multi-view Subspace Clustering via Auto-weighted Graph Learning\[[paper](https://doi.org/10.1007/s10489-021-02365-8)|[code]]  
+<!-- 1.  \[[paper]()|[code]] -->
+
+# Graph learning
+
+1. Refining a k-nearest neighbor graph for a computationally efficient spectral  clustering\[[paper](https://doi.org/10.1016/j.patcog.2021.107869)|[code]]
+
+2. (Tang & Liu et al. 2018)
+
+3. (Kang &Pan et al. 2019)
+
+4. (Zhan, Zhang, et al. 2018 MVGL)
+
+5. Multi- view projected clustering with graph learning\[[paper](https://doi.org/10.1016/j.neunet.2020.03.020)|[code]]
+
+6. (Wang, Nie, et al. 2020  SwMPC)
+
+7. Learning robust affinity graph representation for multi-view clustering\[[paper](https://doi.org/10.1016/j.ins.2020.06.068)|[code]]
+
+8. GMC: Graph-based multi-view clustering\[[paper](https://doi.org/10.1109/TKDE.2019.2903810)|[code]]
+
+9. Multiview consensus graph clustering\[[paper](https://doi.org/10.1109/TIP.2018.2877335)|[code]]
+
+10. A study of graph-based system for multi-view clustering. Knowledge-Based Systems\[[paper]|[code]]
+
+11. Multi-view Clustering with Latent Low-rank Proxy Graph Learning\[[paper](https://doi.org/10.1007/s12559-021-09889-8)|[code]]
+
+12. Learning latent low-rank and sparse embedding for robust image feature extractio\[[paper](https://doi.org/10.1109/TIP.2019.2938859)|[code]]
+
+13. Robust multi-view graph clustering in latent energy-preserving embedding space\[[paper](https://doi.org/10.1016/j.ins.2021.05.025)|[code]]
+
+14. Robust multi-view data clustering with multi-view capped-norm k-means\[[paper](https://doi.org/10.1016/j.neucom.2018.05.072)|[code]]
+
+# Embedding learning
+
+1. Robust multi-view graph clustering in latent energy-preserving embedding space\[[paper](https://doi.org/10.1016/j.ins.2021.05.025)|[code]]
+
+2. COMIC: Multi-view clustering without parameter selection\[[paper](http://proceedings.mlr.press/v97/peng19a.html)|[code]]
+
+3. Multi-view clustering in latent embedding space\[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/5756)|[code]]
+
+4. Relaxed multi-view clustering in latent embedding space\[[paper](https://doi.org/10.1016/j.inffus.2020.10.013)|[code]]
+
+5. Auto-weighted multi-view clustering via spectral embedding\[[paper](https://doi.org/10.1016/j.neucom.2020.02.071)|[code]]
+
+6. Robust graph-based multi-view clustering in latent embedding space\[[paper](https://doi.org/10.1007/s13042-021-01421-6)|[code]]
+
+7. Efficient correntropy-based multi-view clustering with anchor graph embedding\[[paper](https://doi.org/10.1016/j.neunet.2021.11.027)|[code]]
+
+8. Self-supervised discriminative feature learning for multi-view clustering\[[paper](https://arxiv.org/abs/2103.15069)|[code]]
+
+9. Deep Multiple Auto-Encoder-Based Multi-view Clustering\[[paper](https://doi.org/10.1007/s41019-021-00159-z)|[code]]
+
+10. Joint deep multi-view learning for image clustering\[[paper](https://doi.org/10.1109/TKDE.2020.2973981)|[code]]
+
+11. Deep embedded multi-view clustering with collaborative training\[[paper](https://doi.org/10.1016/j.ins.2020.12.073)|[code]]
+
+12. Trio-based collaborative multi-view graph clustering with multiple constraints\[[paper](https://doi.org/10.1016/j.ipm.2020.102466)|[code]] 
+
+14. Multi-view graph embedding clustering network: Joint self-supervision and block diagonal representation\[[paper](https://doi.org/10.1016/j.neunet.2021.10.006)|[code]] 
+
+15. Multi-view fuzzy clustering of deep random walk and sparse low-rank embedding\[[paper](https://doi.org/10.1016/j.ins.2021.11.075)|[code]]
+
+16. Differentiable Bi-Sparse Multi-View Co-Clustering\[[paper](https://doi.org/10.1109/TSP.2021.3101979)|[code]]
+
+# Alignment learning
+
+1. Multi-view Clustering via Late Fusion Alignment Maximization\[[paper](https://doi.org/10.24963/ijcai.2019/524)|[code]]
+
+2. End-to-end adversarial-attention network for multi-modal clustering\[[paper](https://openaccess.thecvf.com/content\_CVPR\_2020/html/Zhou\_End-to-End\_Adversarial-Attention\_Network\_for\_Multi-Modal\_Clustering\_CVPR\_2020\_paper.html)|[code]]
+
+3. Reconsidering representation alignment for multi-view clustering\[[paper](https://openaccess.thecvf.com/content/CVPR2021/html/Trosten\_Reconsidering\_Representation\_Alignment\_for\_Multi-View\_Clustering\_CVPR\_2021\_paper.html)|[code]]
+
+4. Multiview Subspace Clustering With Multilevel Representations and Adversarial Regularization\[[paper]|[code]]
+
+5. Partially view-aligned clustering\[[paper](https://proceedings.neurips.cc/paper/2020/hash/1e591403ff232de0f0f139ac51d99295-Abstract.html)|[code]]
+
+# Subspace learning
+
+1. Consistent and diverse multi-View subspace clustering with structure constraint\[[paper](https://doi.org/10.1016/j.patcog.2021.108196)|[code]]
+
+2. Consistent and specific multi-view subspace clustering\[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16212)|[code]] 
+
+3. Flexible Multi-View Representation Learning for Subspace Clustering\[[paper](https://doi.org/10.24963/ijcai.2019/404)|[code]]
+
+4. Learning a joint affinity graph for multiview subspace clustering\[[paper](https://doi.org/10.1109/TMM.2018.2889560)|[code]] 
+
+5. Exclusivity-consistency regularized multi-view subspace clustering\[[paper](https://doi.org/10.1109/CVPR.2017.8)|[code]] 
+
+6. Multi-view subspace clustering with intactness-aware similarity\[[paper](https://doi.org/10.1016/j.patcog.2018.09.009)|[code]]
+
+7. Diversity-induced multi-view subspace clustering\[[paper](https://doi.org/10.1109/CVPR.2015.7298657)|[code]]
+
+8. Split multiplicative multi-view subspace clustering\[[paper](https://doi.org/10.1109/TIP.2019.2913096)|[code]]
+
+9. Learning a consensus affinity matrix for multi-view clustering via subspaces merging on Grassmann manifold\[[paper](https://doi.org/10.1016/j.ins.2020.07.059)|[code]] 
+
+10. Clustering on multi-layer graphs via subspace analysis on Grassmann manifolds\[[paper](https://doi.org/10.1109/TSP.2013.2295553)|[code]]
+
+11. Deep multi-view subspace clustering with unified and discriminative learning\[[paper](https://doi.org/10.1109/TMM.2020.3025666)|[code]] 
+
+12. Attentive multi-view deep subspace clustering net\[[paper](https://doi.org/10.1016/j.neucom.2021.01.011)|[code]]
+
+13. Dual shared-specific multiview subspace clustering\[[paper](https://doi.org/10.1109/TCYB.2019.2918495)|[code]]
+
+14. Multi-view subspace clustering with consistent and view-specific latent factors and coefficient matrices\[[paper](https://doi.org/10.1109/IJCNN52387.2021.9534421)|[code]] 
+
+15. Robust low-rank kernel multi-view subspace clustering based on the schatten p-norm and correntropy\[[paper](https://doi.org/10.1016/j.ins.2018.10.049)|[code]]
+
+16. Multiple kernel low-rank representation-based robust multi-view subspace clustering\[[paper](https://doi.org/10.1016/j.ins.2020.10.059)|[code]]
+
+17. One-step kernel multi-view subspace clustering\[[paper](https://doi.org/10.1016/j.knosys.2019.105126)|[code]]
+
+18. Deep low-rank subspace ensemble for multi-view clustering\[[paper](https://doi.org/10.1016/j.ins.2019.01.018)|[code]]
+
+19. Multi-view subspace clustering with adaptive locally consistent graph regularization\[[paper](https://doi.org/10.1007/s00521-021-06166-5)|[code]]
+
+20. Multi-view subspace clustering networks with local and global graph information\[[paper](https://doi.org/10.1016/j.neucom.2021.03.115)|[code]] 
+
+21. Deep Multimodal Subspace Clustering Networks\[[paper](https://doi.org/10.1109/JSTSP.2018.2875385)|[code]] -
+
+22. Multi-view Deep Subspace Clustering Networks\[[paper](http://arxiv.org/abs/1908.01978)|[code]] 
+
+23. Multiview subspace clustering via tensorial t-product representation\[[paper](https://doi.org/10.1109/TNNLS.2018.2851444)|[code]]
+
+24. Latent complete row space recovery for multi-view subspace clustering\[[paper](https://doi.org/10.1109/TIP.2020.3010631)|[code]]
+
+25. Fast Parameter-Free Multi-View Subspace Clustering With Consensus Anchor Guidance\[[paper](https://doi.org/10.1109/TIP.2021.3131941)|[code]]
+
+26. Multi-view subspace clustering via partition fusion. Information Sciences\[[paper]|[code]] 
+
+27. Semi-Supervised Structured Subspace Learning for Multi-View Clustering\[[paper](https://doi.org/10.1109/TIP.2021.3128325)|[code]] 
+
+28. 双加权多视角子空间聚类算法\[[paper]|[code]] 
+
+# Self-paced learning 
+
+1. Self-paced learning for latent variable models\[[paper](https://proceedings.neurips.cc/paper/2010/hash/e57c6b956a6521b28495f2886ca0977a-Abstract.html)|[code]] 
+
+2. Multi-view self-paced learning for clustering\[[paper](http://ijcai.org/Abstract/15/558)|[code]] 
+
+3. Self-paced and auto-weighted multi-view clustering\[[paper](https://doi.org/10.1016/j.neucom.2019.11.104)|[code]]
+
+4. Dual self-paced multi-view clustering\[[paper](https://doi.org/10.1016/j.neunet.2021.02.022)|[code]] 
+
+# Co-Clustering-based approaches
+
+1. A generalized maximum entropy approach to bregman co-clustering and matrix approximation\[[paper](http://dl.acm.org/citation.cfm?id=1314563)|[code]] 
+
+2. Multi-view information-theoretic co-clustering for co-occurrence data\[[paper](https://doi.org/10.1609/aaai.v33i01.3301379)|[code]] 
+
+3. Dynamic auto-weighted multi-view co-clustering\[[paper](https://doi.org/10.1016/j.patcog.2019.107101)|[code]] 
+
+4. Auto-weighted multi-view co-clustering with bipartite graphs\[[paper](https://doi.org/10.1016/j.ins.2019.09.079)|[code]]
+
+5. Auto-weighted multi-view co-clustering via fast matrix factorization\[[paper](https://doi.org/10.1016/j.patcog.2020.107207)|[code]]
+
+6. Differentiable Bi-Sparse Multi-View Co-Clustering\[[paper](https://doi.org/10.1109/TSP.2021.3101979)|[code]] 
+
+7. Weighted multi-view co-clustering (WMVCC) for sparse data\[[paper](https://doi.org/10.1007/s10489-021-02405-3)|[code]] 
+
+
+# Multi-task-based approaches
+
+1. Multi-task multi-view clustering for non-negative data\[[paper](http://ijcai.org/Abstract/15/569)|[code]] 
+
+2. A Multi-task Multi-view based Multi-objective Clustering Algorithm\[[paper](https://doi.org/10.1109/ICPR48806.2021.9412053)|[code]]
+
+3. Multi-task multi-view clustering\[[paper](https://doi.org/10.1109/TKDE.2016.2603983)|[code]]
+
+4. Co-clustering documents and words using bipartite spectral graph partitioning\[[paper](https://doi.org/10.1145/502512.502550)|[code]] 
+
+5. Self-paced multi-task multi-view capped-norm clustering\[[paper](https://doi.org/10.1007/978-3-030-04212-7\_18)|[code]]
+
+6.  Learning task-driving affinity matrix for accurate multi-view clustering through tensor subspace learning\[[paper](https://doi.org/10.1016/j.ins.2021.02.054)|[code]]
+
+
+# Incomplete Multi-view clustering 
+
+1. Doubly aligned incomplete multi-view clustering\[[paper](http://arxiv.org/abs/1903.02785)|[code]]
+
+## Imputation-based IMVC Incomplete Multi-view clustering 
+
+1. Incomplete multiview spectral clustering with adaptive graph learning\[[paper](https://doi.org/10.1109/TCYB.2018.2884715)|[code]]
+
+2. Late fusion incomplete multi-view clustering\[[paper](https://doi.org/10.1109/TPAMI.2018.2879108)|[code]]
+
+3. Consensus graph learning for incomplete multi-view clustering\[[paper](https://doi.org/10.1007/978-3-030-16148-4\_41)|[code]] 
+
+4. Multi-view kernel completion\[[paper](http://arxiv.org/abs/1602.02518)|[code]] 
+
+5. Unified embedding alignment with missing views inferring for incomplete multi-view clustering\[[paper](https://doi.org/10.1609/aaai.v33i01.33015393)|[code]]
+
+6. One-Stage Incomplete Multi-view Clustering via Late Fusion\[[paper](https://doi.org/10.1145/3474085.3475204)|[code]]
+
+7. Spectral perturbation meets incomplete multi-view data\[[paper](https://doi.org/10.24963/ijcai.2019/510)|[code]]
+
+8. Efficient and effective regularized incomplete multi-view clustering\[[paper](https://doi.org/10.1109/TPAMI.2020.2974828)|[code]]
+
+9. Adaptive partial graph learning and fusion for incomplete multi‐view clustering\[[paper](https://doi.org/10.1002/int.22655)|[code]] 
+
+10. Unified tensor framework for incomplete multi-view clustering and missing-view inferring\[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/17231)|[code]]
+
+11. Incomplete multi-view clustering with cosine similarity\[[paper](https://doi.org/10.1016/j.patcog.2021.108371)|[code]]
+
+## Transformation-based IMVC
+
+1. Partial multi-view clustering via consistent GAN\[[paper](https://doi.org/10.1109/ICDM.2018.00174)|[code]] 
+
+2. One-step multi-view subspace clustering with incomplete views\[[paper](https://doi.org/10.1016/j.neucom.2021.01.080)|[code]]
+
+3. Consensus guided incomplete multi-view spectral clustering\[[paper](https://doi.org/10.1016/j.neunet.2020.10.014)|[code]] 
+
+4. Incomplete multi-view subspace clustering with adaptive instance-sample mapping and deep feature fusion\[[paper](https://doi.org/10.1007/s10489-020-02138-9)|[code]]
+
+5. Dual Alignment Self-Supervised Incomplete Multi-View Subspace Clustering Network\[[paper](https://doi.org/10.1109/LSP.2021.3120311)|[code]]
+
+6. Structural Deep Incomplete Multi-view Clustering Network\[[paper](https://doi.org/10.1145/3459637.3482192)|[code]]
+
+## The unified IMVC
+
+1. Complete/incomplete multi‐view subspace clustering via soft block‐diagonal‐induced regulariser\[[paper](https://doi.org/10.1049/cvi2.12077)|[code]] 
+
+2. A novel consensus learning approach to incomplete multi-view clustering\[[paper](https://doi.org/10.1016/j.patcog.2021.107890)|[code]]
+
+3. Adaptive graph completion based incomplete multi-view clustering\[[paper](https://doi.org/10.1109/TMM.2020.3013408)|[code]] 
+
+4. Incomplete multi-view clustering via contrastive prediction\[[paper](https://openaccess.thecvf.com/content/CVPR2021/html/Lin\_COMPLETER\_Incomplete\_Multi-View\_Clustering\_via\_Contrastive\_Prediction\_CVPR\_2021\_paper.html)|[code]] 
+
+## Uncertain multi-view clustering
+
+1. Outlier-robust multi-view clustering for uncertain data\[[paper](https://doi.org/10.1016/j.knosys.2020.106567)|[code]] 
+
+2. Multi-view spectral clustering for uncertain objects\[[paper](https://doi.org/10.1016/j.ins.2020.08.080)|[code]] 
+
+## Incremental multi-view clustering
+
+1. (Miao, Zhang, Hu, & W ang, 2020)
+
+2. Incremental multi-view spectral clustering\[[paper](https://doi.org/10.1016/j.knosys.2019.02.036)|[code]]
+
+3. Incremental multi-view spectral clustering with sparse and connected graph learning\[[paper](https://doi.org/10.1016/j.neunet.2021.08.031)|[code]]
+
+4. Multi-graph fusion for multi-view spectral clustering\[[paper](http://arxiv.org/abs/1909.06940)|[code]] 
+
+5. Incremental learning through deep adaptation\[[paper](https://doi.org/10.1109/TPAMI.2018.2884462)|[code]]
+
+# Code
+<!-- 1.  \[[paper]()|[code]] -->
 - ## utils.py
 
   1. ### **load_graph_data**: load graph datasets
