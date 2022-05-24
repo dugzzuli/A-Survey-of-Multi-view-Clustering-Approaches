@@ -1,27 +1,30 @@
 # A Survey and an Empirical Evaluation of Multi-view Clustering Approaches
-This reporsity is a collection of state-of-the-art (SOTA), novel incomplete and complete multi-view clustering (papers, codes and datasets). Any problems, please contact dugking@mail.ynu.edu.cn and lu983760699@gmail.com. If you find this repository useful to your research or work, it is really appreciated to star this repository. :heart:
+This reporsity is a collection of state-of-the-art (SOTA), novel incomplete and complete multi-view clustering (papers, codes and datasets). Any problems, please contact lhzhou@ynu.edu.cn, dugking@mail.ynu.edu.cn and lu983760699@gmail.com. If you find this repository useful to your research or work, it is really appreciated to star this repository. :heart:
+
+<!-- ## What's Multi-view data? -->
+
 
 ## What's Multi-view clsutering?
-Multi-view clustering (MVC) aims to group samples (objects/instances/points) with similar structures or patterns into the same group (cluster) and samples with dissimilar ones into different groups by combining the available feature information of different views and searching for consistent clusters across different views.(最好有图片呈现
-)
+Multi-view clustering (MVC) aims to group samples (objects/instances/points) with similar structures or patterns into the same group (cluster) and samples with dissimilar ones into different groups by combining the available feature information of different views and searching for consistent clusters across different views.
 
-## What's incomplete Multi-view clsutering?
-Multi-view clustering (MVC) aims to group samples (objects/instances/points) with similar structures or patterns into the same group (cluster) and samples with dissimilar ones into different groups by combining the available feature information of different views and searching for consistent clusters across different views.(最好有图片呈现
-)
+<!-- ## What's incomplete Multi-view clsutering?
+Multi-view clustering (MVC) aims to group samples (objects/instances/points) with similar structures or patterns into the same group (cluster) and samples with dissimilar ones into different groups by combining the available feature information of different views and searching for consistent clusters across different views. -->
 
 ## 
 ## Papers
 
 # The information fusion strategy
 
+
 ## early-fusion：
-1. Partition level multiview subspace clustering \[[paper](https://doi.org/10.1016/j.neunet.2019.10.010)|[code](https://github.com/sckangz/PMSC)] 这个不是早融合
 
 
 <!-- 1.  \[[paper]()|[code]()] -->
 
 ### Late fusion：
-1. A co-training approach for multi-view spectral clustering \[[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.221.6302&rep=rep1&type=pdf)|[code]] 这个不是晚融合？
+1. Partition level multiview subspace clustering \[[paper](https://doi.org/10.1016/j.neunet.2019.10.010)|[code](https://github.com/sckangz/PMSC)]
+
+2. A co-training approach for multi-view spectral clustering \[[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.221.6302&rep=rep1&type=pdf)|[code]] 
 
 
 
@@ -71,7 +74,7 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 ## Co-regularization and co-training spectral clustering
 
-1. Co-regularized multi-view spectral clustering\[[paper](https://proceedings.neurips.cc/paper/2011/hash/31839b036f63806cba3f47b93af8ccb5-Abstract.html)|[code]]
+1. Co-regularized multi-view spectral clustering\[[paper](https://proceedings.neurips.cc/paper/2011/hash/31839b036f63806cba3f47b93af8ccb5-Abstract.html)|[code](https://github.com/lkrmbhlz/CRMVSC)]
 
 2. A co-training approach for multi-view spectral clustering\[[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.221.6302&rep=rep1&type=pdf)|[code]]
 
