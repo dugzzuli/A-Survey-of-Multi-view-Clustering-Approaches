@@ -2,8 +2,8 @@
 This reporsity is a collection of state-of-the-art (SOTA), novel incomplete and complete multi-view clustering (papers, codes and datasets). Any problems, please contact lhzhou@ynu.edu.cn, dugking@mail.ynu.edu.cn and lu983760699@gmail.com. If you find this repository useful to your research or work, it is really appreciated to star this repository. :heart:
 
 ## What's Multi-view data?
-Multi-view data means that the same sample is described from different perspectives, and each perspective describes a class of features of the sample, called a view. In other words, the same sample can be represented by multiple heterogeneous features and each feature representation corresponds to a view. For example, in Figure 1, where a) a web document is represented by its url and words on the page, b) a web image is depicted by its surrounding text separate to the visual information, c) images of a 3D sample taken from different viewpoints, d) video clips are combinations of audio signals and visual frames, e) multilingual documents have one view in each language. 
-![avatar](img/data.png)
+Multi-view data means that the same sample is described from different perspectives, and each perspective describes a class of features of the sample, called a view. In other words, the same sample can be represented by multiple heterogeneous features and each feature representation corresponds to a view. For example, a) a web document is represented by its url and words on the page, b) a web image is depicted by its surrounding text separate to the visual information, c) images of a 3D sample taken from different viewpoints, d) video clips are combinations of audio signals and visual frames, e) multilingual documents have one view in each language. 
+![an intuitive example of multi-view data](img/data.png)
 
 
 ## What's Multi-view clsutering?
