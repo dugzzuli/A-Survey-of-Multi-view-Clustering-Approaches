@@ -9,6 +9,7 @@ Multi-view data means that the same sample is described from different perspecti
 ## What's Multi-view clsutering?
 Multi-view clustering (MVC) aims to group samples (objects/instances/points) with similar structures or patterns into the same group (cluster) and samples with dissimilar ones into different groups by combining the available feature information of different views and searching for consistent clusters across different views.
 
+
 <!-- ## What's incomplete Multi-view clsutering?
 Multi-view clustering (MVC) aims to group samples (objects/instances/points) with similar structures or patterns into the same group (cluster) and samples with dissimilar ones into different groups by combining the available feature information of different views and searching for consistent clusters across different views. -->
 
