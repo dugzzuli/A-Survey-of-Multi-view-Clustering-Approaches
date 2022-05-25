@@ -1,17 +1,35 @@
 # A Survey and an Empirical Evaluation of Multi-view Clustering Approaches
 This reporsity is a collection of state-of-the-art (SOTA), novel incomplete and complete multi-view clustering (papers, codes and datasets). Any problems, please contact lhzhou@ynu.edu.cn, dugking@mail.ynu.edu.cn and lu983760699@gmail.com. If you find this repository useful to your research or work, it is really appreciated to star this repository. :heart:
 
+
+--------------
+
+
 ## What's Multi-view data?
 Multi-view data means that the same sample is described from different perspectives, and each perspective describes a class of features of the sample, called a view. In other words, the same sample can be represented by multiple heterogeneous features and each feature representation corresponds to a view. For example, a) a web document is represented by its url and words on the page, b) a web image is depicted by its surrounding text separate to the visual information, c) images of a 3D sample taken from different viewpoints, d) video clips are combinations of audio signals and visual frames, e) multilingual documents have one view in each language. 
-![an intuitive example of multi-view data](img/data.png) 
-< img src="https://github.com/MingchaoZhu/DeepLearning/blob/master/docs/cover.jpg" width="200" height="300" alt="深度学习封面" align=center>
+<div  align="center">    
+    <img src="./img/data.png" width=80% />
+</div>
+
+
+--------------
+
 
 ## What's Multi-view clustering?
 Multi-view clustering (MVC) aims to group samples (objects/instances/points) with similar structures or patterns into the same group (cluster) and samples with dissimilar ones into different groups by combining the available feature information of different views and searching for consistent clusters across different views.
-![multi-view clustering](img/clustering.png)
+<div  align="center">    
+    <img src="./img/clustering.png" width=80% />
+</div>
 
-<!-- ## What's incomplete Multi-view clsutering?
-Multi-view clustering (MVC) aims to group samples (objects/instances/points) with similar structures or patterns into the same group (cluster) and samples with dissimilar ones into different groups by combining the available feature information of different views and searching for consistent clusters across different views. -->
+--------------
+
+
+## What's incomplete Multi-view clsutering?
+Multi-view clustering (MVC) aims to group samples (objects/instances/points) with similar structures or patterns into the same group (cluster) and samples with dissimilar ones into different groups by combining the available feature information of different views and searching for consistent clusters across different views.
+
+
+--------------
+
 
 ## 
 ## Papers
@@ -20,7 +38,7 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 
 ## early-fusion：
-
+<!-- 1.  -->
 
 <!-- 1.  \[[paper]()|[code]()] -->
 
