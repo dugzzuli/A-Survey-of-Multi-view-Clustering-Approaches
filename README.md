@@ -6,9 +6,9 @@ Multi-view data means that the same sample is described from different perspecti
 ![an intuitive example of multi-view data](img/data.png)
 
 
-## What's Multi-view clsutering?
+## What's Multi-view clustering?
 Multi-view clustering (MVC) aims to group samples (objects/instances/points) with similar structures or patterns into the same group (cluster) and samples with dissimilar ones into different groups by combining the available feature information of different views and searching for consistent clusters across different views.
-
+![multi-view clustering](img/clustering.png)
 
 <!-- ## What's incomplete Multi-view clsutering?
 Multi-view clustering (MVC) aims to group samples (objects/instances/points) with similar structures or patterns into the same group (cluster) and samples with dissimilar ones into different groups by combining the available feature information of different views and searching for consistent clusters across different views. -->
@@ -46,7 +46,7 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 3. Multi-view content-context information bottleneck for image clustering \[[paper](https://doi.org/10.1016/j.eswa.2021.115374)|[code]] 
 
-4. Parameter-free auto-weighted multiple graph learning: a framework for multiview clustering and  semi-supervised classification \[[paper](https://www.ijcai.org/Proceedings/16/Papers/269.pdf)|[code]]
+4. Parameter-free auto-weighted multiple graph learning: a framework for multiview clustering and  semi-supervised classification \[[paper](https://www.ijcai.org/Proceedings/16/Papers/269.pdf)|[code](https://github.com/kylejingli/AMGL-IJCAI16)]
 
 5. 基于两级权重的多视角聚类 \[[paper](http://qikan.cqvip.com/Qikan/Article/ReadIndex?id=7106866589&info=XP1LB9m8HlJHlvrlgLmLWaqtt3uIZQDhpLMW8JGCuj9lpe6ARTZy9Q%3d%3d)|[code]]
 
@@ -54,9 +54,9 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 7. Weighted multi-view clustering with feature selection  \[[paper](https://doi.org/10.1016/j.patcog.2015.12.007)|[code]]
 
-8. Two-level weighted collaborative k-means for multi-view clustering \[[paper](https://doi.org/10.1016/j.knosys.2018.03.009)|[code]()]
+8. Two-level weighted collaborative k-means for multi-view clustering \[[paper](https://doi.org/10.1016/j.knosys.2018.03.009)|[code](https://github.com/dugzzuli/code-of-TW-Co-kmeans)]
 
-9. weighted multi-view co-clustering (WMVCC) for sparse data \[[paper](https://doi.org/10.1007/s10489-021-02405-3)|[code]]
+9. Weighted multi-view co-clustering (WMVCC) for sparse data \[[paper](https://doi.org/10.1007/s10489-021-02405-3)|[code]]
 
 10. A cluster-weighted kernel K-means method for multi-view clustering\[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/5922)|[code]] 
 
