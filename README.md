@@ -3,8 +3,8 @@ This reporsity is a collection of state-of-the-art (SOTA), novel incomplete and 
 
 ## What's Multi-view data?
 Multi-view data means that the same sample is described from different perspectives, and each perspective describes a class of features of the sample, called a view. In other words, the same sample can be represented by multiple heterogeneous features and each feature representation corresponds to a view. For example, a) a web document is represented by its url and words on the page, b) a web image is depicted by its surrounding text separate to the visual information, c) images of a 3D sample taken from different viewpoints, d) video clips are combinations of audio signals and visual frames, e) multilingual documents have one view in each language. 
-![an intuitive example of multi-view data](img/data.png)
-
+![an intuitive example of multi-view data](img/data.png) 
+< img src="https://github.com/MingchaoZhu/DeepLearning/blob/master/docs/cover.jpg" width="200" height="300" alt="深度学习封面" align=center>
 
 ## What's Multi-view clustering?
 Multi-view clustering (MVC) aims to group samples (objects/instances/points) with similar structures or patterns into the same group (cluster) and samples with dissimilar ones into different groups by combining the available feature information of different views and searching for consistent clusters across different views.
