@@ -45,7 +45,7 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 ### Late fusion：
 1. Partition level multiview subspace clustering \[[paper](https://doi.org/10.1016/j.neunet.2019.10.010)|[code](https://github.com/sckangz/PMSC)]
 
-2. A co-training approach for multi-view spectral clustering \[[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.221.6302&rep=rep1&type=pdf)|[code]] 
+2. A co-training approach for multi-view spectral clustering \[[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.221.6302&rep=rep1&type=pdf)|[code]
 
 
 
@@ -62,7 +62,7 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 2. Multiview spectral embedding \[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5415552)|[code](https://github.com/rciszek/mse)] 
 
-3. Multi-view content-context information bottleneck for image clustering \[[paper](https://doi.org/10.1016/j.eswa.2021.115374)|[code]] 
+3. Multi-view content-context information bottleneck for image clustering \[[paper](https://doi.org/10.1016/j.eswa.2021.115374)|[code]
 
 4. Parameter-free auto-weighted multiple graph learning: a framework for multiview clustering and  semi-supervised classification \[[paper](https://www.ijcai.org/Proceedings/16/Papers/269.pdf)|[code](https://github.com/kylejingli/AMGL-IJCAI16)]
 
@@ -76,7 +76,7 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 9. Weighted multi-view co-clustering (WMVCC) for sparse data \[[paper](https://doi.org/10.1007/s10489-021-02405-3)|[code]]
 
-10. A cluster-weighted kernel K-means method for multi-view clustering\[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/5922)|[code]] 
+10. A cluster-weighted kernel K-means method for multi-view clustering\[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/5922)|[code]
 
 11. Multi-graph fusion for multi-view spectral clustering\[[paper](https://doi.org/10.1016/j.knosys.2019.105102)|[code](https://github.com/sckangz/GFSC)]
 
@@ -166,7 +166,7 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 2. Multi-view clustering via deep concept factorization\[[paper](https://doi.org/10.1016/j.knosys.2021.106807)|[code](https://github.com/AeroAsukara/Multi-view-clustering-via-deep-concept-factorization)]
 
-3. Deep Multi-View Concept Learning\[[paper](https://doi.org/10.24963/ijcai.2018/402)|[code]] 
+3. Deep Multi-View Concept Learning\[[paper](https://doi.org/10.24963/ijcai.2018/402)|[code]
 
 4. Deep graph regularized non-negative matrix factorization for multi-view clustering\[[paper](https://doi.org/10.1016/j.neucom.2019.12.054)|[code]]
 
@@ -190,13 +190,13 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 1. Refining a k-nearest neighbor graph for a computationally efficient spectral  clustering\[[paper](https://doi.org/10.1016/j.patcog.2021.107869)|[code]]
 
-2.  Robust unsupervised feature selection via dual selfrepresentation and manifold regularization \[[paper]()|[code]]
+2. Robust unsupervised feature selection via dual self representation and manifold regularization \[[paper](https://doi.org/10.1016/j.knosys.2018.01.009)|[code]
 
-3. Robust graph learning from noisy data \[[paper]()|[code]]
+3. Robust graph learning from noisy data \[[paper](https://ieeexplore.ieee.org/document/8605364)|[code]
 
-4. Graph learning for multiview clustering \[[paper]()|[code]]
+4. Graph learning for multiview clustering \[[paper](https://ieeexplore.ieee.org/document/8052206)|[code](https://github.com/kunzhan/MVGL)
 
-5. Multi-view projected clustering with graph learning\[[paper](https://doi.org/10.1016/j.neunet.2020.03.020)|[code]]
+5. Multi-view projected clustering with graph learning\[[paper](https://doi.org/10.1016/j.neunet.2020.03.020)|[code]()]
 
 6. Parameter-Free Weighted Multi-View Projected Clustering with Structured Graph Learning \[[paper](https://ieeexplore.ieee.org/abstract/document/8700233)|[code]
 
@@ -210,7 +210,7 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 11. Multi-view Clustering with Latent Low-rank Proxy Graph Learning\[[paper](https://doi.org/10.1007/s12559-021-09889-8)|[code]
 
-12. Learning latent low-rank and sparse embedding for robust image feature extractio\[[paper](https://doi.org/10.1109/TIP.2019.2938859)|[code]
+12. Learning latent low-rank and sparse embedding for robust image feature Extraction \[[paper](https://doi.org/10.1109/TIP.2019.2938859)|[code]
 
 13. Robust multi-view graph clustering in latent energy-preserving embedding space\[[paper](https://doi.org/10.1016/j.ins.2021.05.025)|[code]
 
@@ -240,9 +240,9 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 11. Deep embedded multi-view clustering with collaborative training\[[paper](https://doi.org/10.1016/j.ins.2020.12.073)|[code]]
 
-12. Trio-based collaborative multi-view graph clustering with multiple constraints\[[paper](https://doi.org/10.1016/j.ipm.2020.102466)|[code]] 
+12. Trio-based collaborative multi-view graph clustering with multiple constraints\[[paper](https://doi.org/10.1016/j.ipm.2020.102466)|[code]
 
-14. Multi-view graph embedding clustering network: Joint self-supervision and block diagonal representation\[[paper](https://doi.org/10.1016/j.neunet.2021.10.006)|[code]] 
+14. Multi-view graph embedding clustering network: Joint self-supervision and block diagonal representation\[[paper](https://doi.org/10.1016/j.neunet.2021.10.006)|[code]
 
 15. Multi-view fuzzy clustering of deep random walk and sparse low-rank embedding\[[paper](https://doi.org/10.1016/j.ins.2021.11.075)|[code]]
 
@@ -264,13 +264,13 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 1. Consistent and diverse multi-View subspace clustering with structure constraint\[[paper](https://doi.org/10.1016/j.patcog.2021.108196)|[code]]
 
-2. Consistent and specific multi-view subspace clustering\[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16212)|[code]] 
+2. Consistent and specific multi-view subspace clustering\[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16212)|[code]
 
 3. Flexible Multi-View Representation Learning for Subspace Clustering\[[paper](https://doi.org/10.24963/ijcai.2019/404)|[code]]
 
-4. Learning a joint affinity graph for multiview subspace clustering\[[paper](https://doi.org/10.1109/TMM.2018.2889560)|[code]] 
+4. Learning a joint affinity graph for multiview subspace clustering\[[paper](https://doi.org/10.1109/TMM.2018.2889560)|[code]
 
-5. Exclusivity-consistency regularized multi-view subspace clustering\[[paper](https://doi.org/10.1109/CVPR.2017.8)|[code]] 
+5. Exclusivity-consistency regularized multi-view subspace clustering\[[paper](https://doi.org/10.1109/CVPR.2017.8)|[code]
 
 6. Multi-view subspace clustering with intactness-aware similarity\[[paper](https://doi.org/10.1016/j.patcog.2018.09.009)|[code]]
 
@@ -278,17 +278,17 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 8. Split multiplicative multi-view subspace clustering\[[paper](https://doi.org/10.1109/TIP.2019.2913096)|[code]]
 
-9. Learning a consensus affinity matrix for multi-view clustering via subspaces merging on Grassmann manifold\[[paper](https://doi.org/10.1016/j.ins.2020.07.059)|[code]] 
+9. Learning a consensus affinity matrix for multi-view clustering via subspaces merging on Grassmann manifold\[[paper](https://doi.org/10.1016/j.ins.2020.07.059)|[code]
 
 10. Clustering on multi-layer graphs via subspace analysis on Grassmann manifolds\[[paper](https://doi.org/10.1109/TSP.2013.2295553)|[code]]
 
-11. Deep multi-view subspace clustering with unified and discriminative learning\[[paper](https://doi.org/10.1109/TMM.2020.3025666)|[code]] 
+11. Deep multi-view subspace clustering with unified and discriminative learning\[[paper](https://doi.org/10.1109/TMM.2020.3025666)|[code]
 
 12. Attentive multi-view deep subspace clustering net\[[paper](https://doi.org/10.1016/j.neucom.2021.01.011)|[code]]
 
 13. Dual shared-specific multiview subspace clustering\[[paper](https://doi.org/10.1109/TCYB.2019.2918495)|[code]]
 
-14. Multi-view subspace clustering with consistent and view-specific latent factors and coefficient matrices\[[paper](https://doi.org/10.1109/IJCNN52387.2021.9534421)|[code]] 
+14. Multi-view subspace clustering with consistent and view-specific latent factors and coefficient matrices\[[paper](https://doi.org/10.1109/IJCNN52387.2021.9534421)|[code]
 
 15. Robust low-rank kernel multi-view subspace clustering based on the schatten p-norm and correntropy\[[paper](https://doi.org/10.1016/j.ins.2018.10.049)|[code]]
 
@@ -300,11 +300,11 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 19. Multi-view subspace clustering with adaptive locally consistent graph regularization\[[paper](https://doi.org/10.1007/s00521-021-06166-5)|[code]]
 
-20. Multi-view subspace clustering networks with local and global graph information\[[paper](https://doi.org/10.1016/j.neucom.2021.03.115)|[code]] 
+20. Multi-view subspace clustering networks with local and global graph information\[[paper](https://doi.org/10.1016/j.neucom.2021.03.115)|[code]
 
-21. Deep Multimodal Subspace Clustering Networks\[[paper](https://doi.org/10.1109/JSTSP.2018.2875385)|[code]] -
+21. Deep Multimodal Subspace Clustering Networks\[[paper](https://doi.org/10.1109/JSTSP.2018.2875385)|[code](https://github.com/mahdiabavisani/Deep-multimodal-subspace-clustering-networks)]
 
-22. Multi-view Deep Subspace Clustering Networks\[[paper](http://arxiv.org/abs/1908.01978)|[code]] 
+22. Multi-view Deep Subspace Clustering Networks\[[paper](http://arxiv.org/abs/1908.01978)|[code](https://github.com/huybery/MvDSCN)] 
 
 23. Multiview subspace clustering via tensorial t-product representation\[[paper](https://doi.org/10.1109/TNNLS.2018.2851444)|[code]]
 
@@ -312,48 +312,48 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 25. Fast Parameter-Free Multi-View Subspace Clustering With Consensus Anchor Guidance\[[paper](https://doi.org/10.1109/TIP.2021.3131941)|[code]]
 
-26. Multi-view subspace clustering via partition fusion. Information Sciences\[[paper]|[code]] 
+26. Multi-view subspace clustering via partition fusion. Information Sciences\[[paper]|[code]
 
-27. Semi-Supervised Structured Subspace Learning for Multi-View Clustering\[[paper](https://doi.org/10.1109/TIP.2021.3128325)|[code]] 
+27. Semi-Supervised Structured Subspace Learning for Multi-View Clustering\[[paper](https://doi.org/10.1109/TIP.2021.3128325)|[code]
 
-28. 双加权多视角子空间聚类算法\[[paper]|[code]] 
+28. 双加权多视角子空间聚类算法\[[paper]|[code]
 
 # Self-paced learning 
 
-1. Self-paced learning for latent variable models\[[paper](https://proceedings.neurips.cc/paper/2010/hash/e57c6b956a6521b28495f2886ca0977a-Abstract.html)|[code]] 
+1. Self-paced learning for latent variable models\[[paper](https://proceedings.neurips.cc/paper/2010/hash/e57c6b956a6521b28495f2886ca0977a-Abstract.html)|[code]
 
-2. Multi-view self-paced learning for clustering\[[paper](http://ijcai.org/Abstract/15/558)|[code]] 
+2. Multi-view self-paced learning for clustering\[[paper](http://ijcai.org/Abstract/15/558)|[code]
 
 3. Self-paced and auto-weighted multi-view clustering\[[paper](https://doi.org/10.1016/j.neucom.2019.11.104)|[code]]
 
-4. Dual self-paced multi-view clustering\[[paper](https://doi.org/10.1016/j.neunet.2021.02.022)|[code]] 
+4. Dual self-paced multi-view clustering\[[paper](https://doi.org/10.1016/j.neunet.2021.02.022)|[code]
 
 # Co-Clustering-based approaches
 
-1. A generalized maximum entropy approach to bregman co-clustering and matrix approximation\[[paper](http://dl.acm.org/citation.cfm?id=1314563)|[code]] 
+1. A generalized maximum entropy approach to bregman co-clustering and matrix approximation\[[paper](http://dl.acm.org/citation.cfm?id=1314563)|[code]
 
-2. Multi-view information-theoretic co-clustering for co-occurrence data\[[paper](https://doi.org/10.1609/aaai.v33i01.3301379)|[code]] 
+2. Multi-view information-theoretic co-clustering for co-occurrence data\[[paper](https://doi.org/10.1609/aaai.v33i01.3301379)|[code]
 
-3. Dynamic auto-weighted multi-view co-clustering\[[paper](https://doi.org/10.1016/j.patcog.2019.107101)|[code]] 
+3. Dynamic auto-weighted multi-view co-clustering\[[paper](https://doi.org/10.1016/j.patcog.2019.107101)|[code]
 
 4. Auto-weighted multi-view co-clustering with bipartite graphs\[[paper](https://doi.org/10.1016/j.ins.2019.09.079)|[code]]
 
 5. Auto-weighted multi-view co-clustering via fast matrix factorization\[[paper](https://doi.org/10.1016/j.patcog.2020.107207)|[code]]
 
-6. Differentiable Bi-Sparse Multi-View Co-Clustering\[[paper](https://doi.org/10.1109/TSP.2021.3101979)|[code]] 
+6. Differentiable Bi-Sparse Multi-View Co-Clustering\[[paper](https://doi.org/10.1109/TSP.2021.3101979)|[code]
 
-7. Weighted multi-view co-clustering (WMVCC) for sparse data\[[paper](https://doi.org/10.1007/s10489-021-02405-3)|[code]] 
+7. Weighted multi-view co-clustering (WMVCC) for sparse data\[[paper](https://doi.org/10.1007/s10489-021-02405-3)|[code]
 
 
 # Multi-task-based approaches
 
-1. Multi-task multi-view clustering for non-negative data\[[paper](http://ijcai.org/Abstract/15/569)|[code]] 
+1. Multi-task multi-view clustering for non-negative data\[[paper](http://ijcai.org/Abstract/15/569)|[code]
 
 2. A Multi-task Multi-view based Multi-objective Clustering Algorithm\[[paper](https://doi.org/10.1109/ICPR48806.2021.9412053)|[code]]
 
 3. Multi-task multi-view clustering\[[paper](https://doi.org/10.1109/TKDE.2016.2603983)|[code]]
 
-4. Co-clustering documents and words using bipartite spectral graph partitioning\[[paper](https://doi.org/10.1145/502512.502550)|[code]] 
+4. Co-clustering documents and words using bipartite spectral graph partitioning\[[paper](https://doi.org/10.1145/502512.502550)|[code]
 
 5. Self-paced multi-task multi-view capped-norm clustering\[[paper](https://doi.org/10.1007/978-3-030-04212-7\_18)|[code]]
 
@@ -370,9 +370,9 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 2. Late fusion incomplete multi-view clustering\[[paper](https://doi.org/10.1109/TPAMI.2018.2879108)|[code]]
 
-3. Consensus graph learning for incomplete multi-view clustering\[[paper](https://doi.org/10.1007/978-3-030-16148-4\_41)|[code]] 
+3. Consensus graph learning for incomplete multi-view clustering\[[paper](https://doi.org/10.1007/978-3-030-16148-4\_41)|[code]
 
-4. Multi-view kernel completion\[[paper](http://arxiv.org/abs/1602.02518)|[code]] 
+4. Multi-view kernel completion\[[paper](http://arxiv.org/abs/1602.02518)|[code]
 
 5. Unified embedding alignment with missing views inferring for incomplete multi-view clustering\[[paper](https://doi.org/10.1609/aaai.v33i01.33015393)|[code]]
 
@@ -382,7 +382,7 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 8. Efficient and effective regularized incomplete multi-view clustering\[[paper](https://doi.org/10.1109/TPAMI.2020.2974828)|[code]]
 
-9. Adaptive partial graph learning and fusion for incomplete multi‐view clustering\[[paper](https://doi.org/10.1002/int.22655)|[code]] 
+9. Adaptive partial graph learning and fusion for incomplete multi‐view clustering\[[paper](https://doi.org/10.1002/int.22655)|[code]
 
 10. Unified tensor framework for incomplete multi-view clustering and missing-view inferring\[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/17231)|[code]]
 
@@ -390,11 +390,11 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 ## Transformation-based IMVC
 
-1. Partial multi-view clustering via consistent GAN\[[paper](https://doi.org/10.1109/ICDM.2018.00174)|[code]] 
+1. Partial multi-view clustering via consistent GAN\[[paper](https://doi.org/10.1109/ICDM.2018.00174)|[code]
 
 2. One-step multi-view subspace clustering with incomplete views\[[paper](https://doi.org/10.1016/j.neucom.2021.01.080)|[code]]
 
-3. Consensus guided incomplete multi-view spectral clustering\[[paper](https://doi.org/10.1016/j.neunet.2020.10.014)|[code]] 
+3. Consensus guided incomplete multi-view spectral clustering\[[paper](https://doi.org/10.1016/j.neunet.2020.10.014)|[code]
 
 4. Incomplete multi-view subspace clustering with adaptive instance-sample mapping and deep feature fusion\[[paper](https://doi.org/10.1007/s10489-020-02138-9)|[code]]
 
@@ -404,19 +404,19 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 ## The unified IMVC
 
-1. Complete/incomplete multi‐view subspace clustering via soft block‐diagonal‐induced regulariser\[[paper](https://doi.org/10.1049/cvi2.12077)|[code]] 
+1. Complete/incomplete multi‐view subspace clustering via soft block‐diagonal‐induced regulariser\[[paper](https://doi.org/10.1049/cvi2.12077)|[code]
 
 2. A novel consensus learning approach to incomplete multi-view clustering\[[paper](https://doi.org/10.1016/j.patcog.2021.107890)|[code]]
 
-3. Adaptive graph completion based incomplete multi-view clustering\[[paper](https://doi.org/10.1109/TMM.2020.3013408)|[code]] 
+3. Adaptive graph completion based incomplete multi-view clustering\[[paper](https://doi.org/10.1109/TMM.2020.3013408)|[code]
 
-4. Incomplete multi-view clustering via contrastive prediction\[[paper](https://openaccess.thecvf.com/content/CVPR2021/html/Lin\_COMPLETER\_Incomplete\_Multi-View\_Clustering\_via\_Contrastive\_Prediction\_CVPR\_2021\_paper.html)|[code]] 
+4. Incomplete multi-view clustering via contrastive prediction\[[paper](https://openaccess.thecvf.com/content/CVPR2021/html/Lin\_COMPLETER\_Incomplete\_Multi-View\_Clustering\_via\_Contrastive\_Prediction\_CVPR\_2021\_paper.html)|[code]
 
 ## Uncertain multi-view clustering
 
-1. Outlier-robust multi-view clustering for uncertain data\[[paper](https://doi.org/10.1016/j.knosys.2020.106567)|[code]] 
+1. Outlier-robust multi-view clustering for uncertain data\[[paper](https://doi.org/10.1016/j.knosys.2020.106567)|[code]
 
-2. Multi-view spectral clustering for uncertain objects\[[paper](https://doi.org/10.1016/j.ins.2020.08.080)|[code]] 
+2. Multi-view spectral clustering for uncertain objects\[[paper](https://doi.org/10.1016/j.ins.2020.08.080)|[code]
 
 ## Incremental multi-view clustering
 
@@ -426,7 +426,7 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 3. Incremental multi-view spectral clustering with sparse and connected graph learning\[[paper](https://doi.org/10.1016/j.neunet.2021.08.031)|[code]]
 
-4. Multi-graph fusion for multi-view spectral clustering\[[paper](http://arxiv.org/abs/1909.06940)|[code]] 
+4. Multi-graph fusion for multi-view spectral clustering\[[paper](http://arxiv.org/abs/1909.06940)|[code]
 
 5. Incremental learning through deep adaptation\[[paper](https://doi.org/10.1109/TPAMI.2018.2884462)|[code]]
 
