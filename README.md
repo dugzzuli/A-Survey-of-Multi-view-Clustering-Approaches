@@ -432,37 +432,23 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 # Code
 <!-- 1.  \[[paper]()|[code]] -->
-- ## utils.py
 
-  1. ### **load_graph_data**: load graph datasets
+- ## Database  :database files
 
-  2. ### **load_data**: load non-graph datasets
+  1. ### **3sources**: example data
+  
+- ## Dataset : read data files
 
-  3. ### **normalize_adj**: normalize the adjacency matrix
+  1. ### **dataset.py**: load datasets
+  
+- ## img : some pictures
 
-  4. ### **diffusion_adj**: calculate the graph diffusion
-
-  5. ### **construct_graph**: construct the knn graph for non-graph datasets
-
-  6. ### **numpy_to_torch**: convert numpy to torch
-
-  7. ### **torch_to_numpy**: convert torch to numpy
-
-- ## clustering.py
-
-  1. ### **setup_seed**: fix the random seed
-
-  2. ### **evaluation**: evaluate the performance of clustering
-
-  3. ### **k_means**: K-means algorithm
-
-- ## visualization.py
-
-  1. ### **t_sne**: t-SNE algorithm
-
-  2. ### **similarity_plot**: visualize cosine similarity matrix of the embedding or feature
-
-
+- ## utils : some code to process data
+  1. ### **process.py**: process data
+  2. ### **utils.py**: tool code
+  
+- ## configMain.yaml : some configuration files
+- ## demo.py
 
 
 
