@@ -66,7 +66,7 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 4. Parameter-free auto-weighted multiple graph learning: a framework for multiview clustering and  semi-supervised classification \[[paper](https://www.ijcai.org/Proceedings/16/Papers/269.pdf)|[code](https://github.com/kylejingli/AMGL-IJCAI16)]
 
-5. 基于两级权重的多视角聚类 \[[paper](http://qikan.cqvip.com/Qikan/Article/ReadIndex?id=7106866589&info=XP1LB9m8HlJHlvrlgLmLWaqtt3uIZQDhpLMW8JGCuj9lpe6ARTZy9Q%3d%3d)|[code]]
+5. 基于两级权重的多视角聚类 \[[paper](http://qikan.cqvip.com/Qikan/Article/ReadIndex?id=7106866589&info=XP1LB9m8HlJHlvrlgLmLWaqtt3uIZQDhpLMW8JGCuj9lpe6ARTZy9Q%3d%3d)|[code]
 
 6. Confidence level auto-weighting robust multi-view subspace clustering \[[paper](https://doi.org/10.1016/j.neucom.2021.12.029)|[code]]
 
@@ -78,93 +78,93 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 10. A cluster-weighted kernel K-means method for multi-view clustering\[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/5922)|[code]] 
 
-11. Multi-graph fusion for multi-view spectral clustering. Knowledge-Based Systems\[[paper](https://doi.org/10.1016/j.knosys.2019.105102)|[code]]
+11. Multi-graph fusion for multi-view spectral clustering\[[paper](https://doi.org/10.1016/j.knosys.2019.105102)|[code](https://github.com/sckangz/GFSC)]
 
-12. 一种双重加权的多视角聚类方法\[[paper](https://cjc.ict.ac.cn/online/onlinepaper/08177-胡世哲-202094103146.pdf)|[code]]
+12. 一种双重加权的多视角聚类方法\[[paper](https://cjc.ict.ac.cn/online/onlinepaper/08177-胡世哲-202094103146.pdf)|[code]
 
-13. View-Wise Versus Cluster-Wise Weight: Which Is Better for Multi-View Clustering?\[[paper]|[code]]
+13. View-Wise Versus Cluster-Wise Weight: Which Is Better for Multi-View Clustering?\[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9623366)|[code]
 
 <!-- 1.  \[[paper]()|[code]] -->
 # Spectral clustering-based approaches
 
-1. Multi-view clustering via canonical correlation analysis\[[paper](https://doi.org/10.1145/1553374.1553391)|[code]]
+1. Multi-view clustering via canonical correlation analysis\[[paper](https://doi.org/10.1145/1553374.1553391)|[code]
 
-2. Multi-view kernel spectral clustering\[[paper](https://doi.org/10.1016/j.inffus.2017.12.002)|[code]]
+2. Multi-view kernel spectral clustering\[[paper](https://doi.org/10.1016/j.inffus.2017.12.002)|[code]
 
-3. Correlational spectral clustering\[[paper](https://doi.org/10.1109/CVPR.2008.4587353)|[code]]
+3. Correlational spectral clustering\[[paper](https://doi.org/10.1109/CVPR.2008.4587353)|[code]
 
 ## Co-regularization and co-training spectral clustering
 
 1. Co-regularized multi-view spectral clustering\[[paper](https://proceedings.neurips.cc/paper/2011/hash/31839b036f63806cba3f47b93af8ccb5-Abstract.html)|[code](https://github.com/lkrmbhlz/CRMVSC)]
 
-2. A co-training approach for multi-view spectral clustering\[[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.221.6302&rep=rep1&type=pdf)|[code]]
+2. A co-training approach for multi-view spectral clustering\[[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.221.6302&rep=rep1&type=pdf)|[code]
 
-3. Combining labeled and unlabeled data with co-training\[[paper](https://doi.org/10.1145/279943.279962)|[code]] 
+3. Combining labeled and unlabeled data with co-training\[[paper](https://doi.org/10.1145/279943.279962)|[code]
 
 ## Constrained spectral clustering
 
-1. Heterogeneous image feature integration via multi-modal spectral clustering\[[paper](https://doi.org/10.1109/CVPR.2011.5995740)|[code]]
+1. Heterogeneous image feature integration via multi-modal spectral clustering\[[paper](https://doi.org/10.1109/CVPR.2011.5995740)|[code]
 
-2. Robust multi-view spectral clustering via low-rank and sparse decomposition \[[paper](http://www.aaai.org/ocs/index.php/AAAI/AAAI14/paper/view/8135)|[code]]
+2. Robust multi-view spectral clustering via low-rank and sparse decomposition \[[paper](http://www.aaai.org/ocs/index.php/AAAI/AAAI14/paper/view/8135)|[code]
 
-3. Multiview clustering via adaptively weighted procrustes\[[paper](https://doi.org/10.1145/3219819.3220049)|[code]]
+3. Multiview clustering via adaptively weighted procrustes\[[paper](https://doi.org/10.1145/3219819.3220049)|[code]
 
 4. One-step multi-view spectral clustering\[[paper](https://doi.org/10.1109/TKDE.2018.2873378)|[code]]
 
-5. Multi-graph fusion for multi-view spectral clustering\[[paper](https://doi.org/10.1016/j.knosys.2019.105102)|[code]]
+5. Multi-graph fusion for multi-view spectral clustering\[[paper](https://doi.org/10.1016/j.knosys.2019.105102)|[code](https://github.com/sckangz/GFSC)]
 
-6. multi-view spectral clustering with adaptive graph learning and tensor  schatten p-norm\[[paper](https://doi.org/10.1016/j.neucom.2021.09.052)|[code]]
+6. Multi-view spectral clustering with adaptive graph learning and tensor schatten p-norm\[[paper](https://doi.org/10.1016/j.neucom.2021.09.052)|[code]
 
-7. nonnegative embedding and spectral embedding (NESE) \[[paper]|[code]]
+7. Multi-view spectral clustering via integrating nonnegative embedding and spectral embedding\[[paper](https://doi.org/10.1016/j.inffus.2019.09.005)|[code](https://github.com/sudalvxin/SMSC)]
 
-8. Constrained nonnegative embedding and spectral embedding (CNESE)\[[paper]|[code]]
+8. Multi-view spectral clustering via constrained nonnegative embedding\[[paper]()|[code]
 
-9. Low-rank tensor constrained co-regularized multi-view spectral clustering\[[paper](https://doi.org/10.1016/j.neunet.2020.08.019)|[code]]
+9. Low-rank tensor constrained co-regularized multi-view spectral clustering\[[paper](https://doi.org/10.1016/j.neunet.2020.08.019)|[code]
 
 ## Fast spectral clustering 
 
-1. Large-scale multi-view spectral clustering via bipartite graph\[[paper](http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9641)|[code]()]
+1. Large-scale multi-view spectral clustering via bipartite graph\[[paper](http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9641)|[code](https://github.com/zzz123xyz/MVSC)]
 
-2. Refining a k-nearest neighbor graph for a computationally efficient spectral  clustering\[[paper](https://doi.org/10.1016/j.patcog.2021.107869)|[code]]
+2. Refining a k-nearest neighbor graph for a computationally efficient spectral  clustering\[[paper](https://doi.org/10.1016/j.patcog.2021.107869)|[code]
 
-3. Multi-view clustering based on generalized low rank approximation \[[paper](https://doi.org/10.1016/j.neucom.2020.08.049)|[code]]
+3. Multi-view clustering based on generalized low rank approximation \[[paper](https://doi.org/10.1016/j.neucom.2020.08.049)|[code]
 
-4. Multi-view spectral clustering by simultaneous consensus graph learning and discretization\[[paper](https://doi.org/10.1016/j.knosys.2021.107632)|[code]]
+4. Multi-view spectral clustering by simultaneous consensus graph learning and discretization\[[paper](https://doi.org/10.1016/j.knosys.2021.107632)|[code](https://github.com/Ekin102003/AwSCGLD)]
 <!-- 1.  \[[paper]()|[code]] -->
 
 # NMF-based approaches 
 
-1. Multi-view clustering via joint nonnegative matrix factorization\[[paper](https://doi.org/10.1137/1.9781611972832.28)|[code]]
+1. Multi-view clustering via joint nonnegative matrix factorization\[[paper](https://doi.org/10.1137/1.9781611972832.28)|[code](http://jialu.info/)]
 
-2. Multi-view clustering via concept factorization with local manifold regularization\[[paper](https://doi.org/10.1109/ICDM.2016.0167)|[code]]
+2. Multi-view clustering via concept factorization with local manifold regularization\[[paper](https://doi.org/10.1109/ICDM.2016.0167)|[code](https://github.com/vast-wang/Clustering)]
 
 3. Multi-view clustering via multi-manifold regularized non-negative matrix factorization\[[paper](https://doi.org/10.1016/j.neunet.2017.02.003)|[code]]
 
-4. Semi-supervised multi-view clustering with graph-regularized partially shared non-negative matrix  factorization\[[paper](https://doi.org/10.1016/j.knosys.2019.105185)|[code]] 
+4. Semi-supervised multi-view clustering with graph-regularized partially shared non-negative matrix factorization\[[paper](https://doi.org/10.1016/j.knosys.2019.105185)|[code](https://github.com/liangnaiyao/GPSNMF)] 
 
-5. Semi-supervised multi-view clustering based on constrained nonnegative matrix factorization\[[paper](https://doi.org/10.1016/j.knosys.2019.06.006)|[code]]
+5. Semi-supervised multi-view clustering based on constrained nonnegative matrix factorization\[[paper](https://doi.org/10.1016/j.knosys.2019.06.006)|[code]
 
-6. Semi-supervised multi-view clustering based on orthonormality-constrained nonnegative matrix factorization\[[paper](https://doi.org/10.1016/j.ins.2020.05.073)|[code]]
+6. Semi-supervised multi-view clustering based on orthonormality-constrained nonnegative matrix factorization\[[paper](https://doi.org/10.1016/j.ins.2020.05.073)|[code]
 
-7. Multi-view clustering by non-negative matrix factorization with co-orthogonal constraints\[[paper](https://doi.org/10.1016/j.knosys.2020.105582)|[code]] 
+7. Multi-view clustering by non-negative matrix factorization with co-orthogonal constraints\[[paper](https://doi.org/10.1016/j.knosys.2020.105582)|[code](https://github.com/liangnaiyao/NMFCC)] 
 
-8. Dual regularized multi-view non-negative matrix factorization for clustering\[[paper](https://doi.org/10.1016/j.neucom.2017.10.023)|[code]]
+8. Dual regularized multi-view non-negative matrix factorization for clustering\[[paper](https://doi.org/10.1016/j.neucom.2017.10.023)|[code]
 
-9. A network-based sparse and multi-manifold regularized multiple non-negative matrix factorization for multi-view clustering\[[paper](https://doi.org/10.1016/j.eswa.2021.114783)|[code]]
+9. A network-based sparse and multi-manifold regularized multiple non-negative matrix factorization for multi-view clustering\[[paper](https://doi.org/10.1016/j.eswa.2021.114783)|[code]
 
-10. Multi-view clustering with the cooperation of visible and hidden views\[[paper](https://doi.org/10.1109/TKDE.2020.2983366)|[code]]
+10. Multi-view clustering with the cooperation of visible and hidden views\[[paper](https://doi.org/10.1109/TKDE.2020.2983366)|[code]
 
 ## Fast NMF 
 
-1. Binary Multi-View Clustering\[[paper](https://doi.org/10.1109/TPAMI.2018.2847335)|[code]]
+1. Binary Multi-View Clustering\[[paper](https://doi.org/10.1109/TPAMI.2018.2847335)|[code](https://github.com/DarrenZZhang/BMVC)]
 
-2. Fast Multi-View Clustering via Nonnegative and Orthogonal Factorization\[[paper](https://doi.org/10.1109/TIP.2020.3045631)|[code]] 
+2. Fast Multi-View Clustering via Nonnegative and Orthogonal Factorization\[[paper](https://doi.org/10.1109/TIP.2020.3045631)|[code]
 
 ## Deep NMF  
 
-1. Multi-View Clustering via Deep Matrix Factorization\[[paper](http://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14647)|[code]]
+1. Multi-View Clustering via Deep Matrix Factorization\[[paper](http://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14647)|[code](https://github.com/hdzhao/DMF_MVC)]
 
-2. Multi-view clustering via deep concept factorization\[[paper](https://doi.org/10.1016/j.knosys.2021.106807)|[code]]
+2. Multi-view clustering via deep concept factorization\[[paper](https://doi.org/10.1016/j.knosys.2021.106807)|[code](https://github.com/AeroAsukara/Multi-view-clustering-via-deep-concept-factorization)]
 
 3. Deep Multi-View Concept Learning\[[paper](https://doi.org/10.24963/ijcai.2018/402)|[code]] 
 
@@ -172,70 +172,67 @@ Multi-view clustering (MVC) aims to group samples (objects/instances/points) wit
 
 5. Multi-view clustering via deep matrix factorization and partition alignment\[[paper](https://doi.org/10.1145/3474085.3475548)|[code]]
 
-6. Deep multiple non-negative matrix factorization for multi-view clustering\[[paper](https://doi.org/10.3233/IDA-195075)|[code]]
+6. Deep multiple non-negative matrix factorization for multi-view clustering\[[paper](https://doi.org/10.3233/IDA-195075)|[code]
 
 # Multiple kernel learning
 
-1. Learning non-linear combinations of kernels\[[paper](https://proceedings.neurips.cc/paper/2009/hash/e7f8a7fb0b77bcb3b283af5be021448f-Abstract.html)|[code]]
 
-2. Multi-View Clustering with Multiple Kernels\[[paper]|[code]]
+1. Auto-weighted multi-view clustering via kernelized graph learning\[[paper](https://doi.org/10.1016/j.patcog.2018.11.007)|[code](https://github.com/huangsd/MVC-via-kernelized-graph-learning)]
 
-3. (Ren & Li et al. 2020 LLMKL) (Ren & Lei et al. 2021 SLMKC)\[[paper]|[code]]
+2. Multiple kernel subspace clustering with local structural graph and low-rank consensus kernel learning \[[paper](https://doi.org/10.1016/j.knosys.2019.105040)|[code]
 
-4. (Huang & Kang & Tsang 2019 MVCMK)\[[paper]|[code]] 
+3.  Jointly Learning Kernel Representation Tensor and Affinity Matrix for Multi-View Clustering \[[paper](https://www.fst.um.edu.mo/personal/wp-content/uploads/2021/12/Jointly_Learning_Kernel_Representation.pdf)|[code]
 
-5. (Chen&Xiao et al. 2020 JLMVC)\[[paper]|[code]]
-
-6. Kernelized Multi-view Subspace Clustering via Auto-weighted Graph Learning\[[paper](https://doi.org/10.1007/s10489-021-02365-8)|[code]]  
+4. Kernelized Multi-view Subspace Clustering via Auto-weighted Graph Learning\[[paper](https://doi.org/10.1007/s10489-021-02365-8)|[code]
 <!-- 1.  \[[paper]()|[code]] -->
 
 # Graph learning
 
 1. Refining a k-nearest neighbor graph for a computationally efficient spectral  clustering\[[paper](https://doi.org/10.1016/j.patcog.2021.107869)|[code]]
 
-2. (Tang & Liu et al. 2018)
+2.  Robust unsupervised feature selection via dual selfrepresentation and manifold regularization \[[paper]()|[code]]
 
-3. (Kang &Pan et al. 2019)
+3. Robust graph learning from noisy data \[[paper]()|[code]]
 
-4. (Zhan, Zhang, et al. 2018 MVGL)
+4. Graph learning for multiview clustering \[[paper]()|[code]]
 
-5. Multi- view projected clustering with graph learning\[[paper](https://doi.org/10.1016/j.neunet.2020.03.020)|[code]]
+5. Multi-view projected clustering with graph learning\[[paper](https://doi.org/10.1016/j.neunet.2020.03.020)|[code]]
 
-6. (Wang, Nie, et al. 2020  SwMPC)
+6. Parameter-Free Weighted Multi-View Projected Clustering with Structured Graph Learning \[[paper](https://ieeexplore.ieee.org/abstract/document/8700233)|[code]
 
-7. Learning robust affinity graph representation for multi-view clustering\[[paper](https://doi.org/10.1016/j.ins.2020.06.068)|[code]]
+7. Learning robust affinity graph representation for multi-view clustering\[[paper](https://doi.org/10.1016/j.ins.2020.06.068)|[code]
 
-8. GMC: Graph-based multi-view clustering\[[paper](https://doi.org/10.1109/TKDE.2019.2903810)|[code]]
+8. GMC: Graph-based multi-view clustering\[[paper](https://doi.org/10.1109/TKDE.2019.2903810)|[code](https://github.com/cshaowang/gmc)]
 
-9. Multiview consensus graph clustering\[[paper](https://doi.org/10.1109/TIP.2018.2877335)|[code]]
+9. Multiview consensus graph clustering\[[paper](https://doi.org/10.1109/TIP.2018.2877335)|[code](https://github.com/kunzhan/MCGC)]
 
-10. A study of graph-based system for multi-view clustering. Knowledge-Based Systems\[[paper]|[code]]
+10. A study of graph-based system for multi-view clustering \[[paper](https://doi.org/10.1016/j.knosys.2018.10.022)|[code](https://github.com/cswanghao/gbs)]
 
-11. Multi-view Clustering with Latent Low-rank Proxy Graph Learning\[[paper](https://doi.org/10.1007/s12559-021-09889-8)|[code]]
+11. Multi-view Clustering with Latent Low-rank Proxy Graph Learning\[[paper](https://doi.org/10.1007/s12559-021-09889-8)|[code]
 
-12. Learning latent low-rank and sparse embedding for robust image feature extractio\[[paper](https://doi.org/10.1109/TIP.2019.2938859)|[code]]
+12. Learning latent low-rank and sparse embedding for robust image feature extractio\[[paper](https://doi.org/10.1109/TIP.2019.2938859)|[code]
 
-13. Robust multi-view graph clustering in latent energy-preserving embedding space\[[paper](https://doi.org/10.1016/j.ins.2021.05.025)|[code]]
+13. Robust multi-view graph clustering in latent energy-preserving embedding space\[[paper](https://doi.org/10.1016/j.ins.2021.05.025)|[code]
 
-14. Robust multi-view data clustering with multi-view capped-norm k-means\[[paper](https://doi.org/10.1016/j.neucom.2018.05.072)|[code]]
+14. Robust multi-view data clustering with multi-view capped-norm k-means\[[paper](https://doi.org/10.1016/j.neucom.2018.05.072)|[code]
 
 # Embedding learning
 
-1. Robust multi-view graph clustering in latent energy-preserving embedding space\[[paper](https://doi.org/10.1016/j.ins.2021.05.025)|[code]]
+1. Robust multi-view graph clustering in latent energy-preserving embedding space\[[paper](https://doi.org/10.1016/j.ins.2021.05.025)|[code]
 
-2. COMIC: Multi-view clustering without parameter selection\[[paper](http://proceedings.mlr.press/v97/peng19a.html)|[code]]
+2. COMIC: Multi-view clustering without parameter selection\[[paper](http://proceedings.mlr.press/v97/peng19a.html)|[code](https://github.com/XLearning-SCU/2019-ICML-COMIC)]
 
-3. Multi-view clustering in latent embedding space\[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/5756)|[code]]
+3. Multi-view clustering in latent embedding space\[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/5756)|[code](https://github.com/ManshengChen/MCLES)]
 
-4. Relaxed multi-view clustering in latent embedding space\[[paper](https://doi.org/10.1016/j.inffus.2020.10.013)|[code]]
+4. Relaxed multi-view clustering in latent embedding space\[[paper](https://doi.org/10.1016/j.inffus.2020.10.013)|[code](https://github.com/ManshengChen/RMCLES)]
 
-5. Auto-weighted multi-view clustering via spectral embedding\[[paper](https://doi.org/10.1016/j.neucom.2020.02.071)|[code]]
+5. Auto-weighted multi-view clustering via spectral embedding\[[paper](https://doi.org/10.1016/j.neucom.2020.02.071)|[code]
 
-6. Robust graph-based multi-view clustering in latent embedding space\[[paper](https://doi.org/10.1007/s13042-021-01421-6)|[code]]
+6. Robust graph-based multi-view clustering in latent embedding space\[[paper](https://doi.org/10.1007/s13042-021-01421-6)|[code]
 
-7. Efficient correntropy-based multi-view clustering with anchor graph embedding\[[paper](https://doi.org/10.1016/j.neunet.2021.11.027)|[code]]
+7. Efficient correntropy-based multi-view clustering with anchor graph embedding\[[paper](https://doi.org/10.1016/j.neunet.2021.11.027)|[code]
 
-8. Self-supervised discriminative feature learning for multi-view clustering\[[paper](https://arxiv.org/abs/2103.15069)|[code]]
+8. Self-supervised discriminative feature learning for multi-view clustering\[[paper](https://arxiv.org/abs/2103.15069)|[code](https://github.com/SubmissionsIn/SDMVC)]
 
 9. Deep Multiple Auto-Encoder-Based Multi-view Clustering\[[paper](https://doi.org/10.1007/s41019-021-00159-z)|[code]]
 
