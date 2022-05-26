@@ -83,32 +83,6 @@ def process_tu(data, nb_nodes):
     return features, adjacency, labels, sizes, masks
 
 
-def micro_f1(logits, labels):
-    # Compute predictions
-    preds = torch.round(nn.Sigmoid()(logits))
-
-    # Cast to avoid trouble
-    preds = preds.long()
-    labels = labels.long()
-
-    # Count true positives, true negatives, false positives, false negatives
-    tp = torch.nonzero(preds * labels).shape[0] * 1.0
-    tn = torch.nonzero((preds - 1) * (labels - 1)).shape[0] * 1.0
-    fp = torch.nonzero(preds * (labels - 1)).shape[0] * 1.0
-    fn = torch.nonzero((preds - 1) * labels).shape[0] * 1.0
-
-    # Compute micro-f1 score
-    prec = tp / (tp + fp)
-    rec = tp / (tp + fn)
-    f1 = (2 * prec * rec) / (prec + rec)
-    return f1
-
-
-def accuracy(output, labels):
-    preds = output.max(1)[1].type_as(labels)
-    correct = preds.eq(labels).double()
-    correct = correct.sum()
-    return correct / len(labels)
 
 
 """
