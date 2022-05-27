@@ -34,10 +34,7 @@ information of different views and searching for consistent clusters across diff
 --------------
 
 ## What's incomplete Multi-view clsutering?
-
-Multi-view clustering (MVC) aims to group samples (objects/instances/points) with similar structures or patterns into
-the same group (cluster) and samples with dissimilar ones into different groups by combining the available feature
-information of different views and searching for consistent clusters across different views.
+For these multi-view clustering methods, they commonly require that all views of data are complete. However, the requirement is often impossible to satisfy because it is often the case that some views of samples are missing in the real-world applications, especially in the applications of disease diagnosing and webpage clustering. This incomplete problem of views leads to the failure of the conventional multi-view methods.
 
 
 --------------
