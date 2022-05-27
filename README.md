@@ -16,7 +16,7 @@ represented by its url and words on the page, b) a web image is depicted by its 
 information, c) images of a 3D sample taken from different viewpoints, d) video clips are combinations of audio signals
 and visual frames, e) multilingual documents have one view in each language.
 <div  align="center">    
-    <img src="./img/data.png" width=80% />
+    <img src="./img/data.png" width=60% />
 </div>
 
 
