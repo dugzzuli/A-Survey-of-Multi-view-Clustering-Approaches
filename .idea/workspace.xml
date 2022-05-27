@@ -70,7 +70,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.demoRun">
+  <component name="RunManager" selected="Python.demo">
     <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="A-Survey-of-Multi-view-Clustering-Approaches" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,7 +176,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.demoRun" />
         <item itemvalue="Shell Script.runsup.sh" />
         <item itemvalue="Python.runMainDMGIDDCPNDoubleWithoutSoftmax" />
         <item itemvalue="Python.runMainDMGIDDCSelfCorreLateSup" />
