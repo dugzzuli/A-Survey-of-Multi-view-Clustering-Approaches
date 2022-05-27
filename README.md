@@ -19,7 +19,6 @@ and visual frames, e) multilingual documents have one view in each language.
     <img src="./img/data.png" width=60% />
 </div>
 
-
 --------------
 
 ## What's Multi-view clustering?
@@ -35,7 +34,6 @@ information of different views and searching for consistent clusters across diff
 
 ## What's incomplete Multi-view clsutering?
 For these multi-view clustering methods, they commonly require that all views of data are complete. However, the requirement is often impossible to satisfy because it is often the case that some views of samples are missing in the real-world applications, especially in the applications of disease diagnosing and webpage clustering. This incomplete problem of views leads to the failure of the conventional multi-view methods.
-
 
 --------------
 
@@ -361,8 +359,7 @@ For these multi-view clustering methods, they commonly require that all views of
 4. Learning a joint affinity graph for multiview subspace
    clustering\[[paper](https://doi.org/10.1109/TMM.2018.2889560)|[code]
 
-5. Exclusivity-consistency regularized multi-view subspace
-   clustering\[[paper](https://doi.org/10.1109/CVPR.2017.8)|[code]
+5. Exclusivity-consistency regularized multi-view subspace clustering\[[paper](https://doi.org/10.1109/CVPR.2017.8)|[code]
 
 6. Multi-view subspace clustering with intactness-aware
    similarity\[[paper](https://doi.org/10.1016/j.patcog.2018.09.009)|[code]
