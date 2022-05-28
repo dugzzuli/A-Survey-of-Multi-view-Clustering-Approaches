@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff9fa042-2a84-42f9-b3bd-b0218c8421d1" name="Default Changelist" comment="优化">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="ff9fa042-2a84-42f9-b3bd-b0218c8421d1" name="Default Changelist" comment="修改数据集" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,7 +196,7 @@
       <workItem from="1653574651424" duration="9962000" />
       <workItem from="1653660423968" duration="1086000" />
       <workItem from="1653702540006" duration="2043000" />
-      <workItem from="1653704650663" duration="6626000" />
+      <workItem from="1653704650663" duration="6932000" />
     </task>
     <task id="LOCAL-00001" summary="增加代码">
       <created>1653575853991</created>
@@ -271,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653704065329</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="修改数据集">
+      <created>1653714271321</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1653714271321</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +299,8 @@
     <MESSAGE value="修改图片" />
     <MESSAGE value="提交" />
     <MESSAGE value="优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化" />
+    <MESSAGE value="修改数据集" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改数据集" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
