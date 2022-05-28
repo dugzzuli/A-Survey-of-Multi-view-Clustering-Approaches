@@ -661,9 +661,9 @@ dataset (Fashion-10K), sports event dataset (Event), image dataset (ALOI, ImageN
 
 ## 3.Rest of data (Text-gene、Image-text and Video)
 The prokaryotic species dataset (Prok) is a text-gene a dataset, which consists of 551 prokaryotic samples belonging to 4 classes. The species are represented by 1 textual view and 2 genomic views. The textual descriptions are summarized into a document-term matrix that records the TF-IDF re-weighted word frequencies. The genomic views are the proteome composition and the gene repertoire.
-
+<br />
 The image-text datasets consist of Wikipedia’s featured articles dataset (Wikipedia), drosophila embryos dataset (BDGP), NBA-NASCAR Sport dataset (NNSpt), indoor scenes (SentencesNYU v2 (RGB-D)), Pascal dataset (VOC), object dataset (NUS-WIDE-C5), and photographic images (MIR Flickr 1M) .
-
+<br />
 The video datasets consist of actions of passengers dataset (DTHC), pedestrian video shot dataset (Lab), motion of body sequences (CMU Mobo) dataset, face video sequences dataset (YouTubeFace_sel, Honda/UCSD), and Columbia Consumer Video dataset (CCV). 
 
 | Dataset                                                                                         | #views                    | #classes                            | #instances          | F-Type(#View1)                              | F-Type(#View2)                     | F-Type(#View3)               | F-Type(#View4) | F-Type(#View5) |
