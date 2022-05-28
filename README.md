@@ -11,7 +11,8 @@ If you find this repository useful to your research or work, it is really apprec
 
 Multi-view data means that the same sample is described from different perspectives, and each perspective describes a
 class of features of the sample, called a view. In other words, the same sample can be represented by multiple
-heterogeneous features and each feature representation corresponds to a view. For example, a) a web document is
+heterogeneous features and each feature representation corresponds to a
+view. [Xu, Tao et al. 2013](https://arxiv.org/abs/1304.5634) provided an intuitive example, where a) a web document is
 represented by its url and words on the page, b) a web image is depicted by its surrounding text separate to the visual
 information, c) images of a 3D sample taken from different viewpoints, d) video clips are combinations of audio signals
 and visual frames, e) multilingual documents have one view in each language.
@@ -39,36 +40,127 @@ requirement is often impossible to satisfy because it is often the case that som
 real-world applications, especially in the applications of disease diagnosing and webpage clustering. This incomplete
 problem of views leads to the failure of the conventional multi-view methods.
 
+
 --------------
 
-##             
+## Principles related to MVC
+
+There are two significant principles ensuring the effectiveness of MVC: consensus and complementary principles (Xu, Tao
+et al. 2013). The consistent of multi-view data means that there is some common knowledge across different views (e.g.
+both two pictures about dogs have contour and facial features), while the complementary of multi-view data refers to
+some unique knowledge contained in each view that is not available in other views (e.g. one view shows the side of a dog
+and the other shows the front of the dog, these two views allow for a more complete depiction of the dog). Therefore,
+the consensus principle aims to maximize the agreement across multiple distinct views for improving the understanding of
+the commonness of the observed samples, while the complementary principle states that in a multi-view context, each view
+of the data may contain some particular knowledge that other views do not have, and this particular knowledge can
+mutually complement to each other. (Yang and Wang 2018) illustrated intuitively the complementary and consensus
+principles by mapping a data sample with two views into a latent data space, shown in Figure 3, where part A and part C
+exist in view 1 and view 2 respectively, indicating the complementarity of two views; meanwhile, part B is shared by
+both views, showing the consensus between two views.
+<div  align="center">    
+    <img src="./img/cc_MVC.png" width=80% />
+</div>
+
+
+--------------
+
+## Contents
+
+- [Survey papers]
+- [Papers]
+    - [PRELIMINARIES]
+        - [The information fusion strategy]
+            - [early-fusion]
+            - [Late fusion]
+        - [The clustering routine]
+            - [One-step routine]
+            - [two-step routine]
+        - [The weighting strategy]
+    - [COMPLETE MULTI-VIEW CLUSTERING]
+        - [Spectral clustering-based approaches]
+        - [Co-regularization and co-training spectral clustering]
+        - [Constrained spectral clustering]
+        - [Fast spectral clustering]
+        - [NMF-based approaches]
+        - [Fast NMF]
+        - [Deep NMF]
+        - [Multiple kernel learning]
+        - [Graph learning]
+        - [Embedding learning]
+        - [Alignment learning]
+        - [Subspace learning]
+        - [Self-paced learning]
+        - [Co-Clustering-based approaches]
+        - [Multi-task-based approaches]
+    - [Incomplete Multi-view clustering]
+        - [Imputation-based IMVC Incomplete Multi-view clustering]
+        - [Transformation-based IMVC]
+        - [The unified IMVC]
+        - [Uncertain multi-view clustering]
+        - [Incremental multi-view clustering]
+    - [Code]
+    - [Benchmark Datasets]
+        - [Text Datasets]
+        - [Image Datasets]
+        - [Rest of data (Text-gene、Image-text and Video)]
+
+<a name="surveypapers" />
+
+## Survey papers
+
+1. **A survey on multi-view clustering** \[[paper](https://arxiv.org/abs/1712.06246v2)]
+
+2. **A survey of multi-view representation learning** \[[paper](https://ieeexplore.ieee.org/document/8471216)]
+
+3. **A survey of multi-view machine learning** \[[paper](www.cst.ecnu.edu.cn/~slsun/pubs/MVML_final.pdf)]
+
+4. **A Survey on Multi-view Learning** \[[paper](https://arxiv.org/abs/1304.5634 )]
+
+5. **Multi-view clustering: A survey** \[[paper](https://ieeexplore.ieee.org/document/8336846)]
 
 ## Papers
 
 # The information fusion strategy
 
+The strategies for fusing information from multiple views can be divided into three categories: direct-fusion,
+early-fusion, and late-fusion according to the fusion stage. They are also called data level, feature level, and
+decision level fusion respectively, i.e. fusion in the data, fusion in the projected features, and fusion in the
+results. The direct-fusion approaches directly incorporate multi-view data into the clustering process through
+optimizing some particular loss functions.
+
 ## early-fusion：
 
-<!-- 1.  -->
-
-<!-- 1.  \[[paper]()|[code]()] -->
+The early-fusion is to fuse multiple features or graph structure representations of multi-view data into a single
+representation or a consensus affinity graph across multiple views, and then any known single-view clustering
+algorithm (such as k-means) can be applied to partition data samples.
 
 ### Late fusion：
 
-1. Partition level multiview subspace clustering
-   \[[paper](https://doi.org/10.1016/j.neunet.2019.10.010)|[code](https://github.com/sckangz/PMSC)]
-
-2. A co-training approach for multi-view spectral clustering
-   \[[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.221.6302&rep=rep1&type=pdf)|[code]
+The approaches of the late fusion first perform data clustering on each view and then fuse the results for all the views
+to obtain the final clustering results according to consensus. Late fusion can further be divided into integrated
+learning and collaborative training. The input to the integrated clustering algorithm is the result of clustering
+corresponding to multiple views
 
 # The clustering routine
 
-# one-step routine
+# One-step routine
 
-1. Partition level multiview subspace clustering
-   \[[paper](https://doi.org/10.1016/j.neunet.2019.10.010)|[code](https://github.com/sckangz/PMSC)]
+The one-step routine integrates representation learning and clustering task into a unified framework, which
+simultaneously learns a graph for each view, a partition for each view, and a consensus partition. Based on an iterative
+optimization strategy, the high-quality consensus clustering results can be obtained directly and are employed to guide
+the graph construction and the updating of basic partitions, which later contributes to a new consensus partition. The
+joint optimization co-trains the clustering together with representation learning, leveraging the inherent interactions
+between two tasks and realizing the mutual benefit of these two steps. In one-step routine, the cluster label of each
+data point can be directly assigned and does not need any post-processing, decreasing the instability of the clustering
+performance induced by the uncertainty of post-processing operation
 
-### two-step routine
+### Two-step routine
+
+The two-step routine first extracts the low-dimensional representation of multi-view data and then uses traditional
+clustering approaches
+(such as k-means) to process the obtained representation. That is to say, the two-step routine often needs a
+post-processing process, i.e. applying a simple clustering method on the learned representation or carrying out a fusion
+operation on the clustering results of individual views, to produce the final clustering results.
 
 # The weighting strategy
 
@@ -85,40 +177,41 @@ problem of views leads to the failure of the conventional multi-view methods.
    classification
    \[[paper](https://www.ijcai.org/Proceedings/16/Papers/269.pdf)|[code](https://github.com/kylejingli/AMGL-IJCAI16)]
 
-5. 基于两级权重的多视角聚类
-   \[[paper](http://qikan.cqvip.com/Qikan/Article/ReadIndex?id=7106866589&info=XP1LB9m8HlJHlvrlgLmLWaqtt3uIZQDhpLMW8JGCuj9lpe6ARTZy9Q%3d%3d)|[code]
+5. 基于两级权重的多视角聚类 \[[paper](https://crad.ict.ac.cn/CN/10.7544/issn1000-1239.20200897)|[code]
 
 6. Confidence level auto-weighting robust multi-view subspace clustering
-   \[[paper](https://doi.org/10.1016/j.neucom.2021.12.029)|[code]]
+   \[[paper](https://doi.org/10.1016/j.neucom.2021.12.029)|[code]
 
-7. Weighted multi-view clustering with feature selection \[[paper](https://doi.org/10.1016/j.patcog.2015.12.007)|[code]]
+7. Weighted multi-view clustering with feature selection \[[paper](https://doi.org/10.1016/j.patcog.2015.12.007)|[code]
 
 8. Two-level weighted collaborative k-means for multi-view clustering
    \[[paper](https://doi.org/10.1016/j.knosys.2018.03.009)|[code](https://github.com/dugzzuli/code-of-TW-Co-kmeans)]
 
 9. Weighted multi-view co-clustering (WMVCC) for sparse data
-   \[[paper](https://doi.org/10.1007/s10489-021-02405-3)|[code]]
+   \[[paper](https://doi.org/10.1007/s10489-021-02405-3)|[code]
 
 10. A cluster-weighted kernel K-means method for multi-view
     clustering\[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/5922)|[code]
 
-11. Multi-graph fusion for multi-view spectral
-    clustering\[[paper](https://doi.org/10.1016/j.knosys.2019.105102)|[code](https://github.com/sckangz/GFSC)]
+11. Multi-graph fusion for multi-view spectral clustering
+    \[[paper](https://doi.org/10.1016/j.knosys.2019.105102)|[code](https://github.com/sckangz/GFSC)]
 
-12. 一种双重加权的多视角聚类方法\[[paper](https://cjc.ict.ac.cn/online/onlinepaper/08177-胡世哲-202094103146.pdf)|[code]
+12. 一种双重加权的多视角聚类方法 \[[paper](https://cjc.ict.ac.cn/online/onlinepaper/08177-胡世哲-202094103146.pdf)|[code]
 
 13. View-Wise Versus Cluster-Wise Weight: Which Is Better for Multi-View
     Clustering?\[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9623366)|[code]
 
+# COMPLETE MULTI-VIEW CLUSTERING
+
 <!-- 1.  \[[paper]()|[code]] -->
 
-# Spectral clustering-based approaches
+## Spectral clustering-based approaches
 
-1. Multi-view clustering via canonical correlation analysis\[[paper](https://doi.org/10.1145/1553374.1553391)|[code]
+1. Multi-view clustering via canonical correlation analysis \[[paper](https://doi.org/10.1145/1553374.1553391)|[code]
 
-2. Multi-view kernel spectral clustering\[[paper](https://doi.org/10.1016/j.inffus.2017.12.002)|[code]
+2. Multi-view kernel spectral clustering \[[paper](https://doi.org/10.1016/j.inffus.2017.12.002)|[code]
 
-3. Correlational spectral clustering\[[paper](https://doi.org/10.1109/CVPR.2008.4587353)|[code]
+3. Correlational spectral clustering \[[paper](https://doi.org/10.1109/CVPR.2008.4587353)|[code]
 
 ## Co-regularization and co-training spectral clustering
 
@@ -174,59 +267,59 @@ problem of views leads to the failure of the conventional multi-view methods.
 
 # NMF-based approaches
 
-1. Multi-view clustering via joint nonnegative matrix
-   factorization\[[paper](https://doi.org/10.1137/1.9781611972832.28)|[code](http://jialu.info/)]
+1. Multi-view clustering via joint nonnegative matrix factorization
+   \[[paper](https://doi.org/10.1137/1.9781611972832.28)|[code](http://jialu.info/)]
 
-2. Multi-view clustering via concept factorization with local manifold
-   regularization\[[paper](https://doi.org/10.1109/ICDM.2016.0167)|[code](https://github.com/vast-wang/Clustering)]
+2. Multi-view clustering via concept factorization with local manifold regularization
+   \[[paper](https://doi.org/10.1109/ICDM.2016.0167)|[code](https://github.com/vast-wang/Clustering)]
 
-3. Multi-view clustering via multi-manifold regularized non-negative matrix
-   factorization\[[paper](https://doi.org/10.1016/j.neunet.2017.02.003)|[code]]
+3. Multi-view clustering via multi-manifold regularized non-negative matrix factorization
+   \[[paper](https://doi.org/10.1016/j.neunet.2017.02.003)|[code]]
 
-4. Semi-supervised multi-view clustering with graph-regularized partially shared non-negative matrix
-   factorization\[[paper](https://doi.org/10.1016/j.knosys.2019.105185)|[code](https://github.com/liangnaiyao/GPSNMF)] 
+4. Semi-supervised multi-view clustering with graph-regularized partially shared non-negative matrix factorization
+   \[[paper](https://doi.org/10.1016/j.knosys.2019.105185)|[code](https://github.com/liangnaiyao/GPSNMF)] 
 
-5. Semi-supervised multi-view clustering based on constrained nonnegative matrix
-   factorization\[[paper](https://doi.org/10.1016/j.knosys.2019.06.006)|[code]
+5. Semi-supervised multi-view clustering based on constrained nonnegative matrix factorization
+   \[[paper](https://doi.org/10.1016/j.knosys.2019.06.006)|[code]
 
-6. Semi-supervised multi-view clustering based on orthonormality-constrained nonnegative matrix
-   factorization\[[paper](https://doi.org/10.1016/j.ins.2020.05.073)|[code]
+6. Semi-supervised multi-view clustering based on orthonormality-constrained nonnegative matrix factorization
+   \[[paper](https://doi.org/10.1016/j.ins.2020.05.073)|[code]
 
-7. Multi-view clustering by non-negative matrix factorization with co-orthogonal
-   constraints\[[paper](https://doi.org/10.1016/j.knosys.2020.105582)|[code](https://github.com/liangnaiyao/NMFCC)] 
+7. Multi-view clustering by non-negative matrix factorization with co-orthogonal constraints
+   \[[paper](https://doi.org/10.1016/j.knosys.2020.105582)|[code](https://github.com/liangnaiyao/NMFCC)] 
 
-8. Dual regularized multi-view non-negative matrix factorization for
-   clustering\[[paper](https://doi.org/10.1016/j.neucom.2017.10.023)|[code]
+8. Dual regularized multi-view non-negative matrix factorization for clustering
+   \[[paper](https://doi.org/10.1016/j.neucom.2017.10.023)|[code]
 
 9. A network-based sparse and multi-manifold regularized multiple non-negative matrix factorization for multi-view
-   clustering\[[paper](https://doi.org/10.1016/j.eswa.2021.114783)|[code]
+   clustering \[[paper](https://doi.org/10.1016/j.eswa.2021.114783)|[code]
 
-10. Multi-view clustering with the cooperation of visible and hidden
-    views\[[paper](https://doi.org/10.1109/TKDE.2020.2983366)|[code]
+10. Multi-view clustering with the cooperation of visible and hidden views
+    \[[paper](https://doi.org/10.1109/TKDE.2020.2983366)|[code]
 
 ## Fast NMF
 
-1. Binary Multi-View
-   Clustering\[[paper](https://doi.org/10.1109/TPAMI.2018.2847335)|[code](https://github.com/DarrenZZhang/BMVC)]
+1. Binary Multi-View Clustering
+   \[[paper](https://doi.org/10.1109/TPAMI.2018.2847335)|[code](https://github.com/DarrenZZhang/BMVC)]
 
-2. Fast Multi-View Clustering via Nonnegative and Orthogonal
-   Factorization\[[paper](https://doi.org/10.1109/TIP.2020.3045631)|[code]
+2. Fast Multi-View Clustering via Nonnegative and Orthogonal Factorization
+   \[[paper](https://doi.org/10.1109/TIP.2020.3045631)|[code]
 
 ## Deep NMF
 
-1. Multi-View Clustering via Deep Matrix
-   Factorization\[[paper](http://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14647)|[code](https://github.com/hdzhao/DMF_MVC)]
+1. Multi-View Clustering via Deep Matrix Factorization
+   \[[paper](http://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14647)|[code](https://github.com/hdzhao/DMF_MVC)]
 
-2. Multi-view clustering via deep concept
-   factorization\[[paper](https://doi.org/10.1016/j.knosys.2021.106807)|[code](https://github.com/AeroAsukara/Multi-view-clustering-via-deep-concept-factorization)]
+2. Multi-view clustering via deep concept factorization
+   \[[paper](https://doi.org/10.1016/j.knosys.2021.106807)|[code](https://github.com/AeroAsukara/Multi-view-clustering-via-deep-concept-factorization)]
 
 3. Deep Multi-View Concept Learning\[[paper](https://doi.org/10.24963/ijcai.2018/402)|[code]
 
 4. Deep graph regularized non-negative matrix factorization for multi-view
-   clustering\[[paper](https://doi.org/10.1016/j.neucom.2019.12.054)|[code]]
+   clustering\[[paper](https://doi.org/10.1016/j.neucom.2019.12.054)|[code]
 
 5. Multi-view clustering via deep matrix factorization and partition
-   alignment\[[paper](https://doi.org/10.1145/3474085.3475548)|[code]]
+   alignment\[[paper](https://doi.org/10.1145/3474085.3475548)|[code]
 
 6. Deep multiple non-negative matrix factorization for multi-view
    clustering\[[paper](https://doi.org/10.3233/IDA-195075)|[code]
@@ -480,37 +573,37 @@ problem of views leads to the failure of the conventional multi-view methods.
 
 # Incomplete Multi-view clustering
 
-1. Doubly aligned incomplete multi-view clustering\[[paper](http://arxiv.org/abs/1903.02785)|[code]]
-
 ## Imputation-based IMVC Incomplete Multi-view clustering
 
-1. Incomplete multiview spectral clustering with adaptive graph
+1. Doubly aligned incomplete multi-view clustering\[[paper](http://arxiv.org/abs/1903.02785)|[code]]
+
+2. Incomplete multiview spectral clustering with adaptive graph
    learning\[[paper](https://doi.org/10.1109/TCYB.2018.2884715)|[code]]
 
-2. Late fusion incomplete multi-view clustering\[[paper](https://doi.org/10.1109/TPAMI.2018.2879108)|[code]]
+3. Late fusion incomplete multi-view clustering\[[paper](https://doi.org/10.1109/TPAMI.2018.2879108)|[code]]
 
-3. Consensus graph learning for incomplete multi-view
+4. Consensus graph learning for incomplete multi-view
    clustering\[[paper](https://doi.org/10.1007/978-3-030-16148-4\_41)|[code]
 
-4. Multi-view kernel completion\[[paper](http://arxiv.org/abs/1602.02518)|[code]
+5. Multi-view kernel completion\[[paper](http://arxiv.org/abs/1602.02518)|[code]
 
-5. Unified embedding alignment with missing views inferring for incomplete multi-view
+6. Unified embedding alignment with missing views inferring for incomplete multi-view
    clustering\[[paper](https://doi.org/10.1609/aaai.v33i01.33015393)|[code]]
 
-6. One-Stage Incomplete Multi-view Clustering via Late Fusion\[[paper](https://doi.org/10.1145/3474085.3475204)|[code]]
+7. One-Stage Incomplete Multi-view Clustering via Late Fusion\[[paper](https://doi.org/10.1145/3474085.3475204)|[code]]
 
-7. Spectral perturbation meets incomplete multi-view data\[[paper](https://doi.org/10.24963/ijcai.2019/510)|[code]]
+8. Spectral perturbation meets incomplete multi-view data\[[paper](https://doi.org/10.24963/ijcai.2019/510)|[code]]
 
-8. Efficient and effective regularized incomplete multi-view
+9. Efficient and effective regularized incomplete multi-view
    clustering\[[paper](https://doi.org/10.1109/TPAMI.2020.2974828)|[code]]
 
-9. Adaptive partial graph learning and fusion for incomplete multi‐view
-   clustering\[[paper](https://doi.org/10.1002/int.22655)|[code]
+10. Adaptive partial graph learning and fusion for incomplete multi‐view
+    clustering\[[paper](https://doi.org/10.1002/int.22655)|[code]
 
-10. Unified tensor framework for incomplete multi-view clustering and missing-view
+11. Unified tensor framework for incomplete multi-view clustering and missing-view
     inferring\[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/17231)|[code]]
 
-11. Incomplete multi-view clustering with cosine
+12. Incomplete multi-view clustering with cosine
     similarity\[[paper](https://doi.org/10.1016/j.patcog.2021.108371)|[code]]
 
 ## Transformation-based IMVC
@@ -587,7 +680,8 @@ problem of views leads to the failure of the conventional multi-view methods.
 
 ## <span id="BenchmarkDataset">Benchmark Datasets</span>
 
-We also collect some datasets, which are uploaded to baiduyun. [address](https://pan.baidu.com/s/1OQF5JYJIOpKcIGb4LEOYcg) （code）xupk
+We also collect some datasets, which are uploaded to
+baiduyun. [address](https://pan.baidu.com/s/1OQF5JYJIOpKcIGb4LEOYcg) （code）xupk
 
 ## 1.Text Datasets
 
@@ -660,26 +754,34 @@ dataset (Fashion-10K), sports event dataset (Event), image dataset (ALOI, ImageN
 | [Sun397](https://vision.princeton.edu/projects/2010/SUN/)                                                                                                       | 3      | 397      | 108754         | CH(768)            | GIST (1024)         | HOG(1152)      |                |                |                |  |
 
 ## 3.Rest of data (Text-gene、Image-text and Video)
-The prokaryotic species dataset (Prok) is a text-gene a dataset, which consists of 551 prokaryotic samples belonging to 4 classes. The species are represented by 1 textual view and 2 genomic views. The textual descriptions are summarized into a document-term matrix that records the TF-IDF re-weighted word frequencies. The genomic views are the proteome composition and the gene repertoire.
-<br />
-The image-text datasets consist of Wikipedia’s featured articles dataset (Wikipedia), drosophila embryos dataset (BDGP), NBA-NASCAR Sport dataset (NNSpt), indoor scenes (SentencesNYU v2 (RGB-D)), Pascal dataset (VOC), object dataset (NUS-WIDE-C5), and photographic images (MIR Flickr 1M) .
-<br />
-The video datasets consist of actions of passengers dataset (DTHC), pedestrian video shot dataset (Lab), motion of body sequences (CMU Mobo) dataset, face video sequences dataset (YouTubeFace_sel, Honda/UCSD), and Columbia Consumer Video dataset (CCV). 
 
-| Dataset                                                                                         | #views                    | #classes                            | #instances          | F-Type(#View1)                              | F-Type(#View2)                     | F-Type(#View3)               | F-Type(#View4) | F-Type(#View5) |
-|-------------------------------------------------------------------------------------------------| ------------------------- | ----------------------------------- | ------------------- | ------------------------------------------- |------------------------------------| ---------------------------- | -------------- |----------------|
-| [Prok](https://github.com/mbrbic/MultiViewLRSSC/tree/master/datasets)                           | 3                         | 4                                   | 551                 | Textual TF-IDF re-weighted word frequencies | Genomic- the proteome  composition | Genomic- the gene repertoire |                |                |
-| [Wikipedia](http://www.svcl.ucsd.edu/projects/crossmodal/)                                      | 2                         | 10                                  | 693/2866            | image                                       | article                            |                              |                |                |
-| [BDGP](https://doi.org/10.1016/j.ins.2020.12.073)                                                                                        | 5                         |                                     | 2500                | Visual(1750)                                | Textual(79)                        |                              |                |                |
-| [NNSpt](http://vision.princeton.edu/projects/2010/SUN/)                                         | 2                         | 2                                   | 840                 | image(1024)                                 | TF-IDF(296)                        |                              |                |                |
-| [SentencesNYU  v2 (RGB-D)](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)            | 2                         | 13                                  | 1449                | image (2048)                                | text (300)                         |                              |                |                |
-| [VOC](https://deepai.org/dataset/pascal-voc)                                                    | 2                         | 20                                  | 5,649               | Image: Gist (512)                           | Text (399)                         |                              |                |                |
-| [NUS-WIDE-C5](NWC)                                                                              | 2                         | 5                                   | 4000                | visual codeword vector(500)                 | annotation vector(1000)            |                              |                |                |
-| [MIR Flickr  1M](https://press.liacs.nl/mirflickr/mirdownload.html)                             | 4                         | 10                                  | 2000                | HOG(300)                                    | LBP(50)                            | HSV CORRH (114)              | TF-IDF(60)     |                |
-| [DTHC](http://www.escience.cn/people/huyongli/Dongzhimen.html)                                  | 3 cameras                 | Dispersing from  the center quickly | 3 video sequences   | 151 frames/video                            | resolution 135 × 240               |                              |                |                |
-| [Lab](https://cvlab.epflfl.ch/data/data-pom-index-php/)                                         | 4 cameras                 | 4 people                            | 16 video sequences  | 3915 frames/video                           | resolution 144 ×180                |                              |                |                |
-| [CMU  Mobo(CAGL)](https://www.ri.cmu.edu/publications/the-cmu-motion-of-body-mobo-database/)    | 4 videos                  | 24 objects                          | 96 video sequences  | about 300 frames/video                      | resolution 40´40                   |                              |                |                |
-| [Honda/UCSD(CAGL)](http://vision.ucsd.edu/~iskwak/HondaUCSDVideoDatabase/HondaUCSD.html)        | at least 2 videos/ person | 20 objects                          | 59 video sequences  | 12 to 645 frames/video                      | resolution 20´20                   |                              |                |                |
-| [YouTubeFace_sel](http://www.cs.tau.ac.il/~wolf/ytfaces/)                                       | 5                         | 31                                  | 101499              | 64                                          | 512                                | 64                           | 647            | 838            |
-| [CCV](https://www.ee.columbia.edu/ln/dvmm/https:/press.liacs.nl/mirflickr/mirdownload.htmlCCV/) | 3                         | 20                                  | 6773 YouTube videos | SIFT(5000)                                  | STIP(5000)                         | MFCC(4000)                   |                |                |
+The prokaryotic species dataset (Prok) is a text-gene a dataset, which consists of 551 prokaryotic samples belonging to
+4 classes. The species are represented by 1 textual view and 2 genomic views. The textual descriptions are summarized
+into a document-term matrix that records the TF-IDF re-weighted word frequencies. The genomic views are the proteome
+composition and the gene repertoire.
+<br />
+The image-text datasets consist of Wikipedia’s featured articles dataset (Wikipedia), drosophila embryos dataset (BDGP),
+NBA-NASCAR Sport dataset (NNSpt), indoor scenes (SentencesNYU v2 (RGB-D)), Pascal dataset (VOC), object dataset (
+NUS-WIDE-C5), and photographic images (MIR Flickr 1M) .
+<br />
+The video datasets consist of actions of passengers dataset (DTHC), pedestrian video shot dataset (Lab), motion of body
+sequences (CMU Mobo) dataset, face video sequences dataset (YouTubeFace_sel, Honda/UCSD), and Columbia Consumer Video
+dataset (CCV).
+
+| Dataset                                                                                         | #views                    | #classes                            | #instances          | F-Type(#View1)              | F-Type(#View2)          | F-Type(#View3)  | F-Type(#View4) | F-Type(#View5) |
+|-------------------------------------------------------------------------------------------------| ------------------------- | ----------------------------------- | ------------------- |-----------------------------|-------------------------|-----------------| -------------- |----------------|
+| [Prokaryotic](https://github.com/mbrbic/MultiViewLRSSC/tree/master/datasets)                           | 3                         | 4                                   | 551                 | 438                         | 3                       | 393             |                |                |
+| [Wikipedia](http://www.svcl.ucsd.edu/projects/crossmodal/)                                      | 2                         | 10                                  | 693/2866            | image                       | article                 |                 |                |                |
+| [BDGP](https://doi.org/10.1016/j.ins.2020.12.073)                                                                                        | 5                         |                                     | 2500                | Visual(1750)                | Textual(79)             |                 |                |                |
+| [NNSpt](http://vision.princeton.edu/projects/2010/SUN/)                                         | 2                         | 2                                   | 840                 | image(1024)                 | TF-IDF(296)             |                 |                |                |
+| [SentencesNYU  v2 (RGB-D)](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)            | 2                         | 13                                  | 1449                | image (2048)                | text (300)              |                 |                |                |
+| [VOC](https://deepai.org/dataset/pascal-voc)                                                    | 2                         | 20                                  | 5,649               | Image: Gist (512)           | Text (399)              |                 |                |                |
+| [NUS-WIDE-C5](NWC)                                                                              | 2                         | 5                                   | 4000                | visual codeword vector(500) | annotation vector(1000) |                 |                |                |
+| [MIR Flickr  1M](https://press.liacs.nl/mirflickr/mirdownload.html)                             | 4                         | 10                                  | 2000                | HOG(300)                    | LBP(50)                 | HSV CORRH (114) | TF-IDF(60)     |                |
+| [DTHC](http://www.escience.cn/people/huyongli/Dongzhimen.html)                                  | 3 cameras                 | Dispersing from  the center quickly | 3 video sequences   | 151 frames/video            | resolution 135 × 240    |                 |                |                |
+| [Lab](https://cvlab.epflfl.ch/data/data-pom-index-php/)                                         | 4 cameras                 | 4 people                            | 16 video sequences  | 3915 frames/video           | resolution 144 ×180     |                 |                |                |
+| [CMU  Mobo(CAGL)](https://www.ri.cmu.edu/publications/the-cmu-motion-of-body-mobo-database/)    | 4 videos                  | 24 objects                          | 96 video sequences  | about 300 frames/video      | resolution 40´40        |                 |                |                |
+| [Honda/UCSD(CAGL)](http://vision.ucsd.edu/~iskwak/HondaUCSDVideoDatabase/HondaUCSD.html)        | at least 2 videos/ person | 20 objects                          | 59 video sequences  | 12 to 645 frames/video      | resolution 20´20        |                 |                |                |
+| [YouTubeFace_sel](http://www.cs.tau.ac.il/~wolf/ytfaces/)                                       | 5                         | 31                                  | 101499              | 64                          | 512                     | 64              | 647            | 838            |
+| [CCV](https://www.ee.columbia.edu/ln/dvmm/https:/press.liacs.nl/mirflickr/mirdownload.htmlCCV/) | 3                         | 20                                  | 6773 YouTube videos | SIFT(5000)                  | STIP(5000)              | MFCC(4000)      |                |                |
 
