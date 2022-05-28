@@ -22,6 +22,29 @@ and visual frames, e) multilingual documents have one view in each language.
 
 --------------
 
+## What's Incomplete Multi-view data?
+
+Multi-view data may be complete or incomplete. The complete multi-view data means that each feature has been collected
+and each sample appears in each view, while incomplete multi-view data indicates that some data samples could be missing
+their observation on some views (i.e., missing samples) or could be available only for their partial features (i.e.,
+missing feature). (Zhao, Lyu et al. 2022) gave several specific examples, for example, in multi-lingual documents
+clustering task, documents are translated into different languages to denote different views, but many documents may
+have only one or two language versions due to the difficulties to obtain documents in each language; in social
+multimedia, some sample may miss visual or audio information due to sensor failure; in health informatics, some patients
+may not take certain lab tests to cause missing views or missing values; in video surveillance, some views are missing
+due to the cameras for these views are out of action or suffer from occlusions. (Zong, Miao et al. 2021) also considered
+the case of missing clusters, i.e. some clusters may be missing in some views. Figure 2 illustrates the cases of missing
+samples and missing clusters, where the samples in the same cluster are represented by the same shape but distinguished
+by color, the marker “×” means missing samples and missing clusters. In Figure 2. (a), clusters and instances are
+complete; in Figure 2. (b), clusters are complete but four samples are missing; while in Figure 2. (c), two clusters and
+two samples are missing.
+
+<div  align="center">    
+    <img src="./img/imvcdata.png" width=60% />
+</div>
+
+--------------
+
 ## What's Multi-view clustering?
 
 Multi-view clustering (MVC) aims to group samples (objects/instances/points) with similar structures or patterns into
@@ -38,7 +61,11 @@ information of different views and searching for consistent clusters across diff
 For these multi-view clustering methods, they commonly require that all views of data are complete. However, the
 requirement is often impossible to satisfy because it is often the case that some views of samples are missing in the
 real-world applications, especially in the applications of disease diagnosing and webpage clustering. This incomplete
-problem of views leads to the failure of the conventional multi-view methods.
+problem of views leads to the failure of the conventional multi-view methods. The problem of clustering incomplete
+multi-view data is known as incomplete multi-view clustering (IMVC) (or partial multi-view clustering) (Hu and Chen
+2019). The purpose of IMVC is to group these multi-view data points with incomplete feature views into different
+clusters by using the observed data instances in different views. IMVC consists of missing multi-view clustering,
+uncertain multi-view clustering, and incremental multi-view clustering.
 
 
 --------------

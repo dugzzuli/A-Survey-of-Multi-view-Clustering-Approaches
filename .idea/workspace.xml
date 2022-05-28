@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff9fa042-2a84-42f9-b3bd-b0218c8421d1" name="Default Changelist" comment="数据集信息补充">
+    <list default="true" id="ff9fa042-2a84-42f9-b3bd-b0218c8421d1" name="Default Changelist" comment="增加目录一致性和互补性">
+      <change afterPath="$PROJECT_DIR$/img/imvcdata.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,16 +60,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Onedrive\codesyn\A-Survey-of-Multi-view-Clustering-Approaches\img" />
       <recent name="D:\迅雷下载\A-Survey-of-Multi-view-Clustering-Approaches\utils" />
       <recent name="D:\迅雷下载\A-Survey-of-Multi-view-Clustering-Approaches\Dataset" />
       <recent name="D:\迅雷下载\A-Survey-of-Multi-view-Clustering-Approaches" />
       <recent name="D:\迅雷下载\A-Survey-of-Multi-view-Clustering-Approaches\Database" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Python.demo">
@@ -199,7 +201,7 @@
       <workItem from="1653574651424" duration="9962000" />
       <workItem from="1653660423968" duration="1086000" />
       <workItem from="1653702540006" duration="2043000" />
-      <workItem from="1653704650663" duration="13247000" />
+      <workItem from="1653704650663" duration="14296000" />
     </task>
     <task id="LOCAL-00001" summary="增加代码">
       <created>1653575853991</created>
@@ -299,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653714748960</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="增加目录一致性和互补性">
+      <created>1653725602929</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1653725602929</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,18 +334,8 @@
     <MESSAGE value="优化" />
     <MESSAGE value="修改数据集" />
     <MESSAGE value="数据集信息补充" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据集信息补充" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/demo.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="增加目录一致性和互补性" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加目录一致性和互补性" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/A_Survey_of_Multi_view_Clustering_Approaches$runMainDMGIDDC.coverage" NAME="runMainDMGIDDC Coverage Results" MODIFIED="1653575729619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

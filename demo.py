@@ -30,8 +30,6 @@ if __name__ == '__main__':
     parser.add_argument('--Weight', nargs='?', default=config['Weight'])
     args, unknown = parser.parse_known_args()
 
-
-
     rownetworks, truefeatures_list, labels, idx_train = process.load_data_mv(args, Unified=False)
 
     args.rownetworks, args.truefeatures_list, args.labels, args.idx_train = rownetworks, truefeatures_list, labels, idx_train
