@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff9fa042-2a84-42f9-b3bd-b0218c8421d1" name="Default Changelist" comment="增加标题">
+    <list default="true" id="ff9fa042-2a84-42f9-b3bd-b0218c8421d1" name="Default Changelist" comment="提交目录">
+      <change afterPath="$PROJECT_DIR$/Database/3sources/Desc.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/3sources/W1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/3sources/W2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/3sources/W3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Incomplete and complete Multi-view clustering.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +73,9 @@
       <recent name="D:\迅雷下载\A-Survey-of-Multi-view-Clustering-Approaches\Dataset" />
       <recent name="D:\迅雷下载\A-Survey-of-Multi-view-Clustering-Approaches" />
       <recent name="D:\迅雷下载\A-Survey-of-Multi-view-Clustering-Approaches\Database" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Onedrive\codesyn\A-Survey-of-Multi-view-Clustering-Approaches\Database\3sources" />
     </key>
   </component>
   <component name="RunManager" selected="Python.demo">
@@ -200,7 +208,7 @@
       <workItem from="1653660423968" duration="1086000" />
       <workItem from="1653702540006" duration="2043000" />
       <workItem from="1653704650663" duration="19189000" />
-      <workItem from="1653811362500" duration="3670000" />
+      <workItem from="1653811362500" duration="5673000" />
     </task>
     <task id="LOCAL-00001" summary="增加代码">
       <created>1653575853991</created>
@@ -342,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653814375689</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="提交目录">
+      <created>1653816456903</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1653816456903</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +387,8 @@
     <MESSAGE value="补充一些基本内容" />
     <MESSAGE value="调整结构" />
     <MESSAGE value="增加标题" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加标题" />
+    <MESSAGE value="提交目录" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交目录" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/A_Survey_of_Multi_view_Clustering_Approaches$runMainDMGIDDC.coverage" NAME="runMainDMGIDDC Coverage Results" MODIFIED="1653575729619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
