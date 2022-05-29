@@ -84,6 +84,7 @@ two clusters and two samples are missing.
 
 <div  align="center">    
     <img src="./img/imvcdata.png" width=60% />
+    <div>Figure 2: incomplete multi-view data</div>
 </div>
 
 --------------
