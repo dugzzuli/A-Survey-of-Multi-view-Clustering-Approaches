@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff9fa042-2a84-42f9-b3bd-b0218c8421d1" name="Default Changelist" comment="增加每个数据集，所使用的论文">
-      <change afterPath="$PROJECT_DIR$/Database/100leaves/Desc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/3sources/Desc.md" beforeDir="false" afterPath="$PROJECT_DIR$/Database/3sources/Desc.md" afterDir="false" />
+    <list default="true" id="ff9fa042-2a84-42f9-b3bd-b0218c8421d1" name="Default Changelist" comment="增加数据集描述">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +202,7 @@
       <workItem from="1653660423968" duration="1086000" />
       <workItem from="1653702540006" duration="2043000" />
       <workItem from="1653704650663" duration="19189000" />
-      <workItem from="1653811362500" duration="7489000" />
+      <workItem from="1653811362500" duration="7823000" />
     </task>
     <task id="LOCAL-00001" summary="增加代码">
       <created>1653575853991</created>
@@ -361,7 +358,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653820347640</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="增加数据集秘书">
+      <created>1653824615863</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1653824615863</updated>
+    </task>
+    <task id="LOCAL-00024" summary="增加数据集描述">
+      <created>1653824630800</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1653824630800</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,7 +404,9 @@
     <MESSAGE value="增加标题" />
     <MESSAGE value="提交目录" />
     <MESSAGE value="增加每个数据集，所使用的论文" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加每个数据集，所使用的论文" />
+    <MESSAGE value="增加数据集秘书" />
+    <MESSAGE value="增加数据集描述" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加数据集描述" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/A_Survey_of_Multi_view_Clustering_Approaches$runMainDMGIDDC.coverage" NAME="runMainDMGIDDC Coverage Results" MODIFIED="1653575729619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
