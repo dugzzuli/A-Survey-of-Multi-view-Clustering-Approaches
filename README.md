@@ -96,6 +96,7 @@ the same group (cluster) and samples with dissimilar ones into different groups 
 information of different views and searching for consistent clusters across different views.
 <div  align="center">    
     <img src="./img/clustering.png" width=80% />
+    <div>Figure 3: multi-view clustering</div>
 </div>
 
 --------------
@@ -129,7 +130,8 @@ intuitively the complementary and consensus principles by mapping a data sample 
 where part A and part C exist in view 1 and view 2 respectively, indicating the complementarity of two views; meanwhile,
 part B is shared by both views, showing the consensus between two views.
 <div  align="center">    
-    <img src="./img/cc_MVC.png" width=80% />
+    <img src="./img/cc_MVC.png" width=60% />
+    <div>Figure 4: multi-view principles</div>
 </div>
 
 
