@@ -10,7 +10,7 @@ entertainment, health, politics, sport and technology.
 | 3-Sources | 169 | 3 | 6 |3,560| 3,631| 3,068|
 
 --------------------------------------------------------
-
+ 
 # Papers
 
 1. Gao J, Han J, Liu J, et al. Multi-View Clustering via Joint Nonnegative Matrix Factorization[C]. Proceedings of the
