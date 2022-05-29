@@ -4,12 +4,14 @@ This reporsity is a collection of state-of-the-art (SOTA), novel incomplete and 
 codes and datasets). Any problems, please contact lhzhou@ynu.edu.cn, dugking@mail.ynu.edu.cn and lu983760699@gmail.com.
 If you find this repository useful to your research or work, it is really appreciated to star this repository. :heart:
 
+----------------
+
 - [PRELIMINARIES]
-  - [What's Multi-view data?]
-  - [What's Incomplete Multi-view data?]
-  - [What's Multi-view clustering?]
-  - [What's incomplete Multi-view clsutering?]
-  - [Principles related to MVC]
+    - [What's Multi-view data?]
+    - [What's Incomplete Multi-view data?]
+    - [What's Multi-view clustering?]
+    - [What's incomplete Multi-view clsutering?]
+    - [Principles related to MVC]
 - [Survey papers]
 - [Papers]
     - [The information fusion strategy]
@@ -48,6 +50,7 @@ If you find this repository useful to your research or work, it is really apprec
         - [Rest of data (Text-gene、Image-text and Video)]
 
 --------------
+
 ## What's Multi-view data?
 
 Multi-view data means that the same sample is described from different perspectives, and each perspective describes a
@@ -102,7 +105,6 @@ information of different views and searching for consistent clusters across diff
 --------------
 
 ## What's incomplete Multi-view clsutering?
-
 For these multi-view clustering methods, they commonly require that all views of data are complete. However, the
 requirement is often impossible to satisfy because it is often the case that some views of samples are missing in the
 real-world applications, especially in the applications of disease diagnosing and webpage clustering. This incomplete
@@ -111,7 +113,6 @@ multi-view data is known as incomplete multi-view clustering (IMVC) (or partial 
 2019). The purpose of IMVC is to group these multi-view data points with incomplete feature views into different
 clusters by using the observed data instances in different views. IMVC consists of missing multi-view clustering,
 uncertain multi-view clustering, and incremental multi-view clustering.
-
 
 --------------
 
@@ -125,21 +126,19 @@ other views (e.g. one view shows the side of a dog and the other shows the front
 more complete depiction of the dog). Therefore, the consensus principle aims to maximize the agreement across multiple
 distinct views for improving the understanding of the commonness of the observed samples, while the complementary
 principle states that in a multi-view context, each view of the data may contain some particular knowledge that other
-views do not have, and this particular knowledge can mutually complement to each other. (Yang and Wang 2018) illustrated
-intuitively the complementary and consensus principles by mapping a data sample with two views into a latent data space,
-where part A and part C exist in view 1 and view 2 respectively, indicating the complementarity of two views; meanwhile,
-part B is shared by both views, showing the consensus between two views.
+views do not have, and this particular knowledge can mutually complement to each
+other. [(Yang and Wang 2018)](https://ieeexplore.ieee.org/abstract/document/8336846) illustrated intuitively the
+complementary and consensus principles by mapping a data sample with two views into a latent data space, where part A
+and part C exist in view 1 and view 2 respectively, indicating the complementarity of two views; meanwhile, part B is
+shared by both views, showing the consensus between two views.
 <div  align="center">    
     <img src="./img/cc_MVC.png" width=60% />
     <div>Figure 4: multi-view principles</div>
 </div>
 
-
-
 --------------
 
 # Papers
-
 
 <a name="surveypapers" />
 
