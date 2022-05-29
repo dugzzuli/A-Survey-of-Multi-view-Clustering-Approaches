@@ -59,7 +59,7 @@ information, c) images of a 3D sample taken from different viewpoints, d) video 
 and visual frames, e) multilingual documents have one view in each language.
 <div  align="center">    
     <img src="./img/data.png" width=50%  />
-    <span style="display: block">Figure 1: multi-view data</span>
+    <div>Figure 1: multi-view data</div>
 </div>
 
 --------------
