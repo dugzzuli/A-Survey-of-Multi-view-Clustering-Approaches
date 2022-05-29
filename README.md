@@ -4,9 +4,50 @@ This reporsity is a collection of state-of-the-art (SOTA), novel incomplete and 
 codes and datasets). Any problems, please contact lhzhou@ynu.edu.cn, dugking@mail.ynu.edu.cn and lu983760699@gmail.com.
 If you find this repository useful to your research or work, it is really appreciated to star this repository. :heart:
 
+- [PRELIMINARIES]
+  - [What's Multi-view data?]
+  - [What's Incomplete Multi-view data?]
+  - [What's Multi-view clustering?]
+  - [What's incomplete Multi-view clsutering?]
+  - [Principles related to MVC]
+- [Survey papers]
+- [Papers]
+    - [The information fusion strategy]
+        - [early-fusion]
+        - [Late fusion]
+    - [The clustering routine]
+        - [One-step routine]
+        - [two-step routine]
+    - [The weighting strategy]
+    - [COMPLETE MULTI-VIEW CLUSTERING]
+        - [Spectral clustering-based approaches]
+        - [Co-regularization and co-training spectral clustering]
+        - [Constrained spectral clustering]
+        - [Fast spectral clustering]
+        - [NMF-based approaches]
+        - [Fast NMF]
+        - [Deep NMF]
+        - [Multiple kernel learning]
+        - [Graph learning]
+        - [Embedding learning]
+        - [Alignment learning]
+        - [Subspace learning]
+        - [Self-paced learning]
+        - [Co-Clustering-based approaches]
+        - [Multi-task-based approaches]
+    - [Incomplete Multi-view clustering]
+        - [Imputation-based IMVC Incomplete Multi-view clustering]
+        - [Transformation-based IMVC]
+        - [The unified IMVC]
+        - [Uncertain multi-view clustering]
+        - [Incremental multi-view clustering]
+    - [Code]
+    - [Benchmark Datasets]
+        - [Text Datasets]
+        - [Image Datasets]
+        - [Rest of data (Text-gene、Image-text and Video)]
 
 --------------
-
 ## What's Multi-view data?
 
 Multi-view data means that the same sample is described from different perspectives, and each perspective describes a
@@ -17,7 +58,8 @@ represented by its url and words on the page, b) a web image is depicted by its 
 information, c) images of a 3D sample taken from different viewpoints, d) video clips are combinations of audio signals
 and visual frames, e) multilingual documents have one view in each language.
 <div  align="center">    
-    <img src="./img/data.png" width=60% />
+    <img src="./img/data.png" width=50%  />
+    <span style="display: block">Figure 1: multi-view data</span>
 </div>
 
 --------------
@@ -27,17 +69,18 @@ and visual frames, e) multilingual documents have one view in each language.
 Multi-view data may be complete or incomplete. The complete multi-view data means that each feature has been collected
 and each sample appears in each view, while incomplete multi-view data indicates that some data samples could be missing
 their observation on some views (i.e., missing samples) or could be available only for their partial features (i.e.,
-missing feature). (Zhao, Lyu et al. 2022) gave several specific examples, for example, in multi-lingual documents
-clustering task, documents are translated into different languages to denote different views, but many documents may
-have only one or two language versions due to the difficulties to obtain documents in each language; in social
-multimedia, some sample may miss visual or audio information due to sensor failure; in health informatics, some patients
-may not take certain lab tests to cause missing views or missing values; in video surveillance, some views are missing
-due to the cameras for these views are out of action or suffer from occlusions. (Zong, Miao et al. 2021) also considered
-the case of missing clusters, i.e. some clusters may be missing in some views. Figure 2 illustrates the cases of missing
-samples and missing clusters, where the samples in the same cluster are represented by the same shape but distinguished
-by color, the marker “×” means missing samples and missing clusters. In Figure 2. (a), clusters and instances are
-complete; in Figure 2. (b), clusters are complete but four samples are missing; while in Figure 2. (c), two clusters and
-two samples are missing.
+missing feature). [(Zhao, Lyu et al. 2022)](https://link.springer.com/article/10.1007/s10489-021-02417-z) gave several
+specific examples, for example, in multi-lingual documents clustering task, documents are translated into different
+languages to denote different views, but many documents may have only one or two language versions due to the
+difficulties to obtain documents in each language; in social multimedia, some sample may miss visual or audio
+information due to sensor failure; in health informatics, some patients may not take certain lab tests to cause missing
+views or missing values; in video surveillance, some views are missing due to the cameras for these views are out of
+action or suffer from occlusions. [(Zong, Miao et al. 2021)](https://doi.org/10.1016/j.knosys.2020.106615) also
+considered the case of missing clusters, i.e. some clusters may be missing in some views. Figure 2 illustrates the cases
+of missing samples and missing clusters, where the samples in the same cluster are represented by the same shape but
+distinguished by color, the marker “×” means missing samples and missing clusters. In Figure 2. (a), clusters and
+instances are complete; in Figure 2. (b), clusters are complete but four samples are missing; while in Figure 2. (c),
+two clusters and two samples are missing.
 
 <div  align="center">    
     <img src="./img/imvcdata.png" width=60% />
@@ -72,64 +115,28 @@ uncertain multi-view clustering, and incremental multi-view clustering.
 
 ## Principles related to MVC
 
-There are two significant principles ensuring the effectiveness of MVC: consensus and complementary principles (Xu, Tao
-et al. 2013). The consistent of multi-view data means that there is some common knowledge across different views (e.g.
-both two pictures about dogs have contour and facial features), while the complementary of multi-view data refers to
-some unique knowledge contained in each view that is not available in other views (e.g. one view shows the side of a dog
-and the other shows the front of the dog, these two views allow for a more complete depiction of the dog). Therefore,
-the consensus principle aims to maximize the agreement across multiple distinct views for improving the understanding of
-the commonness of the observed samples, while the complementary principle states that in a multi-view context, each view
-of the data may contain some particular knowledge that other views do not have, and this particular knowledge can
-mutually complement to each other. (Yang and Wang 2018) illustrated intuitively the complementary and consensus
-principles by mapping a data sample with two views into a latent data space, shown in Figure 3, where part A and part C
-exist in view 1 and view 2 respectively, indicating the complementarity of two views; meanwhile, part B is shared by
-both views, showing the consensus between two views.
+There are two significant principles ensuring the effectiveness of MVC: consensus and complementary
+principles [Xu, Tao et al. 2013](https://arxiv.org/abs/1304.5634). The consistent of multi-view data means that there is
+some common knowledge across different views (e.g. both two pictures about dogs have contour and facial features), while
+the complementary of multi-view data refers to some unique knowledge contained in each view that is not available in
+other views (e.g. one view shows the side of a dog and the other shows the front of the dog, these two views allow for a
+more complete depiction of the dog). Therefore, the consensus principle aims to maximize the agreement across multiple
+distinct views for improving the understanding of the commonness of the observed samples, while the complementary
+principle states that in a multi-view context, each view of the data may contain some particular knowledge that other
+views do not have, and this particular knowledge can mutually complement to each other. (Yang and Wang 2018) illustrated
+intuitively the complementary and consensus principles by mapping a data sample with two views into a latent data space,
+where part A and part C exist in view 1 and view 2 respectively, indicating the complementarity of two views; meanwhile,
+part B is shared by both views, showing the consensus between two views.
 <div  align="center">    
     <img src="./img/cc_MVC.png" width=80% />
 </div>
 
 
+
 --------------
 
-## Contents
+# Papers
 
-- [Survey papers]
-- [Papers]
-    - [PRELIMINARIES]
-        - [The information fusion strategy]
-            - [early-fusion]
-            - [Late fusion]
-        - [The clustering routine]
-            - [One-step routine]
-            - [two-step routine]
-        - [The weighting strategy]
-    - [COMPLETE MULTI-VIEW CLUSTERING]
-        - [Spectral clustering-based approaches]
-        - [Co-regularization and co-training spectral clustering]
-        - [Constrained spectral clustering]
-        - [Fast spectral clustering]
-        - [NMF-based approaches]
-        - [Fast NMF]
-        - [Deep NMF]
-        - [Multiple kernel learning]
-        - [Graph learning]
-        - [Embedding learning]
-        - [Alignment learning]
-        - [Subspace learning]
-        - [Self-paced learning]
-        - [Co-Clustering-based approaches]
-        - [Multi-task-based approaches]
-    - [Incomplete Multi-view clustering]
-        - [Imputation-based IMVC Incomplete Multi-view clustering]
-        - [Transformation-based IMVC]
-        - [The unified IMVC]
-        - [Uncertain multi-view clustering]
-        - [Incremental multi-view clustering]
-    - [Code]
-    - [Benchmark Datasets]
-        - [Text Datasets]
-        - [Image Datasets]
-        - [Rest of data (Text-gene、Image-text and Video)]
 
 <a name="surveypapers" />
 
@@ -144,8 +151,6 @@ both views, showing the consensus between two views.
 4. **A Survey on Multi-view Learning** \[[paper](https://arxiv.org/abs/1304.5634 )]
 
 5. **Multi-view clustering: A survey** \[[paper](https://ieeexplore.ieee.org/document/8336846)]
-
-## Papers
 
 # The information fusion strategy
 
