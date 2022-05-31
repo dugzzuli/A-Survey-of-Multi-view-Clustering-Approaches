@@ -33,7 +33,7 @@ If you find this repository useful to your research or work, it is really apprec
     - [What's Multi-view data?](#whats-multi-view-data)
     - [What's Incomplete Multi-view data?](#whats-incomplete-multi-view-data)
     - [What's Multi-view clustering?](#whats-multi-view-clustering)
-    - [What's incomplete Multi-view clsutering?](#what-incomplete-multi-view-clsutering)
+    - [What's incomplete Multi-view clsutering?](#whats-incomplete-multi-view-clsutering)
     - [Principles related to MVC](#principles-related-to-mvc)
 - [Survey papers](#survey-papers)
 - [Papers](#papers)
