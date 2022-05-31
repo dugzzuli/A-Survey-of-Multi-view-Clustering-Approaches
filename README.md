@@ -30,8 +30,8 @@ If you find this repository useful to your research or work, it is really apprec
 ## Contents
 
 - [PRELIMINARIES]
-    - [What's Multi-view data?](#whats-multi-view-data?)
-    - [What's Incomplete Multi-view data?](#whats-incomplete-multi-view-data?)
+    - [What's Multi-view data?](# whats-multi-view-data?)
+    - [What's Incomplete Multi-view data?](# whats-incomplete-multi-view-data?)
     - [What's Multi-view clustering?]
     - [What's incomplete Multi-view clsutering?]
     - [Principles related to MVC]
