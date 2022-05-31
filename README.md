@@ -29,14 +29,14 @@ If you find this repository useful to your research or work, it is really apprec
 
 ## Contents
 
-- [PRELIMINARIES]
+- [PRELIMINARIES](#preliminaries)
     - [What's Multi-view data?](#whats-multi-view-data)
     - [What's Incomplete Multi-view data?](#whats-incomplete-multi-view-data)
     - [What's Multi-view clustering?](#whats-multi-view-clustering)
     - [What's incomplete Multi-view clsutering?](#what-incomplete-multi-view-clsutering)
     - [Principles related to MVC](#principles-related-to-mvc)
 - [Survey papers](#survey-papers)
-- [Papers]
+- [Papers](#papers)
     - [The information fusion strategy](#the-information-fusion-strategy)
         - [early-fusion](#early-fusion)
         - [Late fusion](#late-fusion)
@@ -66,7 +66,7 @@ If you find this repository useful to your research or work, it is really apprec
         - [The unified IMVC](#the-unified-imvc)
         - [Uncertain multi-view clustering](#uncertain-multi-view-clustering)
         - [Incremental multi-view clustering](#incremental-multi-view-clustering)
-    - [Code]
+    - [Code](#code)
     - [Benchmark Datasets](#benchmark-datasets)
         - [Text Datasets](#text-datasets)
         - [Image Datasets](#image-datasets)
