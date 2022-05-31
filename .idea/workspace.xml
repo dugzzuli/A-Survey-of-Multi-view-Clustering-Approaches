@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff9fa042-2a84-42f9-b3bd-b0218c8421d1" name="Default Changelist" comment="增加数据集描述">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="ff9fa042-2a84-42f9-b3bd-b0218c8421d1" name="Default Changelist" comment="增加数据集描述" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -202,7 +200,7 @@
       <workItem from="1653660423968" duration="1086000" />
       <workItem from="1653702540006" duration="2043000" />
       <workItem from="1653704650663" duration="19189000" />
-      <workItem from="1653811362500" duration="8215000" />
+      <workItem from="1653811362500" duration="8270000" />
     </task>
     <task id="LOCAL-00001" summary="增加代码">
       <created>1653575853991</created>
@@ -379,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653824796971</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="增加数据集描述">
+      <created>1653825194043</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1653825194043</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

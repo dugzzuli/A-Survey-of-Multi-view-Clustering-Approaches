@@ -6,6 +6,20 @@ If you find this repository useful to your research or work, it is really apprec
 
 ----------------
 
+## Recent Papers
+
+### Multi-view clustering
+
+1. Wang, Siwei & Liu, Xinwang & Liu, Suyuan & Jin, Jiaqi & Wenxuan, Tu & Zhu, Xinzhong & Zhu, En. (2022). Align then
+Fusion: Generalized Large-scale Multi-view Clustering with Anchor Matching Correspondences.
+
+### Incomplete Multi-view clustering
+
+1. Chen, Runze & Wen, Jie & Chen, Xiaoyue & Xu, Yong. (2020). Graph embedded incomplete multi-view clustering method
+   with proximity relation estimation. The Journal of Engineering. 2020. 10.1049/joe.2019.1164.
+
+----------------
+
 ## Contents
 
 - [PRELIMINARIES]
@@ -107,6 +121,7 @@ information of different views and searching for consistent clusters across diff
 --------------
 
 ## What's incomplete Multi-view clsutering?
+
 For these multi-view clustering methods, they commonly require that all views of data are complete. However, the
 requirement is often impossible to satisfy because it is often the case that some views of samples are missing in the
 real-world applications, especially in the applications of disease diagnosing and webpage clustering. This incomplete
