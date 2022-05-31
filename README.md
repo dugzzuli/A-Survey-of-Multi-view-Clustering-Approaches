@@ -33,44 +33,44 @@ If you find this repository useful to your research or work, it is really apprec
     - [What's Multi-view data?](#whats-multi-view-data)
     - [What's Incomplete Multi-view data?](#whats-incomplete-multi-view-data)
     - [What's Multi-view clustering?](#whats-multi-view-clustering)
-    - [What's incomplete Multi-view clsutering?]
-    - [Principles related to MVC]
-- [Survey papers]
+    - [What's incomplete Multi-view clsutering?](#what-incomplete-multi-view-clsutering)
+    - [Principles related to MVC](#principles-related-to-mvc)
+- [Survey papers](#survey-papers)
 - [Papers]
-    - [The information fusion strategy]
-        - [early-fusion]
-        - [Late fusion]
-    - [The clustering routine]
-        - [One-step routine]
-        - [two-step routine]
-    - [The weighting strategy]
-    - [COMPLETE MULTI-VIEW CLUSTERING]
-        - [Spectral clustering-based approaches]
-        - [Co-regularization and co-training spectral clustering]
-        - [Constrained spectral clustering]
-        - [Fast spectral clustering]
-        - [NMF-based approaches]
-        - [Fast NMF]
-        - [Deep NMF]
-        - [Multiple kernel learning]
-        - [Graph learning]
-        - [Embedding learning]
-        - [Alignment learning]
-        - [Subspace learning]
-        - [Self-paced learning]
-        - [Co-Clustering-based approaches]
-        - [Multi-task-based approaches]
-    - [Incomplete Multi-view clustering]
-        - [Imputation-based IMVC Incomplete Multi-view clustering]
-        - [Transformation-based IMVC]
-        - [The unified IMVC]
-        - [Uncertain multi-view clustering]
-        - [Incremental multi-view clustering]
+    - [The information fusion strategy](#the-information-fusion-strategy)
+        - [early-fusion](#early-fusion)
+        - [Late fusion](#late-fusion)
+    - [The clustering routine](#the-clustering-routine)
+        - [One-step routine](#one-step-routine)
+        - [two-step routine](#two-step-routine)
+    - [The weighting strategy](#the-weighting-strategy)
+    - [COMPLETE MULTI-VIEW CLUSTERING](#complete-multi-view-clustering)
+        - [Spectral clustering-based approaches](#spectral-clustering-based-approaches)
+        - [Co-regularization and co-training spectral clustering](#co-regularization-and-co-training-spectral-clustering)
+        - [Constrained spectral clustering](#constrained-spectral-clustering)
+        - [Fast spectral clustering](#fast-spectral-clustering)
+        - [NMF-based approaches](#nmf-based-approaches)
+        - [Fast NMF](#fast-nmf)
+        - [Deep NMF](#deep-nmf)
+        - [Multiple kernel learning](#multiple-kernel-learning)
+        - [Graph learning](#graph-learning)
+        - [Embedding learning](#embedding-learning)
+        - [Alignment learning](#alignment-learning)
+        - [Subspace learning](#subspace-learning)
+        - [Self-paced learning](#self-paced-learning)
+        - [Co-Clustering-based approaches](#co-clustering-based-approaches)
+        - [Multi-task-based approaches](#multi-task-based-approaches)
+    - [Incomplete Multi-view clustering](#incomplete-multi-view-clustering)
+        - [Imputation-based IMVC Incomplete Multi-view clustering](#imputation-based-imvc-incomplete-multi-view-clustering)
+        - [Transformation-based IMVC](#transformation-based-imvc)
+        - [The unified IMVC](#the-unified-imvc)
+        - [Uncertain multi-view clustering](#uncertain-multi-view-clustering)
+        - [Incremental multi-view clustering](#incremental-multi-view-clustering)
     - [Code]
-    - [Benchmark Datasets]
-        - [Text Datasets]
-        - [Image Datasets]
-        - [Rest of data (Text-gene、Image-text and Video)]
+    - [Benchmark Datasets](#benchmark-datasets)
+        - [Text Datasets](#text-datasets)
+        - [Image Datasets](#image-datasets)
+        - [Rest of data (Text-gene、Image-text and Video)](#3rest-of-data-text-geneimage-text-and-video)
 
 --------------
 
