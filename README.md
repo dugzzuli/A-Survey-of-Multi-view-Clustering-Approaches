@@ -30,7 +30,7 @@ If you find this repository useful to your research or work, it is really apprec
 ## Contents
 
 - [PRELIMINARIES]
-    - [What's Multi-view data?](## What's Multi-view data?)
+    - [What's Multi-view data?](#Whats-multi-view-data?)
     - [What's Incomplete Multi-view data?]
     - [What's Multi-view clustering?]
     - [What's incomplete Multi-view clsutering?]
