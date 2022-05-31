@@ -6,19 +6,26 @@ If you find this repository useful to your research or work, it is really apprec
 
 ----------------
 
-## Recent Papers
+[//]: # (## Recent Papers)
 
-### Multi-view clustering
+[//]: # ()
+[//]: # (### Multi-view clustering)
 
-1. Wang, Siwei & Liu, Xinwang & Liu, Suyuan & Jin, Jiaqi & Wenxuan, Tu & Zhu, Xinzhong & Zhu, En. (2022). Align then
-Fusion: Generalized Large-scale Multi-view Clustering with Anchor Matching Correspondences.
+[//]: # ()
+[//]: # (1. Wang, Siwei & Liu, Xinwang & Liu, Suyuan & Jin, Jiaqi & Wenxuan, Tu & Zhu, Xinzhong & Zhu, En. &#40;2022&#41;. Align then)
 
-### Incomplete Multi-view clustering
+[//]: # (Fusion: Generalized Large-scale Multi-view Clustering with Anchor Matching Correspondences.)
 
-1. Chen, Runze & Wen, Jie & Chen, Xiaoyue & Xu, Yong. (2020). Graph embedded incomplete multi-view clustering method
-   with proximity relation estimation. The Journal of Engineering. 2020. 10.1049/joe.2019.1164.
+[//]: # ()
+[//]: # (### Incomplete Multi-view clustering)
 
-----------------
+[//]: # ()
+[//]: # (1. Chen, Runze & Wen, Jie & Chen, Xiaoyue & Xu, Yong. &#40;2020&#41;. Graph embedded incomplete multi-view clustering method)
+
+[//]: # (   with proximity relation estimation. The Journal of Engineering. 2020. 10.1049/joe.2019.1164.)
+
+[//]: # ()
+[//]: # (----------------)
 
 ## Contents
 
