@@ -9,22 +9,27 @@ If you find this repository useful to your research or work, it is really apprec
 [//]: # (## Recent Papers)
 
 [//]: # ()
+
 [//]: # (### Multi-view clustering)
 
 [//]: # ()
+
 [//]: # (1. Wang, Siwei & Liu, Xinwang & Liu, Suyuan & Jin, Jiaqi & Wenxuan, Tu & Zhu, Xinzhong & Zhu, En. &#40;2022&#41;. Align then)
 
 [//]: # (Fusion: Generalized Large-scale Multi-view Clustering with Anchor Matching Correspondences.)
 
 [//]: # ()
+
 [//]: # (### Incomplete Multi-view clustering)
 
 [//]: # ()
+
 [//]: # (1. Chen, Runze & Wen, Jie & Chen, Xiaoyue & Xu, Yong. &#40;2020&#41;. Graph embedded incomplete multi-view clustering method)
 
 [//]: # (   with proximity relation estimation. The Journal of Engineering. 2020. 10.1049/joe.2019.1164.)
 
 [//]: # ()
+
 [//]: # (----------------)
 
 ## Contents
@@ -661,8 +666,10 @@ operation on the clustering results of individual views, to produce the final cl
 11. Unified tensor framework for incomplete multi-view clustering and missing-view
     inferring\[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/17231)|[code]]
 
-12. Incomplete multi-view clustering with cosine
-    similarity\[[paper](https://doi.org/10.1016/j.patcog.2021.108371)|[code]]
+12. Incomplete multi-view clustering with cosine similarity
+    \[[paper](https://doi.org/10.1016/j.patcog.2021.108371)|[code]]
+13. COMPLETER: Incomplete Multi-view Clustering via Contrastive Prediction
+    \[[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Lin_COMPLETER_Incomplete_Multi-View_Clustering_via_Contrastive_Prediction_CVPR_2021_paper.pdf)|[code](https://github.com/XLearning-SCU/2021-CVPR-Completer)]
 
 ## Transformation-based IMVC
 
