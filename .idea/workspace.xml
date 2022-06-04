@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff9fa042-2a84-42f9-b3bd-b0218c8421d1" name="Default Changelist" comment="去除最近" />
+    <list default="true" id="ff9fa042-2a84-42f9-b3bd-b0218c8421d1" name="Default Changelist" comment="add https://github.com/XLearning-SCU/2021-CVPR-Completer">
+      <change afterPath="$PROJECT_DIR$/Database/Caltech101-20/Desc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/CiteSeer/Desc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/Cora/Desc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/Cornell/Desc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/LandUse-21/Desc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/Noisy MNIST/Desc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/Scene-15/Desc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/Washington/Desc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/Wisconsin/Desc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,16 +66,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Database/Wisconsin" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Onedrive\codesyn\A-Survey-of-Multi-view-Clustering-Approaches\img" />
-      <recent name="D:\迅雷下载\A-Survey-of-Multi-view-Clustering-Approaches\utils" />
-      <recent name="D:\迅雷下载\A-Survey-of-Multi-view-Clustering-Approaches\Dataset" />
-      <recent name="D:\迅雷下载\A-Survey-of-Multi-view-Clustering-Approaches" />
-      <recent name="D:\迅雷下载\A-Survey-of-Multi-view-Clustering-Approaches\Database" />
+      <recent name="D:\Onedrive\codesyn\A-Survey-of-Multi-view-Clustering-Approaches\Database\Washington" />
+      <recent name="D:\Onedrive\codesyn\A-Survey-of-Multi-view-Clustering-Approaches\Database\Cornell" />
+      <recent name="D:\Onedrive\codesyn\A-Survey-of-Multi-view-Clustering-Approaches\Database\Cora" />
+      <recent name="D:\Onedrive\codesyn\A-Survey-of-Multi-view-Clustering-Approaches\Database\CiteSeer" />
+      <recent name="D:\Onedrive\codesyn\A-Survey-of-Multi-view-Clustering-Approaches\Database\Noisy MNIST" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Onedrive\codesyn\A-Survey-of-Multi-view-Clustering-Approaches\Database\3sources" />
@@ -203,6 +214,7 @@
       <workItem from="1653811362500" duration="8270000" />
       <workItem from="1653957909958" duration="382000" />
       <workItem from="1653961679752" duration="88000" />
+      <workItem from="1654331224359" duration="956000" />
     </task>
     <task id="LOCAL-00001" summary="增加代码">
       <created>1653575853991</created>
@@ -400,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653961756426</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add https://github.com/XLearning-SCU/2021-CVPR-Completer">
+      <created>1654331445770</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1654331445770</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +455,8 @@
     <MESSAGE value="增加数据集描述" />
     <MESSAGE value="增加recent papers" />
     <MESSAGE value="去除最近" />
-    <option name="LAST_COMMIT_MESSAGE" value="去除最近" />
+    <MESSAGE value="add https://github.com/XLearning-SCU/2021-CVPR-Completer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add https://github.com/XLearning-SCU/2021-CVPR-Completer" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/A_Survey_of_Multi_view_Clustering_Approaches$runMainDMGIDDC.coverage" NAME="runMainDMGIDDC Coverage Results" MODIFIED="1653575729619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
