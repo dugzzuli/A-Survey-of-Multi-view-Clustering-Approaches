@@ -726,9 +726,10 @@ operation on the clustering results of individual views, to produce the final cl
 
 <!-- 1.  \[[paper]()|[code]] -->
 
-- ## Database  :database files
+- ## Database  :database files 
 
     1. ### **3sources**: example data
+       1. "Desc.md" records which papers use the current dataset
 
 - ## Dataset : read data files
 
@@ -746,10 +747,9 @@ operation on the clustering results of individual views, to produce the final cl
 ## <span id="BenchmarkDataset">Benchmark Datasets</span>
 
 We also collect some datasets, which are uploaded to
-baiduyun. [address](https://pan.baidu.com/s/1OQF5JYJIOpKcIGb4LEOYcg) （code）xupk
+baiduyun. [address](https://pan.baidu.com/s/1OQF5JYJIOpKcIGb4LEOYcg) （code）xupk.
 
 ## 1.Text Datasets
-
 The text datasets consist of news dataset (3Sourses, BBC, BBCSport, Newsgroup), multilingual documents dataset (Reuters,
 Reuters-21578), citations dataset (Citeseer), WebKB webpage dataset (Cornell, Texas, Washington and Wisconsin),
 articles (Wikipedia), and diseases dataset (Derm).

@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff9fa042-2a84-42f9-b3bd-b0218c8421d1" name="Default Changelist" comment="add https://github.com/XLearning-SCU/2021-CVPR-Completer">
-      <change afterPath="$PROJECT_DIR$/Database/Caltech101-20/Desc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database/CiteSeer/Desc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database/Cora/Desc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database/Cornell/Desc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database/LandUse-21/Desc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database/Noisy MNIST/Desc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database/Scene-15/Desc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database/Washington/Desc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database/Wisconsin/Desc.md" afterDir="false" />
+    <list default="true" id="ff9fa042-2a84-42f9-b3bd-b0218c8421d1" name="Default Changelist" comment="add some datasets configuration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,11 +63,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Onedrive\codesyn\A-Survey-of-Multi-view-Clustering-Approaches\Database\Wisconsin" />
       <recent name="D:\Onedrive\codesyn\A-Survey-of-Multi-view-Clustering-Approaches\Database\Washington" />
       <recent name="D:\Onedrive\codesyn\A-Survey-of-Multi-view-Clustering-Approaches\Database\Cornell" />
       <recent name="D:\Onedrive\codesyn\A-Survey-of-Multi-view-Clustering-Approaches\Database\Cora" />
       <recent name="D:\Onedrive\codesyn\A-Survey-of-Multi-view-Clustering-Approaches\Database\CiteSeer" />
-      <recent name="D:\Onedrive\codesyn\A-Survey-of-Multi-view-Clustering-Approaches\Database\Noisy MNIST" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Onedrive\codesyn\A-Survey-of-Multi-view-Clustering-Approaches\Database\3sources" />
@@ -214,7 +206,9 @@
       <workItem from="1653811362500" duration="8270000" />
       <workItem from="1653957909958" duration="382000" />
       <workItem from="1653961679752" duration="88000" />
-      <workItem from="1654331224359" duration="956000" />
+      <workItem from="1654331224359" duration="3044000" />
+      <workItem from="1654408392505" duration="26000" />
+      <workItem from="1654528768184" duration="338000" />
     </task>
     <task id="LOCAL-00001" summary="增加代码">
       <created>1653575853991</created>
@@ -419,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654331445770</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="add some datasets configuration">
+      <created>1654332221166</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1654332221166</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +457,8 @@
     <MESSAGE value="增加recent papers" />
     <MESSAGE value="去除最近" />
     <MESSAGE value="add https://github.com/XLearning-SCU/2021-CVPR-Completer" />
-    <option name="LAST_COMMIT_MESSAGE" value="add https://github.com/XLearning-SCU/2021-CVPR-Completer" />
+    <MESSAGE value="add some datasets configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some datasets configuration" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/A_Survey_of_Multi_view_Clustering_Approaches$runMainDMGIDDC.coverage" NAME="runMainDMGIDDC Coverage Results" MODIFIED="1653575729619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
