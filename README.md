@@ -714,7 +714,7 @@ operation on the clustering results of individual views, to produce the final cl
 1. Incremental multi-view spectral clustering with sparse and connected graph learning
    \[[paper](https://www.sciencedirect.com/science/article/abs/pii/S0893608021003440)|[code]]
 
-2. Incremental multi-view spectral clustering\[[paper](https://doi.org/10.1016/j.knosys.2019.02.036)|[code]]
+2. Incremental multi-view spectral clustering \[[paper](https://doi.org/10.1016/j.knosys.2019.02.036)|[code]]
 
 3. Incremental multi-view spectral clustering with sparse and connected graph
    learning\[[paper](https://doi.org/10.1016/j.neunet.2021.08.031)|[code]]
