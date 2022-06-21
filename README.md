@@ -700,8 +700,8 @@ operation on the clustering results of individual views, to produce the final cl
 3. Adaptive graph completion based incomplete multi-view
    clustering\[[paper](https://doi.org/10.1109/TMM.2020.3013408)|[code]
 
-4. Incomplete multi-view clustering via contrastive
-   prediction\[[paper](https://openaccess.thecvf.com/content/CVPR2021/html/Lin\_COMPLETER\_Incomplete\_Multi-View\_Clustering\_via\_Contrastive\_Prediction\_CVPR\_2021\_paper.html)|[code]
+4. Incomplete multi-view clustering via contrastive prediction
+   \[[paper](https://openaccess.thecvf.com/content/CVPR2021/html/Lin\_COMPLETER\_Incomplete\_Multi-View\_Clustering\_via\_Contrastive\_Prediction\_CVPR\_2021\_paper.html)|[code]
 
 ## Uncertain multi-view clustering
 
@@ -711,7 +711,8 @@ operation on the clustering results of individual views, to produce the final cl
 
 ## Incremental multi-view clustering
 
-1. (Miao, Zhang, Hu, & W ang, 2020)
+1. Incremental multi-view spectral clustering with sparse and connected graph learning
+   \[[paper](https://www.sciencedirect.com/science/article/abs/pii/S0893608021003440)|[code]]
 
 2. Incremental multi-view spectral clustering\[[paper](https://doi.org/10.1016/j.knosys.2019.02.036)|[code]]
 
@@ -722,8 +723,8 @@ operation on the clustering results of individual views, to produce the final cl
 
 5. Incremental learning through deep adaptation\[[paper](https://doi.org/10.1109/TPAMI.2018.2884462)|[code]]
 
-6. Clustering-Induced Adaptive Structure Enhancing Network for Incomplete Multi-View
-   Data \[[paper](https://www.ijcai.org/proceedings/2021/0445.pdf)|[code]]
+6. Clustering-Induced Adaptive Structure Enhancing Network for Incomplete Multi-View Data
+   \[[paper](https://www.ijcai.org/proceedings/2021/0445.pdf)|[code]]
 
 # Code
 

@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff9fa042-2a84-42f9-b3bd-b0218c8421d1" name="Default Changelist" comment="add some datasets configuration">
-      <change afterPath="$PROJECT_DIR$/Database/BBC/Desc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database/Wikipedia/Desc.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/3sources/Desc.md" beforeDir="false" afterPath="$PROJECT_DIR$/Database/3sources/Desc.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/Caltech101-20/Desc.md" beforeDir="false" afterPath="$PROJECT_DIR$/Database/Caltech101-20/Desc.md" afterDir="false" />
+    <list default="true" id="ff9fa042-2a84-42f9-b3bd-b0218c8421d1" name="Default Changelist" comment="add some datasets BBC and some papers">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -215,7 +210,7 @@
       <workItem from="1654528768184" duration="1400000" />
       <workItem from="1655389717387" duration="21000" />
       <workItem from="1655708887477" duration="1951000" />
-      <workItem from="1655773815147" duration="2931000" />
+      <workItem from="1655773815147" duration="3367000" />
     </task>
     <task id="LOCAL-00001" summary="增加代码">
       <created>1653575853991</created>
@@ -434,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654529337503</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="add some datasets BBC and some papers">
+      <created>1655780155643</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1655780155643</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +474,8 @@
     <MESSAGE value="去除最近" />
     <MESSAGE value="add https://github.com/XLearning-SCU/2021-CVPR-Completer" />
     <MESSAGE value="add some datasets configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="add some datasets configuration" />
+    <MESSAGE value="add some datasets BBC and some papers" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some datasets BBC and some papers" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/A_Survey_of_Multi_view_Clustering_Approaches$runMainDMGIDDC.coverage" NAME="runMainDMGIDDC Coverage Results" MODIFIED="1653575729619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
