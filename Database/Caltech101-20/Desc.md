@@ -15,3 +15,8 @@ species. For each sample, shape descriptor, fine scale margin and texture histog
    of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2021: 11174-11183.
 
 
+# Papers (IMVC)
+
+1. Xue Z, Du J, Zheng C, et al. Clustering-Induced Adaptive Structure Enhancing Network for Incomplete Multi-View
+   Data[C]//IJCAI, 2021: 3235-3241.
+

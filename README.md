@@ -722,14 +722,17 @@ operation on the clustering results of individual views, to produce the final cl
 
 5. Incremental learning through deep adaptation\[[paper](https://doi.org/10.1109/TPAMI.2018.2884462)|[code]]
 
+6. Clustering-Induced Adaptive Structure Enhancing Network for Incomplete Multi-View
+   Data \[[paper](https://www.ijcai.org/proceedings/2021/0445.pdf)|[code]]
+
 # Code
 
 <!-- 1.  \[[paper]()|[code]] -->
 
-- ## Database  :database files 
+- ## Database  :database files
 
     1. ### **3sources**: example data
-       1. "Desc.md" records which papers use the current dataset
+        1. "Desc.md" records which papers use the current dataset
 
 - ## Dataset : read data files
 
@@ -750,6 +753,7 @@ We also collect some datasets, which are uploaded to
 baiduyun. [address](https://pan.baidu.com/s/1OQF5JYJIOpKcIGb4LEOYcg) （code）xupk.
 
 ## 1.Text Datasets
+
 The text datasets consist of news dataset (3Sourses, BBC, BBCSport, Newsgroup), multilingual documents dataset (Reuters,
 Reuters-21578), citations dataset (Citeseer), WebKB webpage dataset (Cornell, Texas, Washington and Wisconsin),
 articles (Wikipedia), and diseases dataset (Derm).

@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff9fa042-2a84-42f9-b3bd-b0218c8421d1" name="Default Changelist" comment="add some datasets configuration">
+      <change afterPath="$PROJECT_DIR$/Database/BBC/Desc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/Wikipedia/Desc.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/3sources/Desc.md" beforeDir="false" afterPath="$PROJECT_DIR$/Database/3sources/Desc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Caltech101-20/Desc.md" beforeDir="false" afterPath="$PROJECT_DIR$/Database/Caltech101-20/Desc.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,16 +62,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Database/Wisconsin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Database/BBC" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OneDriveYnu\OneDrive - mail.ynu.edu.cn\codesynAll\MVC\A-Survey-of-Multi-view-Clustering-Approaches\Database\BBC" />
       <recent name="D:\Onedrive\codesyn\A-Survey-of-Multi-view-Clustering-Approaches\Database\Wisconsin" />
       <recent name="D:\Onedrive\codesyn\A-Survey-of-Multi-view-Clustering-Approaches\Database\Washington" />
       <recent name="D:\Onedrive\codesyn\A-Survey-of-Multi-view-Clustering-Approaches\Database\Cornell" />
       <recent name="D:\Onedrive\codesyn\A-Survey-of-Multi-view-Clustering-Approaches\Database\Cora" />
-      <recent name="D:\Onedrive\codesyn\A-Survey-of-Multi-view-Clustering-Approaches\Database\CiteSeer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Onedrive\codesyn\A-Survey-of-Multi-view-Clustering-Approaches\Database\3sources" />
@@ -208,7 +212,10 @@
       <workItem from="1653961679752" duration="88000" />
       <workItem from="1654331224359" duration="3044000" />
       <workItem from="1654408392505" duration="26000" />
-      <workItem from="1654528768184" duration="338000" />
+      <workItem from="1654528768184" duration="1400000" />
+      <workItem from="1655389717387" duration="21000" />
+      <workItem from="1655708887477" duration="1951000" />
+      <workItem from="1655773815147" duration="2931000" />
     </task>
     <task id="LOCAL-00001" summary="增加代码">
       <created>1653575853991</created>
@@ -420,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654332221166</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="add some datasets configuration">
+      <created>1654529337503</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1654529337503</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
