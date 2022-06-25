@@ -26,6 +26,8 @@ If you find this repository useful to your research or work, it is really apprec
 3. Wen, J., Zhang, Z., Zhang, Z., Zhu, L., Fei, L., Zhang, B., & Xu, Y. (2021, May). Unified tensor framework for
    incomplete multi-view clustering and missing-view inferring. In Proceedings of the AAAI conference on artificial
    intelligence (Vol. 35, No. 11, pp. 10273-10281).
+4. Li, Z., Tang, C., Zheng, X., Liu, X., Zhang, W., & Zhu, E. (2022). High-order correlation preserved incomplete
+   multi-view subspace clustering. IEEE Transactions on Image Processing, 31, 2067-2080.
 
 ----------------
 
