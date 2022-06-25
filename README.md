@@ -6,31 +6,29 @@ If you find this repository useful to your research or work, it is really apprec
 
 ----------------
 
-[//]: # (## Recent Papers)
+## Recent Papers
 
-[//]: # ()
+### Multi-view clustering
 
-[//]: # (### Multi-view clustering)
+1. Wang, Siwei & Liu, Xinwang & Liu, Suyuan & Jin, Jiaqi & Wenxuan, Tu & Zhu, Xinzhong & Zhu, En. (2022). Align then
 
-[//]: # ()
+Fusion: Generalized Large-scale Multi-view Clustering with Anchor Matching Correspondences.
 
-[//]: # (1. Wang, Siwei & Liu, Xinwang & Liu, Suyuan & Jin, Jiaqi & Wenxuan, Tu & Zhu, Xinzhong & Zhu, En. &#40;2022&#41;. Align then)
+2. Xu, J., Tang, H., Ren, Y., Peng, L., Zhu, X., & He, L. (2022). Multi-Level Feature Learning for Contrastive
+   Multi-View Clustering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp.
+   16051-16060).
 
-[//]: # (Fusion: Generalized Large-scale Multi-view Clustering with Anchor Matching Correspondences.)
+### Incomplete Multi-view clustering
 
-[//]: # ()
+1. Wen, J., Zhang, Z., Zhang, Z., Fei, L., & Wang, M. (2020). Generalized incomplete multiview clustering with flexible
+   locality structure diffusion. IEEE transactions on cybernetics, 51(1), 101-114.
+2. Zhao, L., Zhang, J., Wang, Q., & Chen, Z. (2021). Dual Alignment Self-Supervised Incomplete Multi-View Subspace
+   Clustering Network. IEEE Signal Processing Letters, 28, 2122-2126.
+3. Wen, J., Zhang, Z., Zhang, Z., Zhu, L., Fei, L., Zhang, B., & Xu, Y. (2021, May). Unified tensor framework for
+   incomplete multi-view clustering and missing-view inferring. In Proceedings of the AAAI conference on artificial
+   intelligence (Vol. 35, No. 11, pp. 10273-10281).
 
-[//]: # (### Incomplete Multi-view clustering)
-
-[//]: # ()
-
-[//]: # (1. Chen, Runze & Wen, Jie & Chen, Xiaoyue & Xu, Yong. &#40;2020&#41;. Graph embedded incomplete multi-view clustering method)
-
-[//]: # (   with proximity relation estimation. The Journal of Engineering. 2020. 10.1049/joe.2019.1164.)
-
-[//]: # ()
-
-[//]: # (----------------)
+----------------
 
 ## Contents
 
