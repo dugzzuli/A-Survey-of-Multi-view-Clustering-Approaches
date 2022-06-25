@@ -11,8 +11,7 @@ If you find this repository useful to your research or work, it is really apprec
 ### Multi-view clustering
 
 1. Wang, Siwei & Liu, Xinwang & Liu, Suyuan & Jin, Jiaqi & Wenxuan, Tu & Zhu, Xinzhong & Zhu, En. (2022). Align then
-
-Fusion: Generalized Large-scale Multi-view Clustering with Anchor Matching Correspondences.
+   Fusion: Generalized Large-scale Multi-view Clustering with Anchor Matching Correspondences.
 
 2. Xu, J., Tang, H., Ren, Y., Peng, L., Zhu, X., & He, L. (2022). Multi-Level Feature Learning for Contrastive
    Multi-View Clustering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp.
