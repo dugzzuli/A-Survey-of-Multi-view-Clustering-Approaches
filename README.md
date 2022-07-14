@@ -6,45 +6,6 @@ If you find this repository useful to your research or work, it is really apprec
 
 ----------------
 
-## Recent Papers
-
-### Multi-view clustering
-
-1. Wang, Siwei & Liu, Xinwang & Liu, Suyuan & Jin, Jiaqi & Wenxuan, Tu & Zhu, Xinzhong & Zhu, En. (2022). Align then
-   Fusion: Generalized Large-scale Multi-view Clustering with Anchor Matching Correspondences.
-
-2. Xu, J., Tang, H., Ren, Y., Peng, L., Zhu, X., & He, L. (2022). Multi-Level Feature Learning for Contrastive
-   Multi-View Clustering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp.
-   16051-16060).
-
-3. Yang, H., Gao, Q., Xia, W., Yang, M., & Gao, X. (2022). Multi-view Spectral Clustering with Bipartite Graph. IEEE Transactions on Image Processing.
-
-4. Xia, W., Gao, Q., Wang, Q., Gao, X., Ding, C., & Tao, D. (2022). Tensorized Bipartite Graph Learning for Multi-View Clustering. IEEE Transactions on Pattern Analysis and Machine Intelligence.
-
-5. Zhu, Y., Wang, X., Chen, L., & Nie, R. (2022). CEFusion: Multi‐Modal medical image fusion via cross encoder. IET Image Processing.
-
-
-
-### Incomplete Multi-view clustering
-
-1. Wen, J., Zhang, Z., Zhang, Z., Fei, L., & Wang, M. (2020). Generalized incomplete multiview clustering with flexible
-   locality structure diffusion. IEEE transactions on cybernetics, 51(1), 101-114.
-2. Zhao, L., Zhang, J., Wang, Q., & Chen, Z. (2021). Dual Alignment Self-Supervised Incomplete Multi-View Subspace
-   Clustering Network. IEEE Signal Processing Letters, 28, 2122-2126.
-3. Wen, J., Zhang, Z., Zhang, Z., Zhu, L., Fei, L., Zhang, B., & Xu, Y. (2021, May). Unified tensor framework for
-   incomplete multi-view clustering and missing-view inferring. In Proceedings of the AAAI conference on artificial
-   intelligence (Vol. 35, No. 11, pp. 10273-10281).
-4. Li, Z., Tang, C., Zheng, X., Liu, X., Zhang, W., & Zhu, E. (2022). High-order correlation preserved incomplete
-   multi-view subspace clustering. IEEE Transactions on Image Processing, 31, 2067-2080.
-5. Liu, J., Liu, X., Zhang, Y., Zhang, P., Tu, W., Wang, S., ... & Yang, Y. (2021, October). Self-representation subspace clustering for incomplete multi-view data. In Proceedings of the 29th ACM International Conference on Multimedia (pp. 2726-2734).
-6. Xue, Z., Du, J., Zheng, C., Song, J., Ren, W., & Liang, M. (2021). Clustering-Induced Adaptive Structure Enhancing Network for Incomplete Multi-View Data. In IJCAI (pp. 3235-3241).
-7. Liang, J., Liu, X., Bai, L., Cao, F., & Wang, D. (2022). Incomplete multi-view clustering via local and global co-regularization. Science China Information Sciences, 65(5), 1-16.
-8. Yu, Z., Ye, M., Xiao, S., & Tian, L. (2022). Learning missing instances in latent space for incomplete multi-view clustering. Knowledge-Based Systems, 109122.
-9. Liang, N., Yang, Z., & Xie, S. (2022). Incomplete Multi-view Clustering with Sample-level Auto-weighted Graph Fusion. IEEE Transactions on Knowledge and Data Engineering.
-
-
-----------------
-
 ## Contents
 
 - [PRELIMINARIES](#whats-multi-view-data)
