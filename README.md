@@ -17,6 +17,14 @@ If you find this repository useful to your research or work, it is really apprec
    Multi-View Clustering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp.
    16051-16060).
 
+3. Yang, H., Gao, Q., Xia, W., Yang, M., & Gao, X. (2022). Multi-view Spectral Clustering with Bipartite Graph. IEEE Transactions on Image Processing.
+
+4. Xia, W., Gao, Q., Wang, Q., Gao, X., Ding, C., & Tao, D. (2022). Tensorized Bipartite Graph Learning for Multi-View Clustering. IEEE Transactions on Pattern Analysis and Machine Intelligence.
+
+5. Zhu, Y., Wang, X., Chen, L., & Nie, R. (2022). CEFusion: Multi‐Modal medical image fusion via cross encoder. IET Image Processing.
+
+
+
 ### Incomplete Multi-view clustering
 
 1. Wen, J., Zhang, Z., Zhang, Z., Fei, L., & Wang, M. (2020). Generalized incomplete multiview clustering with flexible
@@ -28,6 +36,12 @@ If you find this repository useful to your research or work, it is really apprec
    intelligence (Vol. 35, No. 11, pp. 10273-10281).
 4. Li, Z., Tang, C., Zheng, X., Liu, X., Zhang, W., & Zhu, E. (2022). High-order correlation preserved incomplete
    multi-view subspace clustering. IEEE Transactions on Image Processing, 31, 2067-2080.
+5. Liu, J., Liu, X., Zhang, Y., Zhang, P., Tu, W., Wang, S., ... & Yang, Y. (2021, October). Self-representation subspace clustering for incomplete multi-view data. In Proceedings of the 29th ACM International Conference on Multimedia (pp. 2726-2734).
+6. Xue, Z., Du, J., Zheng, C., Song, J., Ren, W., & Liang, M. (2021). Clustering-Induced Adaptive Structure Enhancing Network for Incomplete Multi-View Data. In IJCAI (pp. 3235-3241).
+7. Liang, J., Liu, X., Bai, L., Cao, F., & Wang, D. (2022). Incomplete multi-view clustering via local and global co-regularization. Science China Information Sciences, 65(5), 1-16.
+8. Yu, Z., Ye, M., Xiao, S., & Tian, L. (2022). Learning missing instances in latent space for incomplete multi-view clustering. Knowledge-Based Systems, 109122.
+9. Liang, N., Yang, Z., & Xie, S. (2022). Incomplete Multi-view Clustering with Sample-level Auto-weighted Graph Fusion. IEEE Transactions on Knowledge and Data Engineering.
+
 
 ----------------
 
