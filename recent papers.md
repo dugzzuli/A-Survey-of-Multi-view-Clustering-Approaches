@@ -41,8 +41,7 @@
 
 18. Qin, Y., Feng, G., Ren, Y., & Zhang, X. (2022). Consistency-Induced Multiview Subspace Clustering. IEEE Transactions on Cybernetics.
 
-19. Gu, Z., & Feng, S. (2022). Individuality Meets Commonality: A Unified Graph Learning Framework for Multi-view Clustering. ACM Transactions on Knowledge Discovery from Data (TKDD).
-
+19. Gu, Z., & Feng, S. (2022). Individuality Meets Commonality: A Unified Graph Learning Framework for Multi-view Clustering. ACM Transactions on Knowledge Discovery from Data (TKDD)
 20. Zhang, K., Song, J., Yu, Y., & Du, S. (2022, April). Incomplete Multi-View Clustering Based on Weighted Adaptive Graph Learning. In 2022 7th International Conference on Intelligent Computing and Signal Processing (ICSP) (pp. 1175-1179). IEEE.
 
 21. Xu, J., Li, C., Ren, Y., Peng, L., Mo, Y., Shi, X., & Zhu, X. (2022). Deep Incomplete Multi-view Clustering via Mining Cluster Complementarity.
