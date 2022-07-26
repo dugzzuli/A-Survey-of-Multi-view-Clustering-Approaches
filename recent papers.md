@@ -58,6 +58,21 @@
 
 27. Honghan, Z., Weiling, C., Le, X., & Ming, Y. (2021, November). Multi-view Latent Subspace Clustering based on both Global and Local Structure. In Asian Conference on Machine Learning (pp. 1617-1632). PMLR.
 
+28. Yang, J., & Lin, C. T. (2022). Multi-View Adjacency-Constrained Nearest Neighbor Clustering (Student Abstract). AAAI.
+
+29. Zhang, J., Li, L., Wang, S., Liu, J., Liu, Y., Liu, X., & Zhu, E. (2022). Multiple Kernel Clustering with Dual Noise Minimization. arXiv preprint arXiv:2207.06041.
+
+30. Zhang, X., Yang, Y., Zhai, D., Li, T., Chu, J., & Wang, H. (2021). Local2Global: Unsupervised multi-view deep graph representation learning with Nearest Neighbor Constraint. Knowledge-Based Systems, 231, 107439.
+
+31. Ma, J., Wang, R., Ji, W., Zhao, J., Zong, M., & Gilman, A. (2021). Robust multi-view continuous subspace clustering. Pattern Recognition Letters, 150, 306-312.
+
+32. Huang, Z., Ren, Y., Pu, X., & He, L. (2021, October). Non-Linear Fusion for Self-Paced Multi-View Clustering. In Proceedings of the 29th ACM International Conference on Multimedia (pp. 3211-3219).
+
+33. Cai, X., Huang, D., Zhang, G. Y., & Wang, C. D. (2022). Seeking Commonness and Inconsistencies: A Jointly Smoothed Approach to Multi-view Subspace Clustering. arXiv preprint arXiv:2203.08060.
+
+34. Lin, F., Bai, B., Bai, K., Ren, Y., Zhao, P., & Xu, Z. (2022). Contrastive Multi-view Hyperbolic Hierarchical Clustering. arXiv preprint arXiv:2205.02618.
+
+35. Liu, J., Liu, J., Yan, S., Jiang, R., Tian, X., Gu, B., ... & Huang, J. (2022). MPC: Multi-View Probabilistic Clustering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 9509-9518).
 
 ### Incomplete Multi-view clustering
 
@@ -67,24 +82,44 @@
 
 3. Wen, J., Zhang, Z., Zhang, Z., Zhu, L., Fei, L., Zhang, B., & Xu, Y. (2021, May). Unified tensor framework for incomplete multi-view clustering and missing-view inferring. In Proceedings of the AAAI conference on artificial intelligence (Vol. 35, No. 11, pp. 10273-10281).
 
-4. Li, Z., Tang, C., Zheng, X., Liu, X., Zhang, W., & Zhu, E. (2022). High-order correlation preserved incomplete
-   multi-view subspace clustering. IEEE Transactions on Image Processing, 31, 2067-2080.
+4. Li, Z., Tang, C., Zheng, X., Liu, X., Zhang, W., & Zhu, E. (2022). High-order correlation preserved incomplete multi-view subspace clustering. IEEE Transactions on Image Processing, 31, 2067-2080.
+
 5. Liu, J., Liu, X., Zhang, Y., Zhang, P., Tu, W., Wang, S., ... & Yang, Y. (2021, October). Self-representation subspace clustering for incomplete multi-view data. In Proceedings of the 29th ACM International Conference on Multimedia (pp. 2726-2734).
+
 6. Xue, Z., Du, J., Zheng, C., Song, J., Ren, W., & Liang, M. (2021). Clustering-Induced Adaptive Structure Enhancing Network for Incomplete Multi-View Data. In IJCAI (pp. 3235-3241).
+
 7. Liang, J., Liu, X., Bai, L., Cao, F., & Wang, D. (2022). Incomplete multi-view clustering via local and global co-regularization. Science China Information Sciences, 65(5), 1-16.
+
 8. Yu, Z., Ye, M., Xiao, S., & Tian, L. (2022). Learning missing instances in latent space for incomplete multi-view clustering. Knowledge-Based Systems, 109122.
+
 9. Liang, N., Yang, Z., & Xie, S. (2022). Incomplete Multi-view Clustering with Sample-level Auto-weighted Graph Fusion. IEEE Transactions on Knowledge and Data Engineering.
+
 10. Lv, Z., Gao, Q., Zhang, X., Li, Q., & Yang, M. (2022). View-Consistency Learning for Incomplete Multi-View Clustering. IEEE Transactions on Image Processing.
+
 11. Liang, N., Yang, Z., Li, Z., & Han, W. (2022). Incomplete multi-view clustering with incomplete graph-regularized orthogonal non-negative matrix factorization. Applied Intelligence, 1-17.
+
 12. Yu, X., Liu, H., Lin, Y., Wu, Y., & Zhang, C. (2022). Auto-weighted sample-level fusion with anchors for incomplete multi-view clustering. Pattern Recognition, 130, 108772.
+
 13. Luo, M., Wang, S., Wang, C., Chen, W., Zhu, E., & Liu, X. (2022). DICDP: Deep Incomplete Clustering with Distribution Preserving. In International Conference on Artificial Intelligence and Security (pp. 162-175). Springer, Cham.
+
 14. Wang, S., Cao, J., Lei, F., Jiang, J., Dai, Q., & Ling, B. W. K. (2022). Multiple kernel-based anchor graph coupled low-rank tensor learning for incomplete multi-view clustering. Applied Intelligence, 1-26.
+
 15. Lian, Z., Chen, L., Sun, L., Liu, B., & Tao, J. (2022). GCNet: Graph Completion Network for Incomplete Multimodal Learning in Conversation. arXiv preprint arXiv:2203.02177.
+
 16. Li, Z., Tang, C., Zheng, X., Liu, X., Zhang, W., & Zhu, E. (2022). High-order correlation preserved incomplete multi-view subspace clustering. IEEE Transactions on Image Processing, 31, 2067-2080.
+
 17. Chen, M. S., Wang, C. D., & Lai, J. H. (2022). Low-rank Tensor Based Proximity Learning for Multi-view Clustering. IEEE Transactions on Knowledge and Data Engineering.
+
 18. Dong, W., Wu, X. J., & Xu, T. (2022). Multi-view Subspace Clustering via Joint Latent Representations. Neural Processing Letters, 54(3), 1879-1901.
+
 19. Xia, W., Gao, Q., Wang, Q., & Gao, X. (2022). Tensor completion-based incomplete multiview clustering. IEEE Transactions on Cybernetics.
+
 20. Liang, N., Yang, Z., Li, L., Li, Z., & Xie, S. (2021). Incomplete Multi-view Clustering with Cross-view Feature Transformation. IEEE Transactions on Artificial Intelligence.
+
 21. Zhao, S., Fei, L., Wen, J., Wu, J., & Zhang, B. (2021). Intrinsic and Complete Structure Learning Based Incomplete Multiview Clustering. IEEE Transactions on Multimedia.
+
 22. Wang, S., Liu, X., Li, M., Xu, H., Zhu, X., Gao, F., & Zhu, E. Late Fusion Multi-view Clustering via Global and Local Alignment Maximization.
+
 23. Wang, Y., Chang, D., Fu, Z., & Zhao, Y. (2021). Incomplete Multi-view Clustering via Cross-view Relation Transfer. arXiv preprint arXiv:2112.00739.
+
+24. Han, X., Ren, Z., Zou, C., & You, X. (2022). Incomplete multi-view subspace clustering based on missing-sample recovering and structural information learning. Expert Systems with Applications, 118165.
