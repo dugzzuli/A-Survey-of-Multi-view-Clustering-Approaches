@@ -250,7 +250,7 @@ operation on the clustering results of individual views, to produce the final cl
 
 3. Correlational spectral clustering \[[paper](https://doi.org/10.1109/CVPR.2008.4587353)|[code]
 
-4. Multi-view spectral clustering with high-order optimal neighborhood laplacian matrix. \[[paper](https://arxiv.org/pdf/2008.13539)|[code](https://github.com/wx-liang/ONMSC-LF)] (TKDE,2020)
+4. (TKDE,2020): Multi-view spectral clustering with high-order optimal neighborhood laplacian matrix. \[[paper](https://arxiv.org/pdf/2008.13539)|[code](https://github.com/wx-liang/ONMSC-LF)] 
 
 ## Co-regularization and co-training spectral clustering
 
