@@ -252,6 +252,8 @@ operation on the clustering results of individual views, to produce the final cl
 
 4. (TKDE,2020): Multi-view spectral clustering with high-order optimal neighborhood laplacian matrix. \[[paper](https://arxiv.org/pdf/2008.13539)|[code](https://github.com/wx-liang/ONMSC-LF)] 
 
+5. (KBS,2020): Multi-view spectral clustering by simultaneous consensus graph learning and discretization. \[[paper](https://doi.org/10.1016/j.knosys.2021.107632)|[code](https://github.com/Ekin102003/AwSCGLD)] 
+
 ## Co-regularization and co-training spectral clustering
 
 1. Co-regularized multi-view spectral
