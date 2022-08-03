@@ -469,39 +469,34 @@ operation on the clustering results of individual views, to produce the final cl
 
 # Alignment learning
 
-1. Multi-view Clustering via Late Fusion Alignment
-   Maximization\[[paper](https://doi.org/10.24963/ijcai.2019/524)|[code]]
+1. Multi-view Clustering via Late Fusion Alignment Maximization\[[paper](https://doi.org/10.24963/ijcai.2019/524)|[code](https://github.com/wangsiwei2010/latefusionalignment)]
 
-2. End-to-end adversarial-attention network for multi-modal
-   clustering\[[paper](https://openaccess.thecvf.com/content\_CVPR\_2020/html/Zhou\_End-to-End\_Adversarial-Attention\_Network\_for\_Multi-Modal\_Clustering\_CVPR\_2020\_paper.html)|[code]]
+2. End-to-end adversarial-attention network for multi-modal clustering\[[paper](https://openaccess.thecvf.com/content\_CVPR\_2020/html/Zhou\_End-to-End\_Adversarial-Attention\_Network\_for\_Multi-Modal\_Clustering\_CVPR\_2020\_paper.html)|[code](https://github.com/AllenWrong/mvc)]
 
 3. Reconsidering representation alignment for multi-view
-   clustering\[[paper](https://openaccess.thecvf.com/content/CVPR2021/html/Trosten\_Reconsidering\_Representation\_Alignment\_for\_Multi-View\_Clustering\_CVPR\_2021\_paper.html)|[code]]
+   clustering\[[paper](https://openaccess.thecvf.com/content/CVPR2021/html/Trosten\_Reconsidering\_Representation\_Alignment\_for\_Multi-View\_Clustering\_CVPR\_2021\_paper.html)|[code](https://github.com/AllenWrong/mvc)]
 
-4. Multiview Subspace Clustering With Multilevel Representations and Adversarial Regularization\[[paper]|[code]]
+4. Multiview Subspace Clustering With Multilevel Representations and Adversarial Regularization\[[paper]|[code](https://github.com/dugzzuli/Multiview-Subspace-Clustering-With-Multilevel-Representations-and-Adversarial-Regularization)]
 
-5. Partially view-aligned
-   clustering\[[paper](https://proceedings.neurips.cc/paper/2020/hash/1e591403ff232de0f0f139ac51d99295-Abstract.html)|[code]]
+5. Partially view-aligned clustering\[[paper](https://proceedings.neurips.cc/paper/2020/hash/1e591403ff232de0f0f139ac51d99295-Abstract.html)|[code](https://github.com/hi-zhenyu/PVC)]
 
 # Subspace learning
 
-1. Consistent and diverse multi-View subspace clustering with structure
-   constraint\[[paper](https://doi.org/10.1016/j.patcog.2021.108196)|[code]]
+1. Consistent and diverse multi-View subspace clustering with structure constraint\[[paper](https://doi.org/10.1016/j.patcog.2021.108196)|[code]]
 
 2. Consistent and specific multi-view subspace
-   clustering\[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16212)|[code]
+   clustering\[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16212)|[code](https://github.com/XIAOCHUN-CAS/Consistent-and-Specific-Multi-View-Subspace-Clustering)]
 
 3. Flexible Multi-View Representation Learning for Subspace
-   Clustering\[[paper](https://doi.org/10.24963/ijcai.2019/404)|[code]]
+   Clustering\[[paper](https://doi.org/10.24963/ijcai.2019/404)|[code](https://github.com/lslrh/FMR)]
 
 4. Learning a joint affinity graph for multiview subspace
    clustering\[[paper](https://doi.org/10.1109/TMM.2018.2889560)|[code]
 
 5. Exclusivity-consistency regularized multi-view subspace
-   clustering\[[paper](https://doi.org/10.1109/CVPR.2017.8)|[code]
+   clustering\[[paper](https://doi.org/10.1109/CVPR.2017.8)|[code](http://www.cbsr.ia.ac.cn/users/xiaobowang/)]
 
-6. Multi-view subspace clustering with intactness-aware
-   similarity\[[paper](https://doi.org/10.1016/j.patcog.2018.09.009)|[code]
+6. Multi-view subspace clustering with intactness-aware similarity\[[paper](https://doi.org/10.1016/j.patcog.2018.09.009)|[code](http://www.cbsr.ia.ac.cn/users/xiaobowang/)]
 
 7. Diversity-induced multi-view subspace clustering\[[paper](https://doi.org/10.1109/CVPR.2015.7298657)|[code]
 
