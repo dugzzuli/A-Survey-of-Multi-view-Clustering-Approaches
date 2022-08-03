@@ -74,6 +74,12 @@
 
 35. Liu, J., Liu, J., Yan, S., Jiang, R., Tian, X., Gu, B., ... & Huang, J. (2022). MPC: Multi-View Probabilistic Clustering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 9509-9518).
 
+36. Xin, B., Zeng, S., & Wang, X. (2021, July). Self-Supervised Deep Correlational Multi-View Clustering. In 2021 International Joint Conference on Neural Networks (IJCNN) (pp. 1-8). IEEE. [code](https://github.com/bowenxin/SDC-MVC)
+
+37. Wang, S., Li, C., Li, Y., Yuan, Y., & Wang, G. (2022). Self-Supervised Information Bottleneck for Deep Multi-View Subspace Clustering. arXiv preprint arXiv:2204.12496. 
+
+38. Tsai, Y. H. H., Wu, Y., Salakhutdinov, R., & Morency, L. P. (2020). Self-supervised learning from a multi-view perspective. arXiv preprint arXiv:2006.05576.
+
 ### Incomplete Multi-view clustering
 
 1. Wen, J., Zhang, Z., Zhang, Z., Fei, L., & Wang, M. (2020). Generalized incomplete multiview clustering with flexible locality structure diffusion. IEEE transactions on cybernetics, 51(1), 101-114.
