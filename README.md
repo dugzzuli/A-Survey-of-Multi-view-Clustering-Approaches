@@ -157,6 +157,8 @@ shared by both views, showing the consensus between two views.
 
 5. **Multi-view clustering: A survey** \[[paper](https://ieeexplore.ieee.org/document/8336846)]
 
+6. **Representation Learning in Multi-view Clustering: A Literature Review** \[[paper](https://www.researchgate.net/publication/362409340_Representation_Learning_in_Multi-view_Clustering_A_Literature_Review)]
+
 # The information fusion strategy
 
 The strategies for fusing information from multiple views can be divided into three categories: direct-fusion,
