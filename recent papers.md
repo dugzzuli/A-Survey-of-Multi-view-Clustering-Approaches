@@ -80,6 +80,14 @@
 
 38. Tsai, Y. H. H., Wu, Y., Salakhutdinov, R., & Morency, L. P. (2020). Self-supervised learning from a multi-view perspective. arXiv preprint arXiv:2006.05576.
 
+39. Mao, Y., Yan, X., Guo, Q., & Ye, Y. (2021, May). Deep mutual information maximin for cross-modal clustering. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 35, No. 10, pp. 8893-8901).
+
+40. Sang, X., Lu, J., & Lu, H. (2022). Consensus Graph Learning for Auto-weighted Multi-view Projection Clustering. Information Sciences.
+
+41. Liu, L., Chen, P., Luo, G., Kang, Z., Luo, Y., & Han, S. (2022). Scalable multi-view clustering with graph filtering. Neural Computing and Applications, 1-9.
+
+42. Wan, Zhibin, et al. "Cross-view equivariant auto-encoder." 2021 IEEE International Conference on Multimedia and Expo (ICME). IEEE, 2021.
+
 ### Incomplete Multi-view clustering
 
 1. Wen, J., Zhang, Z., Zhang, Z., Fei, L., & Wang, M. (2020). Generalized incomplete multiview clustering with flexible locality structure diffusion. IEEE transactions on cybernetics, 51(1), 101-114.

@@ -500,9 +500,9 @@ operation on the clustering results of individual views, to produce the final cl
 
 6. Multi-view subspace clustering with intactness-aware similarity\[[paper](https://doi.org/10.1016/j.patcog.2018.09.009)|[code](http://www.cbsr.ia.ac.cn/users/xiaobowang/)]
 
-7. Diversity-induced multi-view subspace clustering\[[paper](https://doi.org/10.1109/CVPR.2015.7298657)|[code]
+7. Diversity-induced multi-view subspace clustering\[[paper](https://doi.org/10.1109/CVPR.2015.7298657)|[code](https://github.com/dugzzuli/Dimsc)]
 
-8. Split multiplicative multi-view subspace clustering\[[paper](https://doi.org/10.1109/TIP.2019.2913096)|[code]
+8. Split multiplicative multi-view subspace clustering\[[paper](https://doi.org/10.1109/TIP.2019.2913096)|[code](https://github.com/joshuaas/SM2SC)]
 
 9. Learning a consensus affinity matrix for multi-view clustering via subspaces merging on Grassmann
    manifold\[[paper](https://doi.org/10.1016/j.ins.2020.07.059)|[code]
@@ -558,7 +558,7 @@ operation on the clustering results of individual views, to produce the final cl
 27. Semi-Supervised Structured Subspace Learning for Multi-View
     Clustering\[[paper](https://doi.org/10.1109/TIP.2021.3128325)|[code]
 
-28. 双加权多视角子空间聚类算法\[[paper]|[code]
+28. 双加权多视角子空间聚类算法\[[paper](https://www.cnki.com.cn/Article/CJFDTotal-RJXB202202012.htm)|[code]]
 
 # Self-paced learning
 
