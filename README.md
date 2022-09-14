@@ -51,6 +51,7 @@ If you find this repository useful to your research or work, it is really apprec
         - [Image Datasets](#2image-datasets)
         - [Rest of data (Text-gene、Image-text and Video)](#3rest-of-data-text-geneimage-text-and-video)
 
+
 --------------
 
 ## What's Multi-view data?
@@ -645,6 +646,7 @@ operation on the clustering results of individual views, to produce the final cl
     \[[paper](https://doi.org/10.1016/j.patcog.2021.108371)|[code]]
 13. COMPLETER: Incomplete Multi-view Clustering via Contrastive Prediction
     \[[paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Lin_COMPLETER_Incomplete_Multi-View_Clustering_via_Contrastive_Prediction_CVPR_2021_paper.pdf)|[code](https://github.com/XLearning-SCU/2021-CVPR-Completer)]
+14. Learning Disentangled View-Common and View-Peculiar Visual Representations for Multi-View Clustering \[[paper](http://openaccess.thecvf.com/content/ICCV2021/papers/Xu_Multi-VAE_Learning_Disentangled_View-Common_and_View-Peculiar_Visual_Representations_for_Multi-View_ICCV_2021_paper.pdf)|[code](https://github.com/SubmissionsIn/Multi-VAE)]
 
 ## Transformation-based IMVC
 
@@ -663,6 +665,9 @@ operation on the clustering results of individual views, to produce the final cl
    Network\[[paper](https://doi.org/10.1109/LSP.2021.3120311)|[code]]
 
 6. Structural Deep Incomplete Multi-view Clustering Network\[[paper](https://doi.org/10.1145/3459637.3482192)|[code]]
+
+7. One-Step Graph-Based Incomplete Multi-View Clusterin\[[paper]()|[code](https://github.com/xiongdigejuxiaole/OGIMC)] 
+
 
 ## The unified IMVC
 
@@ -726,7 +731,8 @@ operation on the clustering results of individual views, to produce the final cl
 ## <span id="BenchmarkDataset">Benchmark Datasets</span>
 
 We also collect some datasets, which are uploaded to
-baiduyun. [address](https://pan.baidu.com/s/1OQF5JYJIOpKcIGb4LEOYcg) （code）xupk.
+baiduyun. [address](https://pan.baidu.com/s/1OQF5JYJIOpKcIGb4LEOYcg) （code）xupk. 
+Other some dataset links [Multi-view-Datasets](https://github.com/KunyuLin/Multi-view-Datasets)
 
 ## 1.Text Datasets
 

@@ -88,6 +88,8 @@
 
 42. Wan, Zhibin, et al. "Cross-view equivariant auto-encoder." 2021 IEEE International Conference on Multimedia and Expo (ICME). IEEE, 2021.
 
+43.  [Yang, M. S., & Sinaga, K. P. (2021). Collaborative feature-weighted multi-view fuzzy c-means clustering. Pattern Recognition, 119, 108064.](https://github.com/kpnaga08/Co-FW-MVFCM)
+
 ### Incomplete Multi-view clustering
 
 1. Wen, J., Zhang, Z., Zhang, Z., Fei, L., & Wang, M. (2020). Generalized incomplete multiview clustering with flexible locality structure diffusion. IEEE transactions on cybernetics, 51(1), 101-114.
@@ -137,3 +139,5 @@
 23. Wang, Y., Chang, D., Fu, Z., & Zhao, Y. (2021). Incomplete Multi-view Clustering via Cross-view Relation Transfer. arXiv preprint arXiv:2112.00739.
 
 24. Han, X., Ren, Z., Zou, C., & You, X. (2022). Incomplete multi-view subspace clustering based on missing-sample recovering and structural information learning. Expert Systems with Applications, 118165.
+
+
