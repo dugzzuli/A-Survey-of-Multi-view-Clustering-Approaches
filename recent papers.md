@@ -140,4 +140,6 @@
 
 24. Han, X., Ren, Z., Zou, C., & You, X. (2022). Incomplete multi-view subspace clustering based on missing-sample recovering and structural information learning. Expert Systems with Applications, 118165.
 
+25. [He, W., Zhang, Z., Chen, Y., & Wen, J. (2022). Structured anchor-inferred graph learning for universal incomplete multi-view clustering. World Wide Web, 1-25.](https://github.com/DarrenZZhang/SAGL)
+
 
