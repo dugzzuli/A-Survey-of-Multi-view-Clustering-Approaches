@@ -94,7 +94,7 @@
 
 45. Mi, Y., Dai, J., Ren, Z., You, X., & Wang, Y. (2022). One-Stage Multi-view Clustering with Hierarchical Attributes Extraction. Cognitive Computation, 1-13.
 
-46.Xu, K., Tang, K., & Su, Z. (2022). Deep multi-view subspace clustering via structure-preserved multi-scale features fusion. Neural Computing and Applications, 1-17.
+46. Xu, K., Tang, K., & Su, Z. (2022). Deep multi-view subspace clustering via structure-preserved multi-scale features fusion. Neural Computing and Applications, 1-17.
 
 47. Zhang, W., Deng, Z., Choi, K. S., Wang, J., & Wang, S. (2022). Dual Representation Learning for One-Step Clustering of Multi-View Data. arXiv preprint arXiv:2208.14450.
 
