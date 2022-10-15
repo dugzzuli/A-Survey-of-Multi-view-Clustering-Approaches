@@ -27,7 +27,7 @@
 
 11. Luong, K., Nayak, R., Balasubramaniam, T., & Bashar, M. A. (2022). Multi-layer Manifold Learning for Deep Non-negative Matrix Factorization-Based Multi-View Clustering. Pattern Recognition, 108815.
 
-12. Xu, J., Tang, H., Ren, Y., Peng, L., Zhu, X., & He, L. (2022). Multi-Level Feature Learning for Contrastive Multi-View Clustering. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 16051-16060).
+12. Mi, Y., Dai, J., Ren, Z., You, X., & Wang, Y. (2022). One-Stage Multi-view Clustering with Hierarchical Attributes Extraction. Cognitive Computation, 1-13.
 
 13. Wang, S., Liu, X., Liu, S., Jin, J., Tu, W., Zhu, X., & Zhu, E. (2022). Align then Fusion: Generalized Large-scale Multi-view Clustering with Anchor Matching Correspondences. arXiv preprint arXiv:2205.15075.
 
