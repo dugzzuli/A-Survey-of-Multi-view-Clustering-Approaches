@@ -88,7 +88,13 @@
 
 42. Wan, Zhibin, et al. "Cross-view equivariant auto-encoder." 2021 IEEE International Conference on Multimedia and Expo (ICME). IEEE, 2021.
 
-43.  [Yang, M. S., & Sinaga, K. P. (2021). Collaborative feature-weighted multi-view fuzzy c-means clustering. Pattern Recognition, 119, 108064.](https://github.com/kpnaga08/Co-FW-MVFCM)
+43. [Yang, M. S., & Sinaga, K. P. (2021). Collaborative feature-weighted multi-view fuzzy c-means clustering. Pattern Recognition, 119, 108064.](https://github.com/kpnaga08/Co-FW-MVFCM)
+
+44. Xia, W., Wang, S., Yang, M., Gao, Q., Han, J., & Gao, X. (2022). Multi-view graph embedding clustering network: Joint self-supervision and block diagonal representation. Neural Networks, 145, 1-9.
+
+45. Mi, Y., Dai, J., Ren, Z., You, X., & Wang, Y. (2022). One-Stage Multi-view Clustering with Hierarchical Attributes Extraction. Cognitive Computation, 1-13.
+
+46.Xu, K., Tang, K., & Su, Z. (2022). Deep multi-view subspace clustering via structure-preserved multi-scale features fusion. Neural Computing and Applications, 1-17.
 
 ### Incomplete Multi-view clustering
 
