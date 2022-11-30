@@ -98,6 +98,10 @@
 
 47. Zhang, W., Deng, Z., Choi, K. S., Wang, J., & Wang, S. (2022). Dual Representation Learning for One-Step Clustering of Multi-View Data. arXiv preprint arXiv:2208.14450.
 
+48. Graph-Filtering and High-Order Bipartite Graph based Multiview Graph Clustering.
+
+49. Community Detection in Semantic Networks: A Multi-View Approach
+
 ### Incomplete Multi-view clustering
 
 1. Wen, J., Zhang, Z., Zhang, Z., Fei, L., & Wang, M. (2020). Generalized incomplete multiview clustering with flexible locality structure diffusion. IEEE transactions on cybernetics, 51(1), 101-114.
