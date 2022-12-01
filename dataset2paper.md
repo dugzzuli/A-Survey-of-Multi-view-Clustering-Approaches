@@ -48,9 +48,9 @@ described by four views.
 |:--------|-----:|:-----:|:--------:|:---:|:---:|:---:|:---:|
 | BBC     |  685 |   4   |    5     |     |     |     |     |
 
-# Papers (MVC)
+## Papers (MVC)
 
-# Papers (IMVC)
+## Papers (IMVC)
 
 1. Xue Z, Du J, Zheng C, et al. Clustering-Induced Adaptive Structure Enhancing Network for Incomplete Multi-View
    Data[C]//IJCAI, 2021: 3235-3241.
@@ -70,7 +70,7 @@ species. For each sample, shape descriptor, fine scale margin and texture histog
 
 --------------------------------------------------------
 
-# Papers
+## Papers
 
 1. Lin Y, Gou Y, Liu Z, et al. COMPLETER: Incomplete multi-view clustering via contrastive prediction[C] //Proceedings
    of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2021: 11174-11183.
