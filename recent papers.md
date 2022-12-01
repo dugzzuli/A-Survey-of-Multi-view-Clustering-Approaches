@@ -104,6 +104,8 @@
 
 50. Liu, M., Yang, Z., Li, L., Li, Z., & Xie, S. (2022). Auto-weighted collective matrix factorization with graph dual regularization for multi-view clustering. Knowledge-Based Systems, 110145.
 
+51. Tang, H., & Liu, Y. (2022, June). Deep safe incomplete multi-view clustering: Theorem and algorithm. In International Conference on Machine Learning (pp. 21090-21110). PMLR.
+
 ### Incomplete Multi-view clustering
 
 1. Wen, J., Zhang, Z., Zhang, Z., Fei, L., & Wang, M. (2020). Generalized incomplete multiview clustering with flexible locality structure diffusion. IEEE transactions on cybernetics, 51(1), 101-114.
