@@ -106,6 +106,8 @@
 
 51. Tang, H., & Liu, Y. (2022, June). Deep safe incomplete multi-view clustering: Theorem and algorithm. In International Conference on Machine Learning (pp. 21090-21110). PMLR.
 
+52. Zhang, X., Ren, Z., & Yang, C. (2022). Center consistency guided multi-view embedding anchor learning for large-scale graph clustering. Knowledge-Based Systems, 110162.
+
 ### Incomplete Multi-view clustering
 
 1. Wen, J., Zhang, Z., Zhang, Z., Fei, L., & Wang, M. (2020). Generalized incomplete multiview clustering with flexible locality structure diffusion. IEEE transactions on cybernetics, 51(1), 101-114.
