@@ -9,7 +9,7 @@ species. For each sample, shape descriptor, fine scale margin and texture histog
 
 --------------------------------------------------------
 
-# Papers
+## Papers
 
 1. Wang H, Yang Y, Liu B. GMC: Graph-based multi-view clustering[J]. IEEE Transactions on Knowledge and Data
    Engineering, 2019, 32(6): 1116-1129.
@@ -28,14 +28,14 @@ entertainment, health, politics, sport and technology.
 
 --------------------------------------------------------
  
-# Papers (MVC)
+## Papers (MVC)
 
 1. Gao J, Han J, Liu J, et al. Multi-View Clustering via Joint Nonnegative Matrix Factorization[C]. Proceedings of the
    2013 SIAM International Conference on Data Mining, 2013: 252-260.
 2. Wang H, Yang Y, Liu B. GMC: Graph-based multi-view clustering[J]. IEEE Transactions on Knowledge and Data
    Engineering, 2019, 32(6): 1116-1129.
 
-# Papers (IMVC)
+## Papers (IMVC)
 1. Yin J, Sun S. Incomplete multi-view clustering with cosine similarity[J]. Pattern Recognition, 2022, 123: 108371.
 
 
@@ -76,7 +76,7 @@ species. For each sample, shape descriptor, fine scale margin and texture histog
    of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2021: 11174-11183.
 
 
-# Papers (IMVC)
+## Papers (IMVC)
 
 1. Xue Z, Du J, Zheng C, et al. Clustering-Induced Adaptive Structure Enhancing Network for Incomplete Multi-View
    Data[C]//IJCAI, 2021: 3235-3241.
@@ -86,7 +86,7 @@ species. For each sample, shape descriptor, fine scale margin and texture histog
 
 --------------------------------------------------------
 
-# Papers
+## Papers
 
 1. Hussain S F, Khan K, Jillani R. Weighted multi-view co-clustering (WMVCC) for sparse data[J]. Applied Intelligence,
    2022, 52(1): 398-416.
@@ -97,7 +97,7 @@ species. For each sample, shape descriptor, fine scale margin and texture histog
 
 --------------------------------------------------------
 
-# Papers
+## Papers
 
 1. Hussain S F, Khan K, Jillani R. Weighted multi-view co-clustering (WMVCC) for sparse data[J]. Applied Intelligence,
    2022, 52(1): 398-416.
@@ -108,7 +108,7 @@ species. For each sample, shape descriptor, fine scale margin and texture histog
 
 --------------------------------------------------------
 
-# Papers
+## Papers
 
 1. Hussain S F, Khan K, Jillani R. Weighted multi-view co-clustering (WMVCC) for sparse data[J]. Applied Intelligence,
    2022, 52(1): 398-416.
@@ -120,7 +120,7 @@ species. For each sample, shape descriptor, fine scale margin and texture histog
 
 --------------------------------------------------------
 
-# Papers
+## Papers
 
 1. Lin Y, Gou Y, Liu Z, et al. COMPLETER: Incomplete multi-view clustering via contrastive prediction[C] //Proceedings
    of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2021: 11174-11183.
@@ -131,7 +131,7 @@ species. For each sample, shape descriptor, fine scale margin and texture histog
 
 --------------------------------------------------------
 
-# Papers
+## Papers
 
 1. Lin Y, Gou Y, Liu Z, et al. COMPLETER: Incomplete multi-view clustering via contrastive prediction[C] //Proceedings
    of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2021: 11174-11183.
@@ -142,7 +142,7 @@ species. For each sample, shape descriptor, fine scale margin and texture histog
 
 --------------------------------------------------------
 
-# Papers
+## Papers
 
 1. Lin Y, Gou Y, Liu Z, et al. COMPLETER: Incomplete multi-view clustering via contrastive prediction[C] //Proceedings
    of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2021: 11174-11183.
@@ -152,7 +152,7 @@ species. For each sample, shape descriptor, fine scale margin and texture histog
 
 --------------------------------------------------------
 
-# Papers
+## Papers
 
 1. Hussain S F, Khan K, Jillani R. Weighted multi-view co-clustering (WMVCC) for sparse data[J]. Applied Intelligence,
    2022, 52(1): 398-416.
@@ -164,7 +164,7 @@ species. For each sample, shape descriptor, fine scale margin and texture histog
 
 --------------------------------------------------------
 
-# Papers
+## Papers
 
 1. Lin Y, Gou Y, Liu Z, et al. COMPLETER: Incomplete multi-view clustering via contrastive prediction[C] //Proceedings
    of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2021: 11174-11183.
