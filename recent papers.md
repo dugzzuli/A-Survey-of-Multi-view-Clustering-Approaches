@@ -156,4 +156,6 @@
 
 25. [He, W., Zhang, Z., Chen, Y., & Wen, J. (2022). Structured anchor-inferred graph learning for universal incomplete multi-view clustering. World Wide Web, 1-25.](https://github.com/DarrenZZhang/SAGL)
 
+26. [Wang, S., Liu, X., Liu, L., Tu, W., Zhu, X., Liu, J., ... & Zhu, E. (2022). Highly-efficient incomplete large-scale multi-view clustering with consensus bipartite graph. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 9776-9785).](https://github.com/wangsiwei2010/CVPR22-IMVC-CBG)
+
 
