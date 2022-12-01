@@ -108,6 +108,8 @@
 
 52. Zhang, X., Ren, Z., & Yang, C. (2022). Center consistency guided multi-view embedding anchor learning for large-scale graph clustering. Knowledge-Based Systems, 110162.
 
+53. Du, Y., Lu, G. F., & Ji, G. A Multi-View Clustering Method Based on High-Level Information Fusion. Available at SSRN 4278360.
+
 ### Incomplete Multi-view clustering
 
 1. Wen, J., Zhang, Z., Zhang, Z., Fei, L., & Wang, M. (2020). Generalized incomplete multiview clustering with flexible locality structure diffusion. IEEE transactions on cybernetics, 51(1), 101-114.
