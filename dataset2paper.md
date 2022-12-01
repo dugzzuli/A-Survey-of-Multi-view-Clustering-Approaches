@@ -80,7 +80,7 @@ species. For each sample, shape descriptor, fine scale margin and texture histog
 
 1. Xue Z, Du J, Zheng C, et al. Clustering-Induced Adaptive Structure Enhancing Network for Incomplete Multi-View
    Data[C]//IJCAI, 2021: 3235-3241.
-   
+
 
 # [CiteSeer]
 
@@ -91,6 +91,83 @@ species. For each sample, shape descriptor, fine scale margin and texture histog
 1. Hussain S F, Khan K, Jillani R. Weighted multi-view co-clustering (WMVCC) for sparse data[J]. Applied Intelligence,
    2022, 52(1): 398-416.
 
+
+
+# [Cora]
+
+--------------------------------------------------------
+
+# Papers
+
+1. Hussain S F, Khan K, Jillani R. Weighted multi-view co-clustering (WMVCC) for sparse data[J]. Applied Intelligence,
+   2022, 52(1): 398-416.
+
+
+
+# [Cornell]
+
+--------------------------------------------------------
+
+# Papers
+
+1. Hussain S F, Khan K, Jillani R. Weighted multi-view co-clustering (WMVCC) for sparse data[J]. Applied Intelligence,
+   2022, 52(1): 398-416.
+
+
+
+# [LandUse-21]
+
+
+--------------------------------------------------------
+
+# Papers
+
+1. Lin Y, Gou Y, Liu Z, et al. COMPLETER: Incomplete multi-view clustering via contrastive prediction[C] //Proceedings
+   of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2021: 11174-11183.
+
+
+# [Noisy MNIST]
+
+
+--------------------------------------------------------
+
+# Papers
+
+1. Lin Y, Gou Y, Liu Z, et al. COMPLETER: Incomplete multi-view clustering via contrastive prediction[C] //Proceedings
+   of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2021: 11174-11183.
+
+
+# [Scene-15]
+
+
+--------------------------------------------------------
+
+# Papers
+
+1. Lin Y, Gou Y, Liu Z, et al. COMPLETER: Incomplete multi-view clustering via contrastive prediction[C] //Proceedings
+   of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2021: 11174-11183.
+
+
+# [Washington]
+
+--------------------------------------------------------
+
+# Papers
+
+1. Hussain S F, Khan K, Jillani R. Weighted multi-view co-clustering (WMVCC) for sparse data[J]. Applied Intelligence,
+   2022, 52(1): 398-416.
+
+
+
+# [Wisconsin]
+
+
+--------------------------------------------------------
+
+# Papers
+
+1. Lin Y, Gou Y, Liu Z, et al. COMPLETER: Incomplete multi-view clustering via contrastive prediction[C] //Proceedings
+   of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2021: 11174-11183.
 
 
 
