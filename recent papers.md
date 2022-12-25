@@ -110,6 +110,9 @@
 
 53. Du, Y., Lu, G. F., & Ji, G. A Multi-View Clustering Method Based on High-Level Information Fusion. Available at SSRN 4278360.
 
+54. Ou, Q., Wang, S., Zhou, S., Li, M., Guo, X., & Zhu, E. (2020). Anchor-based multiview subspace clustering with diversity regularization. IEEE MultiMedia, 27(4), 91-101.
+
+
 ### Incomplete Multi-view clustering
 
 1. Wen, J., Zhang, Z., Zhang, Z., Fei, L., & Wang, M. (2020). Generalized incomplete multiview clustering with flexible locality structure diffusion. IEEE transactions on cybernetics, 51(1), 101-114.
