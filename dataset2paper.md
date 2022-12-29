@@ -20,7 +20,7 @@ species. For each sample, shape descriptor, fine scale margin and texture histog
 3Sources Text dataset: It is collected from three online news sources: BBC, Reuters, and The Guardian. In total there
 are 948 news articles covering 416 distinct news stories from the period February to April 2009. Of these stories, 169
 were reported in all three sources. Each story was manually annotated with one of the six topical labels: business,
-entertainment, health, politics, sport and technology.
+entertainment, health, politics, sport and technology. 
 
 | dataset | size | #view | #cluster | #d1 | #d2 | #d3 |
 | :-----|-----:| :----: |:--------:|:--------:|:--------:|:--------:|
