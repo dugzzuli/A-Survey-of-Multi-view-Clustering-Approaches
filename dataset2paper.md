@@ -54,7 +54,7 @@ described by four views.
 
 1. Xue Z, Du J, Zheng C, et al. Clustering-Induced Adaptive Structure Enhancing Network for Incomplete Multi-View
    Data[C]//IJCAI, 2021: 3235-3241.
-
+2. Lv, Z., Gao, Q., Zhang, X., Li, Q., & Yang, M. (2022). View-Consistency Learning for Incomplete Multiview Clustering. IEEE Transactions on Image Processing, 31, 4790-4802.
 
 
 
