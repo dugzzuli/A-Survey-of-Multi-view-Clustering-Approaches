@@ -37,7 +37,7 @@ entertainment, health, politics, sport and technology.
 
 ## Papers (IMVC)
 1. Yin J, Sun S. Incomplete multi-view clustering with cosine similarity[J]. Pattern Recognition, 2022, 123: 108371.
-
+2. Lv, Z., Gao, Q., Zhang, X., Li, Q., & Yang, M. (2022). View-Consistency Learning for Incomplete Multiview Clustering. IEEE Transactions on Image Processing, 31, 4790-4802.
 
 # BBC
 
