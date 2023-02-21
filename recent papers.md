@@ -89,4 +89,5 @@
 26. [Wang, S., Liu, X., Liu, L., Tu, W., Zhu, X., Liu, J., ... &amp; Zhu, E. (2022). Highly-efficient incomplete large-scale multi-view clustering with consensus bipartite graph. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 9776-9785).](https://github.com/wangsiwei2010/CVPR22-IMVC-CBG)
 27. [Lin, Y., Gou, Y., Liu, X., Bai, J., Lv, J., &amp; Peng, X. (2022). Dual contrastive prediction for incomplete multi-view representation learning. IEEE Transactions on Pattern Analysis and Machine Intelligence.](http://pengxi.me/wp-content/uploads/2023/02/DCP-2023_compressed.pdf)[code](https://github.com/XLearning-SCU/2021-CVPR-Completer)
 28. [Xu, J., Li, C., Ren, Y., Peng, L., Mo, Y., Shi, X., &amp; Zhu, X. (2022). Deep Incomplete Multi-view Clustering via Mining Cluster Complementarity.](https://github.com/SubmissionsIn/DIMVC)
-29.
+29. Li, X., Sun, Q., Ren, Z., & Sun, Y. (2022, October). Dynamic Incomplete Multi-view Imputing and Clustering. In *Proceedings of the 30th ACM International Conference on Multimedia* (pp. 3412-3420).
+30.
