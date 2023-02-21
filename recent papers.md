@@ -44,8 +44,6 @@
 19. Gu, Z., & Feng, S. (2022). Individuality Meets Commonality: A Unified Graph Learning Framework for Multi-view Clustering. ACM Transactions on Knowledge Discovery from Data (TKDD)
 20. Zhang, K., Song, J., Yu, Y., & Du, S. (2022, April). Incomplete Multi-View Clustering Based on Weighted Adaptive Graph Learning. In 2022 7th International Conference on Intelligent Computing and Signal Processing (ICSP) (pp. 1175-1179). IEEE.
 
-21. Xu, J., Li, C., Ren, Y., Peng, L., Mo, Y., Shi, X., & Zhu, X. (2022). Deep Incomplete Multi-view Clustering via Mining Cluster Complementarity.
-
 22. Yao, L., & Lu, G. F. (2022). Double structure scaled simplex representation for multi-view subspace clustering. Neural Networks, 151, 168-177.
 
 23. Wang, D., Li, T., Deng, P., Liu, J., Huang, W., & Zhang, F. (2022). A Generalized Deep Learning Algorithm based on NMF for Multi-view Clustering. IEEE Transactions on Big Data.
@@ -169,4 +167,5 @@
 
 27. [Lin, Y., Gou, Y., Liu, X., Bai, J., Lv, J., & Peng, X. (2022). Dual contrastive prediction for incomplete multi-view representation learning. IEEE Transactions on Pattern Analysis and Machine Intelligence.](http://pengxi.me/wp-content/uploads/2023/02/DCP-2023_compressed.pdf)[code](https://github.com/XLearning-SCU/2021-CVPR-Completer)
 
+28. [Xu, J., Li, C., Ren, Y., Peng, L., Mo, Y., Shi, X., & Zhu, X. (2022). Deep Incomplete Multi-view Clustering via Mining Cluster Complementarity.](https://github.com/SubmissionsIn/DIMVC)
 
