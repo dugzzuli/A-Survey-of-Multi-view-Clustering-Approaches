@@ -90,4 +90,12 @@
 27. [Lin, Y., Gou, Y., Liu, X., Bai, J., Lv, J., &amp; Peng, X. (2022). Dual contrastive prediction for incomplete multi-view representation learning. IEEE Transactions on Pattern Analysis and Machine Intelligence.](http://pengxi.me/wp-content/uploads/2023/02/DCP-2023_compressed.pdf)[code](https://github.com/XLearning-SCU/2021-CVPR-Completer)
 28. [Xu, J., Li, C., Ren, Y., Peng, L., Mo, Y., Shi, X., &amp; Zhu, X. (2022). Deep Incomplete Multi-view Clustering via Mining Cluster Complementarity.](https://github.com/SubmissionsIn/DIMVC)
 29. Li, X., Sun, Q., Ren, Z., & Sun, Y. (2022, October). Dynamic Incomplete Multi-view Imputing and Clustering. In *Proceedings of the 30th ACM International Conference on Multimedia* (pp. 3412-3420).
-30.
+30. [Tang, H., & Liu, Y. (2022, June). Deep safe incomplete multi-view clustering: Theorem and algorithm. In International Conference on Machine Learning (pp. 21090-21110). PMLR.] (https://proceedings.mlr.press/v162/tang22c/tang22c.pdf)
+31. [Wang, Y., Chang, D., Fu, Z., Wen, J., & Zhao, Y. (2022). Graph Contrastive Partial Multi-View Clustering. IEEE Transactions on Multimedia.](https://ieeexplore.ieee.org/abstract/document/9904927/)
+32. [Lin, Y., Gou, Y., Liu, X., Bai, J., Lv, J., & Peng, X. (2022). Dual contrastive prediction for incomplete multi-view representation learning. IEEE Transactions on Pattern Analysis and Machine Intelligence.](https://ieeexplore.ieee.org/abstract/document/9852291)
+33. [Yang, M., Li, Y., Hu, P., Bai, J., Lv, J., & Peng, X. (2022). Robust multi-view clustering with incomplete information. IEEE Transactions on Pattern Analysis and Machine Intelligence, 45(1), 1055-1069.](https://ieeexplore.ieee.org/abstract/document/9723577)
+34. [Liang, T., Meng, M., Lan, M., Yu, J., & Wu, J. (2022, July). Group Correspondence: A Statistical Perspective for Incomplete Multi-View Clustering Augmentation. In 2022 IEEE International Conference on Multimedia and Expo (ICME) (pp. 1-6). IEEE.](https://ieeexplore.ieee.org/abstract/document/9859709)
+35. [Xue, Z., Du, J., Zhu, H., Guan, Z., Long, Y., Zang, Y., & Liang, M. (2022, October). Robust Diversified Graph Contrastive Network for Incomplete Multi-view Clustering. In Proceedings of the 30th ACM International Conference on Multimedia (pp. 3936-3944).](https://dl.acm.org/doi/abs/10.1145/3503161.3547894)
+36. [Wang, Q., Ding, Z., Tao, Z., Gao, Q., & Fu, Y. (2021). Generative partial multi-view clustering with adaptive fusion and cycle consistency. IEEE Transactions on Image Processing, 30, 1771-1783.](https://ieeexplore.ieee.org/abstract/document/9318542)
+37. 
+
