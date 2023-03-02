@@ -64,7 +64,6 @@
 1. Wen, J., Zhang, Z., Zhang, Z., Fei, L., & Wang, M. (2020). Generalized incomplete multiview clustering with flexible locality structure diffusion. IEEE transactions on cybernetics, 51(1), 101-114.
 2. Zhao, L., Zhang, J., Wang, Q., & Chen, Z. (2021). Dual Alignment Self-Supervised Incomplete Multi-View Subspace Clustering Network. IEEE Signal Processing Letters, 28, 2122-2126.
 3. Wen, J., Zhang, Z., Zhang, Z., Zhu, L., Fei, L., Zhang, B., & Xu, Y. (2021, May). Unified tensor framework for incomplete multi-view clustering and missing-view inferring. In Proceedings of the AAAI conference on artificial intelligence (Vol. 35, No. 11, pp. 10273-10281).
-4. Li, Z., Tang, C., Zheng, X., Liu, X., Zhang, W., & Zhu, E. (2022). High-order correlation preserved incomplete multi-view subspace clustering. IEEE Transactions on Image Processing, 31, 2067-2080.
 5. Liu, J., Liu, X., Zhang, Y., Zhang, P., Tu, W., Wang, S., ... & Yang, Y. (2021, October). Self-representation subspace clustering for incomplete multi-view data. In Proceedings of the 29th ACM International Conference on Multimedia (pp. 2726-2734).
 6. Xue, Z., Du, J., Zheng, C., Song, J., Ren, W., & Liang, M. (2021). Clustering-Induced Adaptive Structure Enhancing Network for Incomplete Multi-View Data. In IJCAI (pp. 3235-3241).
 7. Liang, J., Liu, X., Bai, L., Cao, F., & Wang, D. (2022). Incomplete multi-view clustering via local and global co-regularization. Science China Information Sciences, 65(5), 1-16.
@@ -97,5 +96,6 @@
 34. [Liang, T., Meng, M., Lan, M., Yu, J., & Wu, J. (2022, July). Group Correspondence: A Statistical Perspective for Incomplete Multi-View Clustering Augmentation. In 2022 IEEE International Conference on Multimedia and Expo (ICME) (pp. 1-6). IEEE.](https://ieeexplore.ieee.org/abstract/document/9859709)
 35. [Xue, Z., Du, J., Zhu, H., Guan, Z., Long, Y., Zang, Y., & Liang, M. (2022, October). Robust Diversified Graph Contrastive Network for Incomplete Multi-view Clustering. In Proceedings of the 30th ACM International Conference on Multimedia (pp. 3936-3944).](https://dl.acm.org/doi/abs/10.1145/3503161.3547894)
 36. [Wang, Q., Ding, Z., Tao, Z., Gao, Q., & Fu, Y. (2021). Generative partial multi-view clustering with adaptive fusion and cycle consistency. IEEE Transactions on Image Processing, 30, 1771-1783.](https://ieeexplore.ieee.org/abstract/document/9318542)
-37. 
+37. [Xu, J., Li, C., Peng, L., Ren, Y., Shi, X., Shen, H. T., & Zhu, X. (2023). Adaptive Feature Projection with Distribution Alignment for Deep Incomplete Multi-view Clustering. IEEE Transactions on Image Processing.] (https://ieeexplore.ieee.org/abstract/document/10043822) [code](https://github.com/SubmissionsIn/APADC)
+
 
