@@ -158,7 +158,12 @@ shared by both views, showing the consensus between two views.
 
 5. **Multi-view clustering: A survey** \[[paper](https://ieeexplore.ieee.org/document/8336846)]
 
-6. **Representation Learning in Multi-view Clustering: A Literature Review** \[[paper](https://www.researchgate.net/publication/362409340_Representation_Learning_in_Multi-view_Clustering_A_Literature_Review)]
+6. **Representation Learning in Multi-view Clustering: A Literature Review** \[[paper](https://www.researchgate.net/publication/
+362409340_Representation_Learning_in_Multi-view_Clustering_A_Literature_Review)]
+
+7. **Survey on deep multi-modal data analytics: Collaboration, rivalry, and fusion** \[[paper](https://dl.acm.org/doi/abs/10.1145/3408317)]
+
+
 
 # The information fusion strategy
 
