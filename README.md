@@ -736,7 +736,7 @@ operation on the clustering results of individual views, to produce the final cl
 ## <span id="BenchmarkDataset">Benchmark Datasets</span>
 
 We also collect some datasets, which are uploaded to
-baiduyun. [address](https://pan.baidu.com/s/1OQF5JYJIOpKcIGb4LEOYcg) （code）xupk. 
+baiduyun. [address](链接：https://pan.baidu.com/s/17zhCPph2XubcvmtC4Yu5Cw?pwd=f3n4)（code）f3n4. 
 Other some dataset links [Multi-view-Datasets](https://github.com/KunyuLin/Multi-view-Datasets)
 
 ## 1.Text Datasets
