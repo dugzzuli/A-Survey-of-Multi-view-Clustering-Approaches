@@ -84,7 +84,7 @@
 22. Wang, S., Liu, X., Li, M., Xu, H., Zhu, X., Gao, F., & Zhu, E. Late Fusion Multi-view Clustering via Global and Local Alignment Maximization.
 23. Wang, Y., Chang, D., Fu, Z., & Zhao, Y. (2021). Incomplete Multi-view Clustering via Cross-view Relation Transfer. arXiv preprint arXiv:2112.00739.
 24. Han, X., Ren, Z., Zou, C., & You, X. (2022). Incomplete multi-view subspace clustering based on missing-sample recovering and structural information learning. Expert Systems with Applications, 118165.
-25. [He, W., Zhang, Z., Chen, Y., &amp; Wen, J. (2022). Structured anchor-inferred graph learning for universal incomplete multi-view clustering. World Wide Web, 1-25.](https://github.com/DarrenZZhang/SAGL)
+25. 
 26. [Wang, S., Liu, X., Liu, L., Tu, W., Zhu, X., Liu, J., ... &amp; Zhu, E. (2022). Highly-efficient incomplete large-scale multi-view clustering with consensus bipartite graph. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 9776-9785).](https://github.com/wangsiwei2010/CVPR22-IMVC-CBG)
 27. [Lin, Y., Gou, Y., Liu, X., Bai, J., Lv, J., &amp; Peng, X. (2022). Dual contrastive prediction for incomplete multi-view representation learning. IEEE Transactions on Pattern Analysis and Machine Intelligence.](http://pengxi.me/wp-content/uploads/2023/02/DCP-2023_compressed.pdf)[code](https://github.com/XLearning-SCU/2021-CVPR-Completer)
 28. [Xu, J., Li, C., Ren, Y., Peng, L., Mo, Y., Shi, X., &amp; Zhu, X. (2022). Deep Incomplete Multi-view Clustering via Mining Cluster Complementarity.](https://github.com/SubmissionsIn/DIMVC)

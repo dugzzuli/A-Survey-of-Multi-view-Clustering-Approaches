@@ -148,7 +148,7 @@ shared by both views, showing the consensus between two views.
 
 ## Survey papers
 
-1. **A survey on multi-view clustering** \[[paper](https://arxiv.org/abs/1712.06246v2)]
+1. **A survey on multi-view clustering**  \[[paper](https://arxiv.org/abs/1712.06246v2)]
 
 2. **A survey of multi-view representation learning** \[[paper](https://ieeexplore.ieee.org/document/8471216)]
 
@@ -158,8 +158,7 @@ shared by both views, showing the consensus between two views.
 
 5. **Multi-view clustering: A survey** \[[paper](https://ieeexplore.ieee.org/document/8336846)]
 
-6. **Representation Learning in Multi-view Clustering: A Literature Review** \[[paper](https://www.researchgate.net/publication/
-362409340_Representation_Learning_in_Multi-view_Clustering_A_Literature_Review)]
+6. **Representation Learning in Multi-view Clustering: A Literature Review** \[[paper](https://www.researchgate.net/publication/362409340_Representation_Learning_in_Multi-view_Clustering_A_Literature_Review)]
 
 7. **Survey on deep multi-modal data analytics: Collaboration, rivalry, and fusion** \[[paper](https://dl.acm.org/doi/abs/10.1145/3408317)]
 
@@ -366,7 +365,7 @@ operation on the clustering results of individual views, to produce the final cl
 3. Deep Multi-View Concept Learning\[[paper](https://doi.org/10.24963/ijcai.2018/402)|[code]
 
 4. Deep graph regularized non-negative matrix factorization for multi-view
-   clustering\[[paper](https://doi.org/10.1016/j.neucom.2019.12.054)|[code]
+   clustering\[[paper](https://doi.org/10.1016/j.neucom.2019.12.054)|[code](https://github.com/chenglin-lcl/MvDGNMF)
 
 5. Multi-view clustering via deep matrix factorization and partition
    alignment\[[paper](https://doi.org/10.1145/3474085.3475548)|[code]
@@ -431,6 +430,7 @@ operation on the clustering results of individual views, to produce the final cl
 
 14. Robust multi-view data clustering with multi-view capped-norm
     k-means\[[paper](https://doi.org/10.1016/j.neucom.2018.05.072)|[code]
+
 
 # Embedding learning
 
@@ -673,6 +673,8 @@ operation on the clustering results of individual views, to produce the final cl
 6. Structural Deep Incomplete Multi-view Clustering Network\[[paper](https://doi.org/10.1145/3459637.3482192)|[code]]
 
 7. One-Step Graph-Based Incomplete Multi-View Clusterin\[[paper]()|[code](https://github.com/xiongdigejuxiaole/OGIMC)] 
+
+8. Structured anchor-inferred graph learning for universal incomplete multi-view clustering \[[paper](https://link.springer.com/article/10.1007/s11280-022-01012-7)|[code](https://github.com/DarrenZZhang/SAGL)
 
 
 ## The unified IMVC
