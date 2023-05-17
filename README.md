@@ -163,6 +163,7 @@ shared by both views, showing the consensus between two views.
 
 7. **Survey on deep multi-modal data analytics: Collaboration, rivalry, and fusion** \[[paper](https://dl.acm.org/doi/abs/10.1145/3408317)]
 
+8. **A Comprehensive Survey on Multi-view Clustering**  \[[paper](https://ieeexplore.ieee.org/abstract/document/10108535)]
 
 
 # The information fusion strategy
@@ -548,7 +549,7 @@ operation on the clustering results of individual views, to produce the final cl
     Networks\[[paper](https://doi.org/10.1109/JSTSP.2018.2875385)|[code](https://github.com/mahdiabavisani/Deep-multimodal-subspace-clustering-networks)]
 
 22. Multi-view Deep Subspace Clustering
-    Networks\[[paper](http://arxiv.org/abs/1908.01978)|[code](https://github.com/huybery/MvDSCN)] 
+    Networks\[[paper](http://arxiv.org/abs/1908.01978)|[code](https://github.com/huybery/MvDSCN)|[pytorch](https://github.com/bbchond/Pytorch_MvDSCN)] 
 
 23. Multiview subspace clustering via tensorial t-product
     representation\[[paper](https://doi.org/10.1109/TNNLS.2018.2851444)|[code]]
