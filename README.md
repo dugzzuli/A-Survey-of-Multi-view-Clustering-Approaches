@@ -567,6 +567,8 @@ operation on the clustering results of individual views, to produce the final cl
 
 28. 双加权多视角子空间聚类算法\[[paper](https://www.cnki.com.cn/Article/CJFDTotal-RJXB202202012.htm)|[code]]
 
+29. Fast Self-guided Multi-view Subspace Clustering \[[paper](https://ieeexplore.ieee.org/abstract/document/10087316)|[code](https://github.com/chenzhe207/FSMSC)]
+
 # Self-paced learning
 
 1. Self-paced learning for latent variable
