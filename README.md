@@ -4,6 +4,9 @@ This reporsity is a collection of state-of-the-art (SOTA), novel incomplete and 
 codes and datasets). Any problems, please contact lhzhou@ynu.edu.cn, dugking@mail.ynu.edu.cn and lu983760699@gmail.com.
 If you find this repository useful to your research or work, it is really appreciated to star this repository. :heart:
 
+
+Our paper is now available online: [A Survey and an Empirical Evaluation of Multi-view Clustering Approaches](Paper/A%20Survey%20and%20an%20Empirical%20Evaluation%20of%20Multi-view%20Clustering%20Approaches.pdf).
+.
 ----------------
 
 ## Contents
